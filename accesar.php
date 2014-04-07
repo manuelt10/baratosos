@@ -14,7 +14,7 @@ require_once('templates/headExtras.php');
 
 	<a href="home" class="regLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 	
-	<h2 class="welcomMsg">Bienvenido a tuMall</h2>
+	<h2 class="welcomMsg">Bienvenido a Baratosos</h2>
 	<form method="post" class="registerForm login" action="phpfn/acceso">
 		<label class="fldLbl">Usuario: </label><input type="text" name="correo" class="txtField mailFld" placeholder="Correo electrónico">
 		<label class="fldLbl">Contraseña: </label><input type="password" name="contrasena" class="txtField passFld" placeholder="Contraseña">
