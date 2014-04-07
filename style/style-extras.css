@@ -1,0 +1,245 @@
+
+#header.extras{
+	background: none;
+	border: none;
+}
+
+	.registerWrapp{
+		width: 390px;
+		margin: 2.5% auto 15px;
+	}
+	
+	.registerForm{
+		background: rgba(255,255,255,0.3);
+		border: solid 1px #DDD;
+		border-radius: 10px;
+		padding: 20px 0 30px;
+		margin-top: 10px;
+	}
+	
+		.regLogo{
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			width: 170px;
+		}
+		
+			.regLogo img{
+				display: block;
+				width: 90%;
+				margin: 0 auto
+			}
+	
+		.welcomMsg{
+			font-weight: 100;
+			color: #686868;
+			display: inline-block;
+			position: relative;
+			top: 17px;
+			left: 10px;
+		}
+		
+		.registerForm .fldLbl{
+			margin: 0 auto;
+			width: 80%;
+		}
+		
+		.registerForm .radLbl{
+			position: relative;
+			font-size: 16px;
+			display: inline-block;
+			margin-bottom: 10px;
+			margin-left: 38px;
+			width: 62%;
+		}
+		
+			.registerForm .radLbl::after{
+				content: '';
+				position: absolute;
+				border-radius: 4px;
+				background: #FFF;
+				width: 20px;
+				height: 20px;
+				right: 0px;
+				top: 0;
+				border: solid 1px #BBB;
+			}
+			
+			.tipoUsuario:checked + .radLbl::after{
+				content: '\F00C';
+				color: #FFF;
+				background: #FF5757;
+				font-family: 'FontAwesome';
+				font-size: 20px;
+				text-shadow: 0 1px rgba(0,0,0,0.15);
+				line-height: 20px;
+				border-color: #E64646;
+			}
+		
+		.tipoUsuario{
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+		}
+		
+		.registerForm .txtField{
+			width: 80%;
+			margin: 0 auto 15px;
+			font-size: 14px;
+			display: block;
+		}
+		
+		.registerBtn{
+			display: block;
+			height: auto;
+			margin: 0 auto;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #FF5757;
+			border-color: #E23F3F;
+			box-shadow: 0 2px #E23F3F, inset 0 -1px rgba(255,255,255,0.075);
+			width: 80%;
+			font-size: 18px;
+		}
+		
+			.registerBtn:hover {
+				background: #F34949;
+			}	
+		
+		.registerForm .validation-label{
+			width: 80%;
+			margin: 0 auto 10px;
+			display: block;
+		}
+		
+		.loginHelpLinks{
+			display: block;
+			margin: 5px 10px;
+		}
+		
+			.loginHelpLinks:hover, .underline{
+				text-decoration: underline;
+			}
+
+
+.sucessSignWrap{
+	width: 60%;
+	margin: 100px auto;
+	text-align: center;
+}
+
+	.sucessSignWrap h1{
+		margin: 15px 0;
+	}
+
+	.succesLogo{
+		display: block;
+		margin: 0 auto;
+	}
+	
+
+/* coupons end reservation */
+
+.printWrap{
+	max-width: 1024px;
+}
+	
+	.couponResumeID{
+		display: block;
+		border: solid 1px #CCC;
+		border-radius: 4px;
+		margin: 15px 0;
+		max-width: 220px;
+		padding: 10px;
+		text-align: center;
+		font-size: 18px;
+		font-weight: 600;
+		letter-spacing: 1px;
+	}
+	
+	.coupEndSecondary a{
+		font-weight: 600;
+		text-decoration: underline;
+	}
+	
+	.coupEndSecondary li{
+		margin: 5px 0;
+		list-style-position: inside;
+		list-style-type: disc;
+	}
+	
+	.mainHeading{
+		color: #FF5757;
+		font-size: 20px;
+		margin-top: 15px;
+		border-top: dashed 1px;
+		padding-top: 10px;
+	}
+	
+	.subHeading{
+		font-size: 18px;
+	}
+	
+	
+
+@media screen and (max-device-width: 600px){
+	
+#body.others{
+	width: 95%;
+}	
+	
+	.regLogo{
+		display: block;
+		width: 200px;
+		margin: 0 auto 10px;;
+	}
+	
+	.welcomMsg{
+		display: block;
+		text-align: center;
+		left: auto;
+		top: auto;
+	}
+	
+	.registerWrapp{
+		width: auto;
+	}
+	
+		.registerForm{
+			width: 100%;
+			max-width: 320px;
+			background: none;
+			border: none;
+			margin: 15px auto 0;
+		}
+		
+			.fldLbl{
+				display: none;
+			}
+			
+			.registerForm .radLbl{
+				display: inline-block;
+				margin-left: 0;
+				width: 83%;
+			}
+			
+			.registerForm .txtField {
+				width: 100%;
+				padding: 10px;
+				font-size: 14px;
+				border-color: #BBB;
+			}
+	
+			.registerBtn{
+				width: 100%;
+			}
+			
+		.loginHelpLinks{
+			text-align: center;
+		}	
+		
+.sucessSignWrap{
+	width: auto;
+}	
+			
+}

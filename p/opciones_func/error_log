@@ -1,0 +1,31 @@
+[07-Oct-2013 20:28:43 America/Denver] PHP Notice:  Undefined index: idusuario in /home2/tumalldo/public_htmlp/opciones_func/update_name_phone.php on line 15
+[07-Oct-2013 20:58:16 America/Denver] PHP Notice:  Undefined variable: con in /home2/tumalldo/public_htmlp/opciones_func/change_pass.php on line 5
+[07-Oct-2013 20:58:16 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home2/tumalldo/public_htmlp/opciones_func/change_pass.php on line 5
+[27-Oct-2013 14:36:27 America/Denver] PHP Fatal error:  Call to undefined method PDOStatement::fecth() in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 14
+[27-Oct-2013 14:39:59 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[17-Nov-2013 14:13:49 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[17-Nov-2013 14:37:47 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[17-Nov-2013 14:37:47 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 27
+[21-Nov-2013 20:06:07 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[23-Nov-2013 15:14:39 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[24-Nov-2013 16:08:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[29-Nov-2013 12:40:31 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[04-Dec-2013 10:25:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[04-Dec-2013 11:28:39 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[04-Dec-2013 11:28:41 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[09-Dec-2013 16:30:32 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[17-Dec-2013 20:58:04 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[19-Dec-2013 17:10:43 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[19-Dec-2013 17:16:53 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
+[24-Dec-2013 23:41:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[24-Dec-2013 23:45:08 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[20-Jan-2014 19:00:45 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[29-Jan-2014 18:41:02 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[19-Feb-2014 10:22:28 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[19-Feb-2014 10:22:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[23-Feb-2014 09:23:47 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[23-Feb-2014 09:35:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[23-Feb-2014 09:35:20 America/Denver] PHP Notice:  Undefined index: usuario in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 16
+[23-Feb-2014 09:35:20 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 19
+[27-Feb-2014 18:20:29 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/tumalldo/public_htmlp/opciones_func/change_mail.php on line 12
+[06-Mar-2014 06:54:08 America/Denver] PHP Notice:  Undefined index: password in /home2/tumalldo/public_htmlp/opciones_func/suspend_user.php on line 16
