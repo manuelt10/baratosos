@@ -16,7 +16,7 @@ $sM = new stringManager();
 
 <meta name="HandheldFriendly" content="true" />
 
-<title>Tu Mall</title>
+<title>Baratosos - Lo que buscas, mucho mas barato</title>
 
 <link rel="shortcut icon" href="favicon.png" />
 
