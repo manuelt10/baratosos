@@ -9,7 +9,7 @@
 		<span class="tabItm optTab password" data-tab="optPassSec">Contraseña</span>
 		<span class="tabItm optTab suspend" data-tab="optSuspendSec">Suspender cuenta</span>
 	</div>
-	<form class="optionForm tabWrap editOptionsSec transTw optInfoSec" action="cliente/ajustes_func/update_name_phone.php" method="post">
+	<form class="optionForm tabWrap editOptionsSec transTw optInfoSec" action="/cliente/ajustes_func/update_name_phone.php" method="post">
 		<legend class="settLegend">Información</legend>
 		<label class="settingLbl">Nombre y apellidos</label>
 		<br/>
@@ -27,7 +27,7 @@
 		</div>
 		
 	</form>
-	<form class="optionForm tabWrap editOptionsSec transTw optEmailSec hidden" action="cliente/ajustes_func/change_mail.php" method="post">
+	<form class="optionForm tabWrap editOptionsSec transTw optEmailSec hidden" action="/cliente/ajustes_func/change_mail.php" method="post">
 		<legend class="settLegend">Cambiar correo</legend>
 		
 		<div class="infoBox opts-InfoBox transTw">
@@ -47,7 +47,7 @@
 		</div>
 		
 	</form>
-	<form class="optionForm tabWrap editOptionsSec transTw optPassSec hidden" action="cliente/ajustes_func/change_pass.php" method="post"> 
+	<form class="optionForm tabWrap editOptionsSec transTw optPassSec hidden" action="/cliente/ajustes_func/change_pass.php" method="post"> 
 		<legend class="settLegend">Modificar contraseña</legend>
 		<label class="settingLbl">Contraseña actual</label>
 		<br/>
@@ -69,7 +69,7 @@
 			<button type="submit" class="clearPass sendForm formActionBtn transTw">Cambiar contraseña</button>
 		</div>
 	</form> 
-	<form class="tabWrap editOptionsSec transTw optSuspendSec hidden" action="cliente/ajustes_func/suspend_user.php" method="post">
+	<form class="tabWrap editOptionsSec transTw optSuspendSec hidden" action="/cliente/ajustes_func/suspend_user.php" method="post">
 		<legend class="settLegend">Suspender cuenta</legend>
 		
 		<div class="infoBox opts-InfoBox transTw">
@@ -89,7 +89,7 @@
 	</form>
 </div>
 
-<script src='Scripts/jquery.form.min.js'></script>
+<script src='/Scripts/jquery.form.min.js'></script>
 
 <script>
 	$('.personalMail').keyup(function()
@@ -97,7 +97,7 @@
 		var cor = $(this).val();
 		$.ajax({
 			type: "POST",
-			url : "phpfn/verify_mail.php",
+			url : "/phpfn/verify_mail.php",
 			data: {correo : cor}
 		}).done(function(html)
 		{

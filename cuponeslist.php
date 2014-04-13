@@ -56,7 +56,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 	{
 		?>
 		<div class="adTop ads">
-			<a href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+			<a href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 		</div>
 		<?php 
 	}
@@ -82,15 +82,15 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 					if(!empty($imagenCupon->data[0]->imagen))
 					{
 						?>
-						<a href="cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>">
-							<img src="images/cupon/<?php echo $imagenCupon->data[0]->imagen ?>" alt="<?php echo $cupon->data[0]->titulo; ?>" title="<?php echo $cupon->data[0]->titulo; ?>" />
+						<a href="/cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>">
+							<img src="/images/cupon/<?php echo $imagenCupon->data[0]->imagen ?>" alt="<?php echo $cupon->data[0]->titulo; ?>" title="<?php echo $cupon->data[0]->titulo; ?>" />
 						</a>
 						<?php 
 					}
 					
 					else{
 					?>
-						<img src="images/NoImage.png" alt="No image">
+						<img src="/images/NoImage.png" alt="No image">
 					<?php
 					}
 					?>			
@@ -98,7 +98,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 				</div>
 				
 				<div class="itemInfoWrapper couponInfoWrap">	
-					<h2 class="itemName"><a href="cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>"><?php echo $cupon->data[0]->titulo; ?></a></h2>
+					<h2 class="itemName"><a href="/cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>"><?php echo $cupon->data[0]->titulo; ?></a></h2>
 					
 						<p class="couponShortDescr">Paga <span class="couponDiscPrice couponPrice">$<?php echo number_format($cupon->data[0]->precio_oferta,2,'.',',') ; ?></span> en vez de 
 						<span class="coupounNormPrice couponPrice">$<?php echo number_format($cupon->data[0]->precio_normal,2,'.',','); ?> (<?php echo number_format((($cupon->data[0]->precio_normal - $cupon->data[0]->precio_oferta)*100)/$cupon->data[0]->precio_normal,2); ?>%
@@ -140,7 +140,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 						 
 					</span>
 					<br />
-					<a class="buyButton orderButton transOn actionBtn" href="cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>">Reservar cupón</a>
+					<a class="buyButton orderButton transOn actionBtn" href="/cupon/<?php echo $link . '-' . $cupon->data[0]->idcupon;  ?>">Reservar cupón</a>
 					
 				</div>	
 					
@@ -162,17 +162,17 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 				$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 				?>
 				<div class="itemWrap">
-					<a href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>" class="itemImg">
+					<a href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>" class="itemImg">
 						<?php 
 							if(empty($c->imagen)){
 							?>
-								<img src="images/NoImage.png" alt="No image" />
+								<img src="/images/NoImage.png" alt="No image" />
 							<?php 
 							}
 							
 							else{
 							?>
-								<img src="images/cupon/thumb400/<?php echo $c->imagen ?>" alt="<?php echo $c->titulo ?>" title="<?php echo $c->titulo ?>" />
+								<img src="/images/cupon/thumb400/<?php echo $c->imagen ?>" alt="<?php echo $c->titulo ?>" title="<?php echo $c->titulo ?>" />
 							<?php 
 							}
 							?>
@@ -181,7 +181,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 						<?php 
 							
 							?>
-							<a class="itemListName"  href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a>
+							<a class="itemListName"  href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a>
 							<br />
 						<span class="itemListPrice">
 							Paga <b>$<?php echo number_format($c->precio_oferta,2,'.',',') ; ?></b> en vez de 
@@ -211,7 +211,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 				if(!empty($anuncio[0]->image))
 				{
 					?>
-					<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+					<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 					<?php 
 				}
 				?>
@@ -221,7 +221,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 				if(!empty($anuncio[1]->image))
 				{
 					?>
-					<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+					<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 					<?php 
 				}
 				?>
@@ -231,7 +231,7 @@ $cupones = $db->selectRecord('v_cupones_activos', NULL, $where2, Array('dia_publ
 				if(!empty($anuncio[2]->image))
 				{
 					?>
-					<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+					<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 					<?php
 				}
 				?>

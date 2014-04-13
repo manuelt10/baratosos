@@ -21,7 +21,7 @@ if($session["autenticado"])
 		$query->bindValue(1,$session["usuario"], PDO::PARAM_INT);
 	    $query->execute();
 		
-		header("location: http://tumall.dophpfn/salir");
+		header("location: http://tumall.do/phpfn/salir");
 	}
 	else {
 		header("location: " . $_SERVER["HTTP_REFERER"]);

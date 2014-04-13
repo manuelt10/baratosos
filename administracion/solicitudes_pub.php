@@ -5,9 +5,9 @@
 
 <div class="settWrap recAdvWrapp adverts">
 
-	<a class="tabItm requestTabs certTab" href="administracion/solicitudes">Certificados</a>
-	<a class="tabItm requestTabs advertTab active" href="administracion/solicitudes1">Publicidad</a>
-	<a class="tabItm requestTabs offerTab" href="administracion/solicitudes2">Oferta</a>
+	<a class="tabItm requestTabs certTab" href="/administracion/solicitudes">Certificados</a>
+	<a class="tabItm requestTabs advertTab active" href="/administracion/solicitudes1">Publicidad</a>
+	<a class="tabItm requestTabs offerTab" href="/administracion/solicitudes2">Oferta</a>
 
 	<?php 
 	$count_adv = 2;
@@ -43,10 +43,10 @@
 				{
 					echo $pageadver == 1 ? 1 : (($pageadver-1)*$count_adv)+1 ?> al <?php echo $pageadver == $total_pages ? $total : ($pageadver*$count_adv) ?> de <span><?php echo $total; ?></span>
 							
-						<a <?php echo $pageadver > 1 ? "href='http://tumall.doadministracion/solicitudes1/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
+						<a <?php echo $pageadver > 1 ? "href='http://tumall.do/administracion/solicitudes1/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
 		
 		
-						<a <?php echo $pageadver < $total_pages ? "href='http://tumall.doadministracion/solicitudes1/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
+						<a <?php echo $pageadver < $total_pages ? "href='http://tumall.do/administracion/solicitudes1/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
 							
 				<?		
 					
@@ -68,7 +68,7 @@
 				?>
 				<div  class="advDet <? if($oddCnt%2==1){ echo "odd";} $oddCnt++  ?>">
 					<span class="advListDetItem advListItm advID"><span class="helpText">ID: </span><?php echo $p->idofertas ?></span>
-					<a href="administracion/anuncio/<?php echo $p->idofertas ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo $p->titulo ?></a>
+					<a href="/administracion/anuncio/<?php echo $p->idofertas ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo $p->titulo ?></a>
 					<span class="advListDetItem advListItm advStatus"><span class="helpText">Status: </span><?php 
 							if($p->estado == 'E')
 							{

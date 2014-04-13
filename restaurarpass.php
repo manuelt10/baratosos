@@ -11,11 +11,11 @@ require_once('templates/headExtras.php');
 ?>
 <div class="registerWrapp loginWrapp">
 
-	<a href="home" class="regLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
+	<a href="/home" class="regLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 	
 	<h2 class="welcomMsg">Contraseña nueva</h2>
 	
-	<form method="post" class="registerForm restore"  action="phpfn/resetear_pass.php?id=<?php echo $_GET["id"] ?>&e=<?php echo $_GET["e"] ?>&cd=<?php echo $_GET["cd"] ?>">
+	<form method="post" class="registerForm restore"  action="/phpfn/resetear_pass.php?id=<?php echo $_GET["id"] ?>&e=<?php echo $_GET["e"] ?>&cd=<?php echo $_GET["cd"] ?>">
 		<label class="fldLbl">Contraseña nueva: </label>
 		<input type="password" name="pass1" class="txtField passFld" placeholder="Contraseña nueva">
 		<label class="fldLbl">Repetir contraseña: </label>

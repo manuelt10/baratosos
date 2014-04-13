@@ -1,3 +1,0 @@
-[07-Oct-2013 20:28:43 America/Denver] PHP Notice:  Undefined index: idusuario in /home2/tumalldo/public_htmlp/opciones_func/update_name_phone.php on line 15
-[07-Oct-2013 20:58:16 America/Denver] PHP Notice:  Undefined variable: con in /home2/tumalldo/public_htmlp/opciones_func/change_pass.php on line 5
-[07-Oct-2013 20:58:16 America/Denver] PHP Fatal error:  Call to a member function prepare() on a non-object in /home2/tumalldo/public_htmlp/opciones_func/change_pass.php on line 5

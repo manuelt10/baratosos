@@ -18,7 +18,7 @@
 					$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 				?>
 				<div class="categoryWrap">
-				<h2 class="subCategoryHeading"><a href="lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/"><?php echo $c1->descripcion ?></a></h2>
+				<h2 class="subCategoryHeading"><a href="/lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/"><?php echo $c1->descripcion ?></a></h2>
 				<?php
 				$query = $con->prepare('SELECT * FROM `categoria2` where idcategoria1 = ?');
 				$query->bindValue(1,$c1->idcategoria1, PDO::PARAM_INT);
@@ -38,7 +38,7 @@
 						$link = strtolower($link);
 						$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 						?>
-						<li><a href="lista/categoria2/<?php echo $link . "-" . $c2->idcategoria2 ?>/"><?php echo $c2->descripcion ?></a></li>
+						<li><a href="/lista/categoria2/<?php echo $link . "-" . $c2->idcategoria2 ?>/"><?php echo $c2->descripcion ?></a></li>
 						<?php
 					}
 					?>

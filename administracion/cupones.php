@@ -4,7 +4,7 @@
 <div class="settWrap manageCuponsWrap">
 	
 	<div class="listActionsWrap listSearchWrap">
-		<form method="post" action="administracion/cuponesnuevo">
+		<form method="post" action="/administracion/cuponesnuevo">
 			<button class="sendForm formActionBtn addCuponBtn">Añadir nuevo</button>
 		</form>
 	</div>
@@ -22,7 +22,7 @@
 		{
 			?>
 			<div class="itemDetWrapp fluidTransTw <? if($oddCnt%2==1){ echo "odd ";} echo $c->estatus == 1 ? "" : "inactive"; echo $c->aprobado == 0 ? "pendiente" : ""; $oddCnt++  ?>">
-				<a class="itmImageMask itmListMask"  href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
+				<a class="itmImageMask itmListMask"  href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
 					<?php 
 					$img = $db->selectRecord('cupon_galeria',NULL,Array('idcupon' => $c->idcupon),Array('principal' => 'desc'));
 					
@@ -46,14 +46,14 @@
 					if(!empty($img->data))
 					{
 					?>
-					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
+					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
 					<?php 
 					}
 					?>
 				</a>
 				
 				<div class="itmListDescrWrap">
-					<h3><a class="itmListName transOn itmListDescr" href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
+					<h3><a class="itmListName transOn itmListDescr" href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
 					<span class="itmListID itmListDescr">ID: <?php echo $c->idcupon ?></span>
 					<span class="itmListDate itmListDescr inlined">El <?php 
 					$fecha_pub = date('d-m-Y', strtotime($c->dia_publicacion ));
@@ -110,7 +110,7 @@
 					
 					?>
 					<!-- <a class="itmListBtn itmStatBtn inactive" >Ver</a> -->
-					<a class="itmListBtn editBtn" href="administracion/cuponesmod/<?php echo $c->idcupon ?>">Modificar</a>
+					<a class="itmListBtn editBtn" href="/administracion/cuponesmod/<?php echo $c->idcupon ?>">Modificar</a>
 					<?php 
 					if($c->aprobado <> 0)
 					{
@@ -157,7 +157,7 @@
 		{
 			?>
 			<div class="itemDetWrapp fluidTransTw <? if($oddCnt%2==1){ echo "odd";} echo $c->estatus == 1 ? "" : " inactive"; $oddCnt++  ?>">
-				<a class="itmImageMask itmListMask"  href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
+				<a class="itmImageMask itmListMask"  href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
 					<?php 
 					$img = $db->selectRecord('cupon_galeria',NULL,Array('idcupon' => $c->idcupon),Array('principal' => 'desc'));
 					
@@ -181,14 +181,14 @@
 					if(!empty($img->data))
 					{
 					?>
-					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
+					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
 					<?php 
 					}
 					?>
 				</a>
 				
 				<div class="itmListDescrWrap">
-					<h3><a class="itmListName transOn itmListDescr" href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
+					<h3><a class="itmListName transOn itmListDescr" href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
 					<span class="itmListID itmListDescr">ID: <?php echo $c->idcupon ?></span>
 					<span class="itmListDate itmListDescr inlined">El <?php 
 					$fecha_pub = date('d-m-Y', strtotime($c->dia_publicacion ));
@@ -245,7 +245,7 @@
 					
 					?>
 					<!-- <a class="itmListBtn itmStatBtn inactive" >Ver</a> -->
-					<a class="itmListBtn editBtn" href="administracion/cuponesmod/<?php echo $c->idcupon ?>">Modificar</a>
+					<a class="itmListBtn editBtn" href="/administracion/cuponesmod/<?php echo $c->idcupon ?>">Modificar</a>
 					<?php 
 					if($c->aprobado <> 0)
 					{
@@ -271,7 +271,7 @@
 		$(this).parents('.itemDetWrapp').remove();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/cup_func/rem_cupon.php',
+			url : '/administracion/cup_func/rem_cupon.php',
 			data :{idcupon : $(this).siblings('.idcup').val()}
 		});
 	})
@@ -285,7 +285,7 @@
 	
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/cup_func/aprobado_cup.php',
+			url : '/administracion/cup_func/aprobado_cup.php',
 			data :{idcupon : $(this).siblings('.idcup').val() , stat : 1}
 		});
 		
@@ -304,7 +304,7 @@
 			couponItem = $(this).parent().parent();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/cup_func/aprobado_cup.php',
+			url : '/administracion/cup_func/aprobado_cup.php',
 			data :{idcupon : id , stat : 2}
 		});
 		
@@ -362,7 +362,7 @@
 		
 		$.ajax({
 			type : "POST",
-			url : 'administracion/cup_func/status_cup.php',
+			url : '/administracion/cup_func/status_cup.php',
 			data :{idcupon : idc}
 		});
 		

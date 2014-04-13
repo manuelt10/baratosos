@@ -37,7 +37,7 @@ if(count($existeCorreo->idusuario) == 0)
 				<div class="container">
 					
 					<div class="body">
-						<span>Para finalizar el cambio de correo, por favor entra a este <a href="http://tumall.dophpfn/change_mail.php?id='. md5($session["usuario"]) .'&nm=' . md5($_POST["correoNuevo"]) . '">link</a></span>
+						<span>Para finalizar el cambio de correo, por favor entra a este <a href="http://tumall.do/phpfn/change_mail.php?id='. md5($session["usuario"]) .'&nm=' . md5($_POST["correoNuevo"]) . '">link</a></span>
 					</div>
 				</div>
 			</body>

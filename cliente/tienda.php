@@ -2,7 +2,7 @@
 	<h2 class="settHead">Convertirse en tienda</h2>
 </div>
 <div class="settWrap becomeStoreWrap editOptionsWrap">
-	<form class="optionForm editOptionsSec" method="post" action="cliente/cambio_tienda/cliente_a_tienda.php">
+	<form class="optionForm editOptionsSec" method="post" action="/cliente/cambio_tienda/cliente_a_tienda.php">
 		<div class="infoBox opts-InfoBox transTw">
 				<h3 class="requLegend">Advertencia</h3>
 				<p>Para vender, tu usuario primero debe ser convertido a tipo tienda. Convertirte en tienda eliminará tu wishlist y los favoritos que hayas dado. Deberás proveer un nombre de tienda y número de teléfono válido para poder proseguir.<br /><b>Éste procedimiento es irreversible.</b></p>

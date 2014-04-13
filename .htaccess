@@ -3,6 +3,8 @@ Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
 Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
 
 RewriteEngine On    # Turn on the rewriting engine
+#RewriteBase /baratosos/
+
 
 # 480 weeks
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
@@ -24,45 +26,44 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 </ifmodule>
 #End Gzip
 
-RewriteBase /baratosos/
 
-RewriteRule    ^articulo/([a-z0-9-]*)-([0-9]+)/$   /items.php?id=$2 [NC]    # Handle product requests
-RewriteRule    ^articulo/([a-z0-9-]*)-([0-9]+)$   /items.php?id=$2 [NC]    # Handle product requests
-
+RewriteRule    ^articulo/([a-z0-9-]*)-([0-9]+)/$   /baratosos/items.php?id=$2 [NC]    # Handle product requests
+RewriteRule    ^articulo/([a-z0-9-]*)-([0-9]+)$   /baratosos/items.php?id=$2 [NC]    # Handle product requests
 
 
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/$   /tienda.php?id=$2 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /tienda.php?id=$2&page=$3 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /tienda.php?id=$2&page=$3 [NC]
+
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/$   /baratosos/tienda.php?id=$2 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&page=$3 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&page=$3 [NC]
   
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)$   /tienda.php?id=$2 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)$   /baratosos/tienda.php?id=$2 [NC]
 
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)$   /tienda.php?id=$2&buscar=$3 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /tienda.php?id=$2&buscar=$3 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /tienda.php?id=$2&buscar=$3&page=$4 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /tienda.php?id=$2&buscar=$3&page=$4 [NC]
-
-
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/$   /tienda.php?id=$2&categoria1=$4 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)$   /tienda.php?id=$2&categoria1=$4 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /tienda.php?id=$2&categoria1=$4&page=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /tienda.php?id=$2&categoria1=$4&page=$5 [NC]
-
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)$   /tienda.php?id=$2&categoria1=$4&buscar=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /tienda.php?id=$2&categoria1=$4&buscar=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /tienda.php?id=$2&categoria1=$4&buscar=$5&page=$6 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /tienda.php?id=$2&categoria1=$4&buscar=$5&page=$6 [NC]
-
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/$   /tienda.php?id=$2&categoria2=$4 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)$   /tienda.php?id=$2&categoria2=$4 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /tienda.php?id=$2&categoria2=$4&page=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /tienda.php?id=$2&categoria2=$4&page=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)$   /baratosos/tienda.php?id=$2&buscar=$3 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /baratosos/tienda.php?id=$2&buscar=$3 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&buscar=$3&page=$4 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&buscar=$3&page=$4 [NC]
 
 
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)$   /tienda.php?id=$2&categoria2=$4&buscar=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /tienda.php?id=$2&categoria2=$4&buscar=$5 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /tienda.php?id=$2&categoria2=$4&buscar=$5&page=$6 [NC]
-RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /tienda.php?id=$2&categoria2=$4&buscar=$5&page=$6 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria1=$4 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)$   /baratosos/tienda.php?id=$2&categoria1=$4 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&categoria1=$4&page=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria1=$4&page=$5 [NC]
+
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)$   /baratosos/tienda.php?id=$2&categoria1=$4&buscar=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /baratosos/tienda.php?id=$2&categoria1=$4&buscar=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&categoria1=$4&buscar=$5&page=$6 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/1/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria1=$4&buscar=$5&page=$6 [NC]
+
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria2=$4 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)$   /baratosos/tienda.php?id=$2&categoria2=$4 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&categoria2=$4&page=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria2=$4&page=$5 [NC]
+
+
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)$   /baratosos/tienda.php?id=$2&categoria2=$4&buscar=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/$   /baratosos/tienda.php?id=$2&categoria2=$4&buscar=$5 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)$   /baratosos/tienda.php?id=$2&categoria2=$4&buscar=$5&page=$6 [NC]
+RewriteRule    ^([a-z0-9-]*)-([0-9]+)/2/([a-z0-9-]*)-([0-9]+)/([^/]+)/p/([0-9]+)/$   /baratosos/tienda.php?id=$2&categoria2=$4&buscar=$5&page=$6 [NC]
 
 
 RewriteRule ^administracion/?$ 	/admin    [NC,L]
@@ -77,37 +78,37 @@ RewriteRule ^administracion/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/page/([A-Za-z0-9-]+)
 RewriteRule ^administracion/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/page/([A-Za-z0-9-]+)/$	/admin?form_name=$1&id=$2&page=$3    [NC,L]
 
 
-RewriteRule ^lista/$  /lista    [NC,L]
-RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/$  /lista?categoria1=$2    [NC,L]
-RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/([0-9]+)$  /lista?categoria1=$2&page=$3    [NC,L]
-RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/$  /lista?categoria2=$2    [NC,L]
-RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/([0-9]+)$  /lista?categoria2=$2&page=$3    [NC,L]
+RewriteRule ^lista/$  /baratosos/lista    [NC,L]
+RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/$  /baratosos/lista?categoria1=$2    [NC,L]
+RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/([0-9]+)$  /baratosos/lista?categoria1=$2&page=$3    [NC,L]
+RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/$  /baratosos/lista?categoria2=$2    [NC,L]
+RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/([0-9]+)$  /baratosos/lista?categoria2=$2&page=$3    [NC,L]
 
-#RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/page/([0-9]+)$  /lista?categoria1=$2&page=$3    [NC,L]
-#RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/page/([0-9]+)$  /lista?categoria2=$2&page=$3    [NC,L]
+#RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/page/([0-9]+)$  /baratosos/lista?categoria1=$2&page=$3    [NC,L]
+#RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/page/([0-9]+)$  /baratosos/lista?categoria2=$2&page=$3    [NC,L]
 
-RewriteRule ^lista/buscar$  /lista?buscar=%20   [NC,L] 
+RewriteRule ^lista/buscar$  /baratosos/lista?buscar=%20   [NC,L] 
 RewriteRule ^lista/buscar/([^/]+)$				/lista?buscar=$1  [B] 
 RewriteRule ^lista/buscar/([^/]+)/$				/lista?buscar=$1  [B] 
 RewriteRule ^lista/buscar/([^/]+)/([0-9]+)$  	/lista?buscar=$1&page=$2    [NC,L] 
-RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/$  /lista?buscar=$3&categoria1=$2 [B]
-RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/$   /lista?buscar=$3&categoria2=$2 [B]
-RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/([0-9]+)$  /lista?buscar=$3&categoria1=$2&page=$4    [B]
-RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/([0-9]+)$  /lista?buscar=$3&categoria2=$2&page=$4    [B] 
+RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/$  /baratosos/lista?buscar=$3&categoria1=$2 [B]
+RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/$   /baratosos/lista?buscar=$3&categoria2=$2 [B]
+RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/([0-9]+)$  /baratosos/lista?buscar=$3&categoria1=$2&page=$4    [B]
+RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/([0-9]+)$  /baratosos/lista?buscar=$3&categoria2=$2&page=$4    [B] 
 
 
-#RewriteRule ^lista/buscar/([A-Za-z0-9-\s]+)/page/([0-9]+)$  /lista?buscar=$1&page=$2    [NC,L] 
-#RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/page/([0-9]+)$  /lista?buscar=$3&categoria1=$2&page=$4    [B]
-#RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/page/([0-9]+)$  /lista?buscar=$1&categoria2=$3&page=$4    [B] 
+#RewriteRule ^lista/buscar/([A-Za-z0-9-\s]+)/page/([0-9]+)$  /baratosos/lista?buscar=$1&page=$2    [NC,L] 
+#RewriteRule ^lista/categoria/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/page/([0-9]+)$  /baratosos/lista?buscar=$3&categoria1=$2&page=$4    [B]
+#RewriteRule ^lista/categoria2/([a-z0-9-]*)-([0-9]+)/buscar/([^/]+)/page/([0-9]+)$  /baratosos/lista?buscar=$1&categoria2=$3&page=$4    [B] 
  
 RewriteRule ^cliente/?$ 	/normalusr    [NC,L]
 RewriteRule ^cliente/([A-Za-z0-9-]+)/?$ 	/normalusr?form_name=$1    [NC,L]
 RewriteRule ^cliente/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$ 	/normalusr?form_name=$1&form2=$2    [NC,L]
 
-RewriteRule ^productos/([A-Za-z0-9-]+)/?$    /productos?form_name=$1    [NC,L]  
-RewriteRule ^productos/([A-Za-z0-9-]+)/page/([0-9]+)?$    /productos?form_name=$1&page=$2    [NC,L]  
-RewriteRule ^productos/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    /productos?form_name=$1&prod_id=$2    [NC,L]
-RewriteRule ^productos/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    /productos?form_name=$1&prod_id=$2&usrid=$3   [NC,L]  
+RewriteRule ^productos/([A-Za-z0-9-]+)/?$    /baratosos/productos?form_name=$1    [NC,L]  
+RewriteRule ^productos/([A-Za-z0-9-]+)/page/([0-9]+)?$    /baratosos/productos?form_name=$1&page=$2    [NC,L]  
+RewriteRule ^productos/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    /baratosos/productos?form_name=$1&prod_id=$2    [NC,L]
+RewriteRule ^productos/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    /baratosos/productos?form_name=$1&prod_id=$2&usrid=$3   [NC,L]  
 RewriteRule ^tutienda/([A-Za-z0-9-]+)?$		/productos?form_name=$1    [NC,L] 
 RewriteRule ^opciones/?$		/productos?form_name=opciones    [NC,L] 
 RewriteRule ^publicidad/?$		/productos?form_name=publicidad    [NC,L] 
@@ -118,8 +119,8 @@ RewriteRule ^reservas/([A-Za-z0-9-]+)?$		/productos?form_name=reservas&id=$1    
 
 
 
-RewriteRule    ^cupon/([a-z0-9-]*)-([0-9]+)$   /cupondia.php?id=$2 [NC]    # Handle product requests
-RewriteRule    ^cupon/([a-z0-9-]*)-([0-9]+)/$   /cupondia.php?id=$2 [NC]    # Handle product requests
+RewriteRule    ^cupon/([a-z0-9-]*)-([0-9]+)$   /baratosos/cupondia.php?id=$2 [NC]    # Handle product requests
+RewriteRule    ^cupon/([a-z0-9-]*)-([0-9]+)/$   /baratosos/cupondia.php?id=$2 [NC]    # Handle product requests
 
 
 RewriteCond %{REQUEST_FILENAME} !-f

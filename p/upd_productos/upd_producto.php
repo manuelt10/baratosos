@@ -237,10 +237,10 @@ if($session["autenticado"])
 }
 if(!empty($session["usuarioReal"]))
 {
-	header("location: http://tumall.doadministracion/usr/" . $session["usuario"]);	
+	header("location: http://tumall.do/administracion/usr/" . $session["usuario"]);	
 }
 else {
-	header("location: http://tumall.doproductos/lista/");	
+	header("location: http://tumall.do/productos/lista/");	
 }
 
 ?>

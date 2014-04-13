@@ -1,7 +1,7 @@
 <?php 
 if($usuario->idtipousuario == 3)
 {
-	header("location: http://tumall.doadministracion/solicitudes ");
+	header("location: http://tumall.do/administracion/solicitudes ");
 }
 $query = $con->prepare('SELECT * FROM `categoria1` order by descripcion ');
 $query->execute();
@@ -45,25 +45,25 @@ if(empty($session["error"]))
 if($usuario->premium)
 {
     ?>
-    <script src="ckeditor/ckeditor.js"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
     <?php
 }
  else {
     ?>
-    <script src="simpleckeditor/ckeditor.js"></script>
+    <script src="/simpleckeditor/ckeditor.js"></script>
     <?php
 }
 ?>
-    <script src="Scripts/jquery.form.img.js"></script>
+    <script src="/Scripts/jquery.form.img.js"></script>
 	
 	
 	
 	<div class="topBar">
-		<!-- <a href="productos/lista" class="formActionBtn">Cancelar</a> -->
+		<!-- <a href="/productos/lista" class="formActionBtn">Cancelar</a> -->
 		<h2 class="settHead">Publicar artículos</h2>
 	</div>
 	<div class="settWrap addItemsWrap">
-    <form method="post" action="p/p_f/i_p1.php" class="itmDetailForm" >
+    <form method="post" action="/p/p_f/i_p1.php" class="itmDetailForm" >
             
             <div class="transType">
                 <input type="radio" name="tipoTransaccion" value="1" checked>
@@ -179,7 +179,7 @@ if($usuario->premium)
 		    <label class="settLbl">Las dimensiones mínimas para las imágenes de tu artículo deben ser <b>400px x 400px</b>.</label>
 		    <div class="snglCharacWrap characDetail">
 		    	
-			    <form id="imageform" method="post" enctype="multipart/form-data" action='p/p_f/u_p_img.php'>
+			    <form id="imageform" method="post" enctype="multipart/form-data" action='/p/p_f/u_p_img.php'>
 			    	
 			    	
 			    	<input type="text" class="caract_default txtField itmTxtFld transTw"  placeholder="Nombre característica">
@@ -218,7 +218,7 @@ if($usuario->premium)
 		                <div  class="uplddImgWrap">
 		                	<input type="hidden" class="imageProductVal" value="<?php echo $imgs->img_temporales ?>">
 		                    <span class="itmImageMask imageDefaultMask">
-		                    	<img class="imageProduct imageDefault itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
+		                    	<img class="imageProduct imageDefault itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
 		                    </span>
 		                </div>
 		                <?php
@@ -252,7 +252,7 @@ if($usuario->premium)
 				foreach($caracteristica_temp as $cT)
 				{
 					?>
-					<form class="caracteristica xtraCharacDetail characDetail transTw" action="p/p_f/upl_caract.php">
+					<form class="caracteristica xtraCharacDetail characDetail transTw" action="/p/p_f/upl_caract.php">
 				    	<input type="text" class="txtField itmTxtFld transTw charactTxt" name="caracteristica[]" placeholder="Nombre característica" value="<?php echo $cT->caracteristica ?>">
 				    	<input type="hidden" name="id" class ="idCar" value="<?php echo $cT->idtemp_caracteristicas ?>" >
 				    	<button class="removeCharacBtn" type="button"></button>
@@ -295,7 +295,7 @@ if($usuario->premium)
 									<div class="uplddImgWrap">
 										<input type="hidden" class="imageProductVal" value="<?php echo $iC->imagen ?>">
 										<span class="itmImageMask">
-											<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/c_prod/thumb150/<?php echo $iC->imagen ?>">
+											<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/c_prod/thumb150/<?php echo $iC->imagen ?>">
 										</span>
 									</div>
 									<?php
@@ -371,7 +371,7 @@ console.log(idTemp);
 */
 		$.ajax({
 			type : "POST",
-			url : "p/p_f/upd_caract_temp.php",
+			url : "/p/p_f/upd_caract_temp.php",
 			data: {idcaracteristica : idTemp, temp_descripcion : desc}
 		})
 	})
@@ -496,11 +496,11 @@ $('html').click(function(event){
 		var img = $(this).siblings('.imageProductVal').val();
 		
 		if($(this).hasClass('imageDefaultMask')){
-			var funcURL = ("p/p_f/borrar_img_producto_t.php");
+			var funcURL = ("/p/p_f/borrar_img_producto_t.php");
 		}
 		
 		else{
-			var funcURL = ("p/p_f/borrar_img_caracteristica_t.php");
+			var funcURL = ("/p/p_f/borrar_img_caracteristica_t.php");
 		}
 		
 		$.ajax({
@@ -519,7 +519,7 @@ $('html').click(function(event){
 var targetDiv;
 
 	function appendLoadFN(){
-		targetDiv.parent().append('<span class="loadBlock"><img src="images/LoadAnim.gif" /></span>');
+		targetDiv.parent().append('<span class="loadBlock"><img src="/images/LoadAnim.gif" /></span>');
 	}
 	
 	function removeLoadFN(){
@@ -582,7 +582,7 @@ var targetDiv;
 	    	
 	        	$.ajax({
 	        		type: "POST",
-	        		url: "p/p_f/a_car_tmp.php",
+	        		url: "/p/p_f/a_car_tmp.php",
 	        		data : {caracteristica : caract, cont : charactCnt} 
 	        	}).done(function(html)
 	        	{
@@ -612,7 +612,7 @@ var targetDiv;
 			
 		$.ajax({
 			type: "POST",
-			url: "p/p_f/borrar_caracteristica_t.php",
+			url: "/p/p_f/borrar_caracteristica_t.php",
 			data: {idCar : id}
 		})
 		
@@ -633,7 +633,7 @@ var targetDiv;
 		$('.categoria2').html();
 		$.ajax({
 			type: "POST",
-			url: "p/p_f/categoria2.php",
+			url: "/p/p_f/categoria2.php",
 			data: {categoria1 : valor}
 		}).done(function(html){
 			$('.categoria2').html(html);
@@ -647,7 +647,7 @@ var targetDiv;
 		$('.categoria3').html();
 		$.ajax({
 			type: "POST",
-			url: "p/p_f/categoria3.php",
+			url: "/p/p_f/categoria3.php",
 			data: {categoria2 : valor}
 		}).done(function(html){
 			$('.categoria3').html(html);

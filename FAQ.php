@@ -69,7 +69,7 @@ require_once('templates/headgeneral.php');
 	<p>Actualmente puedes publicar tus artículos en pesos (RD$), dólares (US$) y Euros ¿Entiendes que debemos incluir otro tipo de moneda? Escríbenos a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
 	
 	<h2 id="subir-articulos" class="faqTitle">¿Tengo que subir mis propios artículos a la plataforma, o Tu Mall lo hace?</h2>
-	<p>Si, debes subir tus propios artículos a la plataforma, puedes hacerlo a través de tu PC o Smartphone. En caso de necesitar ayuda, puedes <a href="contacto">contactarnos</a> y te ayudaremos.</p>
+	<p>Si, debes subir tus propios artículos a la plataforma, puedes hacerlo a través de tu PC o Smartphone. En caso de necesitar ayuda, puedes <a href="/contacto">contactarnos</a> y te ayudaremos.</p>
 	
 	<h2 id="manejar-cuenta" class="faqTitle">¿Podría contratar algún personal que maneje mi cuenta de Tu Mall?</h2>
 	<p>Publicar un artículo en Tu Mall es muy sencillo, pero en caso de ser necesario podríamos suministrarle un encargado que se administrará de la actualización de su página, esto tendría un costo por gestión. Para más información, escríbanos a <a href="mailto:info@tumall.do">info@tumall.do</a> llámenos al 809-867-2230.</p>
@@ -78,36 +78,36 @@ require_once('templates/headgeneral.php');
 	<p>Que tu negocio, ya sea formal o independiente, realice ventas de forma regular y no de forma esporádica, para evitar así las ventas particulares.</p>
 	
 	<h2 id="como-vender" class="faqTitle">¿Cómo puedo vender en Tu Mall?</h2>
-	<p>Primero <a href="registro">regístrate</a> y, luego de validar tu cuenta, simplemente accede a "Mi cuenta", y desde allí ve a "Publicar". Sigue los pasos en pantalla e intenta proveer tanta información como puedas sobre tu artículo.</p>
+	<p>Primero <a href="/registro">regístrate</a> y, luego de validar tu cuenta, simplemente accede a "Mi cuenta", y desde allí ve a "Publicar". Sigue los pasos en pantalla e intenta proveer tanta información como puedas sobre tu artículo.</p>
 	
 	<h2 id="sobre-publicidad" class="faqTitle">¿Cómo es la publicidad en Tu Mall?</h2>
 	<p>Hay varias formas de hacer tu publicidad en Tu Mall:</p> 
 	<ul>
 		<li>Existen los comunes "banners" o "ad spots" que colocamos en la parte lateral derecha de los resultados, y tiendas dentro de Tu Mall. Estos espacios son rotatorios y consisten de una imagen estática o animada (GIF, HTML5/CSS/JS).</li>
 		<li>También utilizamos publicidad por artículo específico, a lo que llamamos "Ofertas". Las Ofertas aparecen debajo de los resultados de búsqueda, dentro de las tiendas, y en la descripción de los artículos. Las Ofertas aparecen como "Artículos destacados.</li>
-		<li>Finalmente, hacemos publicidad directa de las tiendas, es decir, en el <a href="home">landing page/home page</a> aparecerán hasta 6 tiendas destacadas, estos espacios son rotatorios.</li>
+		<li>Finalmente, hacemos publicidad directa de las tiendas, es decir, en el <a href="/home">landing page/home page</a> aparecerán hasta 6 tiendas destacadas, estos espacios son rotatorios.</li>
 	</ul>
 	<br />
 	<p>Todos los tipos y espacios de publicidad son "alquilados" por un tiempo determinado. Los anuncios, ofertas, y certificaciones deben primero ser revisadas y aprobadas por un administrador.</p>
 	
 	<h2 id="costo-publicidad" class="faqTitle">¿Cuál es el costo de la publicidad en Tu Mall?</h2>
-	<p>El costo depende del tipo de publicidad que se quiera realizar, y del tiempo que pretenda durar con la publicidad en el portal. Puede enviar su solicitud dando click en "Mi Cuenta", y luego a en "Publicidad", finalmente en "Agregar Solicitud", y luego elija el tipo de publicidad de desee enviar. También puede dar <a href="http://tumall.dopublicidad">click aquí</a>. O escribirnos a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
+	<p>El costo depende del tipo de publicidad que se quiera realizar, y del tiempo que pretenda durar con la publicidad en el portal. Puede enviar su solicitud dando click en "Mi Cuenta", y luego a en "Publicidad", finalmente en "Agregar Solicitud", y luego elija el tipo de publicidad de desee enviar. También puede dar <a href="http://tumall.do/publicidad">click aquí</a>. O escribirnos a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
 	
 	<h2 id="como-publicidad" class="faqTitle">¿Cómo envío mi publicidad a Tu Mall?</h2>
-	<p>Puede enviar su solicitud dando click en "Mi Cuenta", y luego a en "Publicidad", finalmente en "Agregar Solicitud", y luego elija el tipo de publicidad de desee enviar. También puede dar <a href="http://tumall.dopublicidad">click aquí</a>. O escribirnos a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
+	<p>Puede enviar su solicitud dando click en "Mi Cuenta", y luego a en "Publicidad", finalmente en "Agregar Solicitud", y luego elija el tipo de publicidad de desee enviar. También puede dar <a href="http://tumall.do/publicidad">click aquí</a>. O escribirnos a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
 	
 	<h2 id="sobre-CFT" class="faqTitle">¿Qué es la certificación Tu Mall o CFT?</h2>
 	<p>Es la certificación que valida que una tienda virtual es 100% confiable y que los artículos publicados cumplen con las especificaciones descritas.</p>
 	
 	<h2 id="como-CFT" class="faqTitle">¿Cómo puedo certificarme con la CFT?</h2>
-	<p>Puedes enviar una solicitud de certificación a través del panel de tienda, dando click en "Publicidad", y luego en "Agregar Solicitud", o bien, dando <a href="http://tumall.dosolicitud">click aquí</a>. También puedes solicitar tu CFT vía correo electrónico a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
+	<p>Puedes enviar una solicitud de certificación a través del panel de tienda, dando click en "Publicidad", y luego en "Agregar Solicitud", o bien, dando <a href="http://tumall.do/solicitud">click aquí</a>. También puedes solicitar tu CFT vía correo electrónico a <a href="mailto:info@tumall.do">info@tumall.do</a>.</p>
 	
 	<h2 id="beneficios-CFT" class="faqTitle">¿Qué beneficios gano si obtengo la CFT?</h2>
 	<p>Entre los beneficios por los que opta está la seguridad y confianza que le transmitirá a sus consumidores a la hora de hacer alguna compra a través de su tienda virtual.
 Recibe un ranking A+ por encima de otras tiendas no certificadas, y obtiene en los anuncios y ofertas que nos envíe para ser publicados. Además, un sello distintivo que la diferencia de las tiendas no certificadas, y capacidades de edición de artículos avanzadas, como un editor full HTML para poder dar un estilo característico y único a tus artículos.</p>
 	
 	<h2 id="costo-CFT" class="faqTitle">¿Tiene la CFT algún tipo de costo?</h2>
-	<p>Sí, para más detalles <a href="contacto">contáctanos a servicio al cliente</a>.</p>
+	<p>Sí, para más detalles <a href="/contacto">contáctanos a servicio al cliente</a>.</p>
 	
 	<h2 id="sobre-publicaciones" class="faqTitle">¿Qué tan confiable son las publicaciones?</h2>
 	<p>Todas las publicaciones en la plataforma de Tu Mall tratan de ser lo más veraz posible, sin embargo, las publicaciones de las tiendas pertenecen exclusivamente a las mismas y Tu Mall no puede hacerse responsables de estas.</p>

@@ -6,12 +6,12 @@
 <div class="settWrap applyAdvertsWrap">
 
 	<div>
-		<a class="tabItm" href="administracion/publicidad">Artículos destacados</a>
-		<a class="tabItm active" href="administracion/tiendas">Tiendas destacadas</a>
-		<a class="tabItm" href="administracion/anuncios">Anuncios</a>
+		<a class="tabItm" href="/administracion/publicidad">Artículos destacados</a>
+		<a class="tabItm active" href="/administracion/tiendas">Tiendas destacadas</a>
+		<a class="tabItm" href="/administracion/anuncios">Anuncios</a>
 	</div>
 	
-	<form id="addPubForm" class="displayAdvertForm" method="post" action="administracion/pub_func/add_store_pub.php">
+	<form id="addPubForm" class="displayAdvertForm" method="post" action="/administracion/pub_func/add_store_pub.php">
 		
 		<label class="settingLbl">Código de tienda: </label>
 		<input class="txtField" name="id" type="text" class="storeShow">
@@ -56,14 +56,14 @@
 				{
 				?>
 					<span class="itmImageMask itmListMask usrImageMask">
-						<img class="itmListImg itmImage" width="85" height="85" src="images/profile/cr/<?php echo $uT->imagen ?>">
+						<img class="itmListImg itmImage" width="85" height="85" src="/images/profile/cr/<?php echo $uT->imagen ?>">
 					</span>
 				<?php 
 				}
 				else{
 					?>
 					<span class="itmImageMask usrImageMask transOn itmListMask noImg">
-						<img src="images/resources/storePNG-100.png" alt="No user picture" width="85" height="85" />				
+						<img src="/images/resources/storePNG-100.png" alt="No user picture" width="85" height="85" />				
 					</span>
 					<?php
 				}	
@@ -97,7 +97,7 @@
 				<div class="itmListBtnWrapp hidden">
 					<span class="openBtn"><i class="fa fa-chevron-right fluidTransTw"></i></span>
 					<button class="finishOffer itmListBtn banButton">Terminar</button>
-					<form class="endPromoteForm" method="post" action="administracion/pub_func/finish_store_pub.php">
+					<form class="endPromoteForm" method="post" action="/administracion/pub_func/finish_store_pub.php">
 						<input type="hidden" name="idtiendapub" value="<?php echo $uT->idtiendapub ?>">
 						
 					</form>
@@ -108,7 +108,7 @@
 								
 				?>
 					<button class="removeOffer itmListBtn itmRemoveBtn">Quitar</button>
-					<form method="post" action="administracion/pub_func/remove_store_pub.php">
+					<form method="post" action="/administracion/pub_func/remove_store_pub.php">
 						<input type="hidden" name="idtiendapub" value="<?php echo $uT->idtiendapub ?>">
 					</form>
 				</div>
@@ -133,7 +133,7 @@
 		{
 			$.ajax({
 				type : "POST",
-				url  : "administracion/pub_func/preview_store.php",
+				url  : "/administracion/pub_func/preview_store.php",
 				data : {id : storeId}
 			}).done(function(html){
 				$('.previewStore').html(html);

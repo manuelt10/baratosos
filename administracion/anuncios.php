@@ -6,11 +6,11 @@
 <div class="settWrap applyAdvertsWrap">
 
 	<div>
-		<a class="tabItm" href="administracion/publicidad">Artículos destacados</a>
-		<a class="tabItm" href="administracion/tiendas">Tiendas destacadas</a>
-		<a class="tabItm active" href="administracion/anuncios">Anuncios</a>
+		<a class="tabItm" href="/administracion/publicidad">Artículos destacados</a>
+		<a class="tabItm" href="/administracion/tiendas">Tiendas destacadas</a>
+		<a class="tabItm active" href="/administracion/anuncios">Anuncios</a>
 	</div>
-	<form class="addPubForm displayAdvertForm" method="post" action="administracion/pub_func/add_adver.php" enctype="multipart/form-data">
+	<form class="addPubForm displayAdvertForm" method="post" action="/administracion/pub_func/add_adver.php" enctype="multipart/form-data">
 		<label class="settingLbl">Selecciona una imagen: </label>
 		<input type="file" name="file" class="fileUpload">
 		<br />
@@ -53,7 +53,7 @@
 		{
 			?>
 			<div class="itemDetWrapp transTw userDetailWrapper pubWrapperDetail <? if($oddCnt%2==1){ echo "odd";} $oddCnt++  ?>" >
-				<img class="right-ad-thumb" src="images/publicidad/<?php echo $a->image ?>">
+				<img class="right-ad-thumb" src="/images/publicidad/<?php echo $a->image ?>">
 				
 				<div class="itmListDescrWrap">
 					<span class="itmListName transOn itmListDescr">Link: <?php echo $a->link; ?></span>
@@ -79,7 +79,7 @@
 				</div>
 				<div class="itmListBtnWrapp">
 					<button class="finishOffer itmListBtn banButton" type="submit">Terminar anuncio</button>
-					<form method="post" action="administracion/pub_func/finish_anuncio.php">
+					<form method="post" action="/administracion/pub_func/finish_anuncio.php">
 						<input type="hidden" name="idanunciopub" value="<?php echo $a->idanunciopub ?>">
 							
 					</form>
@@ -106,7 +106,7 @@
 		{
 			?>
 			<div class="itemDetWrapp transTw userDetailWrapper pubWrapperDetail <? if($oddCnt%2==1){ echo "odd";} $oddCnt++  ?>" >
-				<img class="top-ad-thumb" src="images/publicidad/<?php echo $a->image ?>">
+				<img class="top-ad-thumb" src="/images/publicidad/<?php echo $a->image ?>">
 				<br />
 				<div class="itmListDescrWrap">
 					<span class="itmListName transOn itmListDescr">Link: <?php echo $a->link; ?></span>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="itmListBtnWrapp">	
 					<button class="finishOffer itmListBtn banButton" type="submit">Terminar anuncio</button>
-					<form method="post" action="administracion/pub_func/finish_anuncio.php">
+					<form method="post" action="/administracion/pub_func/finish_anuncio.php">
 						<input type="hidden" name="idanunciopub" value="<?php echo $a->idanunciopub ?>">
 					</form>
 				<?php
@@ -160,7 +160,7 @@
 		var id = $(this).siblings('.idanunciopub').val();
 		$.ajax({
 			type : "POST",
-			url : "administracion/pub_func/remove_anun.php",
+			url : "/administracion/pub_func/remove_anun.php",
 			data : {idanunciopub : id}
 		})
 	})

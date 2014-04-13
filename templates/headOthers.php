@@ -14,7 +14,7 @@ $sM = new stringManager();
 
 <meta name="HandheldFriendly" content="true" />
 
-<title>Baratosos - Lo que buscas, mucho mas barato</title>
+<title>Tu Mall</title>
 
 <link rel="shortcut icon" href="favicon.png" />
 
@@ -41,16 +41,16 @@ $sM = new stringManager();
 	<div id="container">
 		<div id="header">
 			<div class="quickLinksWrap">
-				<a class="quickLink" href="http://tumall.doregistro">Vende en Tu Mall</a>
-				<a class="quickLink" href="http://tumall.donovedades">Novedades</a>
-				<a class="quickLink" href="http://tumall.doFAQ">Ayuda</a>
-				<a class="quickLink" href="http://tumall.dotiendas">Lista de tiendas</a>
+				<a class="quickLink" href="http://tumall.do/registro">Vende en Tu Mall</a>
+				<a class="quickLink" href="http://tumall.do/novedades">Novedades</a>
+				<a class="quickLink" href="http://tumall.do/FAQ">Ayuda</a>
+				<a class="quickLink" href="http://tumall.do/tiendas">Lista de tiendas</a>
 			</div>
 			<div class="headerCenter transTw">
 				
 				<span class="mobSearchBtn"></span>
 				<div class="logoWrap">
-					<a href="home" class="mainLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>				
+					<a href="/home" class="mainLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>				
 				</div>
 				<div class="menuTopRight">
 					<form id="searchForm" action="#">
@@ -89,7 +89,7 @@ $sM = new stringManager();
 						var sear = $(this).val();
 						$.ajax({
 								type : "POST",
-								url  : "phpfn/busqueda.php",
+								url  : "/phpfn/busqueda.php",
 								data : {buscarLista : sear}
 						})
 					})*/
@@ -98,7 +98,7 @@ $sM = new stringManager();
 						{
 							var sear = $(this).children('.srchBxWrap').children('.genSrchTxt').val();
 							var sel = $('.selectCategory').val();
-							var url = 'lista/';
+							var url = '/lista/';
 							if(sel)
 							{
 								url = url + 'categoria/' + sel + '/';
@@ -125,11 +125,11 @@ $sM = new stringManager();
 					
 					?>
 					             
-						<a href="productos/nuevo" class="settMenuItm addItm <?php if(strpos($URL, 'productos/nuevo') === 0){ echo 'active'; } ?>">Publicar</a>
-			            <a href="productos/lista" class="settMenuItm itmLst <?php if(strpos($URL, 'productos/lista') === 0){ echo 'active'; } ?>">Inventario</a>
-			            <a href="tutienda/editar" class="settMenuItm usrStore <?php if(strpos($URL, 'tutienda/editar') === 0){ echo 'active'; } ?>">Editar Tienda</a>
-			            <a href="publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, 'publicidad') === 0 || strpos($URL, 'solicitud') === 0){ echo 'active'; } ?>">Publicidad</a>
-			            <a href="opciones" class="settMenuItm usrPrefs <?php if(strpos($URL, 'opciones') === 0){ echo 'active'; } ?>">Ajustes</a>
+						<a href="/productos/nuevo" class="settMenuItm addItm <?php if(strpos($URL, '/productos/nuevo') === 0){ echo 'active'; } ?>">Publicar</a>
+			            <a href="/productos/lista" class="settMenuItm itmLst <?php if(strpos($URL, '/productos/lista') === 0){ echo 'active'; } ?>">Inventario</a>
+			            <a href="/tutienda/editar" class="settMenuItm usrStore <?php if(strpos($URL, '/tutienda/editar') === 0){ echo 'active'; } ?>">Editar Tienda</a>
+			            <a href="/publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, '/publicidad') === 0 || strpos($URL, '/solicitud') === 0){ echo 'active'; } ?>">Publicidad</a>
+			            <a href="/opciones" class="settMenuItm usrPrefs <?php if(strpos($URL, '/opciones') === 0){ echo 'active'; } ?>">Ajustes</a>
 			            
 			        <?php
 			        
@@ -139,9 +139,9 @@ $sM = new stringManager();
 				
 			        ?>    
 			         
-			        <a href="cliente/fav" class="settMenuItm usrFavs <?php if(strpos($URL, 'cliente/fav') === 0){ echo 'active'; } ?>">Favoritos y Wishlist</a>
-					<a href="cliente/tienda" class="settMenuItm usrStore <?php if(strpos($URL, 'cliente/tienda') === 0){ echo 'active'; } ?>">Vender</a>
-					<a href="cliente/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, 'cliente/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a> 
+			        <a href="/cliente/fav" class="settMenuItm usrFavs <?php if(strpos($URL, '/cliente/fav') === 0){ echo 'active'; } ?>">Favoritos y Wishlist</a>
+					<a href="/cliente/tienda" class="settMenuItm usrStore <?php if(strpos($URL, '/cliente/tienda') === 0){ echo 'active'; } ?>">Vender</a>
+					<a href="/cliente/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, '/cliente/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a> 
 			            
 					<?php
 					
@@ -158,7 +158,7 @@ $sM = new stringManager();
 	                    if($session["autenticado"])
 						{
 							?>
-							<a class="hdLinks logoutBtn" href="phpfn/salir">Salir</a>
+							<a class="hdLinks logoutBtn" href="/phpfn/salir">Salir</a>
 							<?php
 						}
 	                    ?>

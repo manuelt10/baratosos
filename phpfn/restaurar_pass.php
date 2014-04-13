@@ -18,7 +18,7 @@ $to = $_POST["correo"];
 			<div class="container">
 				
 				<div class="body">
-					<span>Para reiniciar su contraseña, por favor entra a este <a href="http://tumall.dorestaurarpass.php?id='. md5($usuario->idusuario) .'&e='. md5($usuario->correo) .'&cd=' . md5($usuario->fecha_creacion) . '">link</a></span>
+					<span>Para reiniciar su contraseña, por favor entra a este <a href="http://tumall.do/restaurarpass.php?id='. md5($usuario->idusuario) .'&e='. md5($usuario->correo) .'&cd=' . md5($usuario->fecha_creacion) . '">link</a></span>
 				</div>
 			</div>
 		</body>

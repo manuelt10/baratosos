@@ -26,5 +26,5 @@ else {
 	$_SESSION["error"] = 1;
 	session_write_close();
 }
-header("location: http://tumall.doadministracion/ajustes");
+header("location: http://tumall.do/administracion/ajustes");
 ?>

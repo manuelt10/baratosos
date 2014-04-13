@@ -13,14 +13,14 @@ require_once('templates/headExtras.php');
 	$(document).ready(function () {
 	    // Handler for .ready() called.
 	    window.setTimeout(function () {
-	        location.href = "http://tumall.dohome";
+	        location.href = "http://tumall.do/home";
 	    }, 5000)
 	});
 </script>
 
 <div class="registerWrapp loginWrapp">
 	
-	<a href="home" class="regLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
+	<a href="/home" class="regLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 	
 	<h2 class="welcomMsg">Revise el Correo</h2>
 

@@ -10,7 +10,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 </div>
 <div class="settWrap manageCuponsWrap">
 <div class="listActionsWrap listSearchWrap">
-	<form method="post" action="http://tumall.docupones/add">
+	<form method="post" action="http://tumall.do/cupones/add">
 		<button type="submit" class="sendForm formActionBtn addCuponBtn">Agregar cupón</button>
 	</form>
 </div>
@@ -19,7 +19,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 	foreach($cupones->data as $c){
 	?>
 	<div class="itemDetWrapp fluidTransTw <? if($oddCnt%2==1){ echo "odd ";} echo $c->estatus == 1 ? "" : "inactive"; echo $c->aprobado == 0 ? "pendiente" : ""; $oddCnt++  ?>">
-		<a class="itmImageMask itmListMask"  href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
+		<a class="itmImageMask itmListMask"  href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
 			<?php 
 			$img = $db->selectRecord('cupon_galeria',NULL,Array('idcupon' => $c->idcupon),Array('principal' => 'desc'));
 			
@@ -42,7 +42,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 			if(!empty($img->data))
 			{
 			?>
-			<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
+			<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
 			<?php 
 			}
 			?>
@@ -50,7 +50,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 		
 		<div class="itmListDescrWrap">
 			
-			<h3><a class="itmListName transOn itmListDescr" href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
+			<h3><a class="itmListName transOn itmListDescr" href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
 			<span class="itmListID itmListDescr">ID: <?php echo $c->idcupon ?></span>
 			<span class="itmListDate itmListDescr inlined">El <?php 
 			$fecha_pub = date('d-m-Y', strtotime($c->dia_publicacion ));
@@ -96,7 +96,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 		<div class="itmListBtnWrapp">
 			<span class="openBtn"><i class="fa fa-chevron-right fluidTransTw"></i></span>
 			<a class="itmListBtn viewReservBtn editBtn" href="reservas/<?php echo $c->idcupon ?>">Reservas</a>
-			<a class="itmListBtn viewCouponBtn itmStatBtn" href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>">Ver cupón</a>
+			<a class="itmListBtn viewCouponBtn itmStatBtn" href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>">Ver cupón</a>
 		</div>
 		
 	</div>
@@ -117,7 +117,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 		{
 			?>
 			<div class="itemDetWrapp fluidTransTw <? if($oddCnt%2==1){ echo "odd";} echo $c->estatus == 1 ? "" : " inactive"; $oddCnt++  ?>">
-				<a class="itmImageMask itmListMask"  href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
+				<a class="itmImageMask itmListMask"  href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>">
 					<?php 
 					$img = $db->selectRecord('cupon_galeria',NULL,Array('idcupon' => $c->idcupon),Array('principal' => 'desc'));
 					
@@ -141,14 +141,14 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 					if(!empty($img->data))
 					{
 					?>
-					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
+					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/cupon/thumb150/<?php echo $img->data[0]->imagen; ?>">
 					<?php 
 					}
 					?>
 				</a>
 				
 				<div class="itmListDescrWrap">
-					<h3><a class="itmListName transOn itmListDescr" href="cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
+					<h3><a class="itmListName transOn itmListDescr" href="/cupon/<?php echo $link . '-' . $c->idcupon;  ?>"><?php echo $c->titulo ?></a></h3>
 					<span class="itmListID itmListDescr">ID: <?php echo $c->idcupon ?></span>
 					<span class="itmListDate itmListDescr inlined">El <?php 
 					$fecha_pub = date('d-m-Y', strtotime($c->dia_publicacion ));
@@ -221,7 +221,7 @@ $cupones = $db->selectRecord('cupones_aprobados_ac', NULL, Array('idusuario' => 
 		$(this).parents('.itemDetWrapp').remove();
 		$.ajax({
 			type : 'POST',
-			url : 'p/cup_func/rem_cupon.php',
+			url : '/p/cup_func/rem_cupon.php',
 			data :{idcupon : $(this).siblings('.idcup').val()}
 		});
 	})

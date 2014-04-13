@@ -6,7 +6,7 @@
 	<div class="tabNavWrap transTw">
 		<span class="tabItm optTab password active" data-tab="optPassSec">Contraseña</span>
 	</div>
-	<form class="optionForm tabWrap editOptionsSec transTw optPassSec" action="administracion/aju_func/change_pass.php" method="post"> 
+	<form class="optionForm tabWrap editOptionsSec transTw optPassSec" action="/administracion/aju_func/change_pass.php" method="post"> 
 			<legend class="settLegend">Modificar contraseña</legend>
 			<label class="settingLbl">Contraseña actual:</label>
 			<br/>

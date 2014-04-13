@@ -29,11 +29,11 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f 
 RewriteRule ^(.*)$ $1.php [NC,L]
 
-#RewriteRule ^productos/([0-9]+)/?$    productos?form=$1    [NC,L]    # Handle product requests
-RewriteRule ^productos/([A-Za-z0-9-]+)/?$    productos?form_name=$1    [NC,L]    # Process parrots
+#RewriteRule ^productos/([0-9]+)/?$   /baratosos/productos?form=$1    [NC,L]    # Handle product requests
+RewriteRule ^productos/([A-Za-z0-9-]+)/?$   /baratosos/productos?form_name=$1    [NC,L]    # Process parrots
 
 
 
-#RewriteRule ^index\.html http://tumall.dohome.php
+#RewriteRule ^index\.html http://tumall.do/home.php
 
 

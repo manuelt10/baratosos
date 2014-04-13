@@ -49,7 +49,7 @@ else
 		
 		$db->updateRecord('cupon_galeria',Array('idcupon' => $var->lastid),Array('idcupon' => NULL));
 		
-		header('Location: http://tumall.doadministracion/cupones');
+		header('Location: http://tumall.do/administracion/cupones');
 	}
 }
 

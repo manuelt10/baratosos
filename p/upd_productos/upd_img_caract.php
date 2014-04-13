@@ -97,7 +97,7 @@ if($session['autenticado'])
 		                    <div class="uplddImgWrap">
 								<input type="hidden" class="imageProductVal" value="<?php echo $imgs->imagen ?>">
 								<span class="itmImageMask">
-									<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
+									<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
 								</span>
 							</div>
 		                <?php
@@ -140,7 +140,7 @@ if($session['autenticado'])
 	                    <div class="uplddImgWrap">
 							<input type="hidden" name="imageProductVal" value="<?php echo $imgs->imagen ?>">
 							<span class="itmImageMask">
-								<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
+								<img class="imageCaractProducto itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
 							</span>
 						</div>
 	                <?php

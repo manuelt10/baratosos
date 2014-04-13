@@ -58,7 +58,7 @@ else
 		$db->deleteRecord('cupon_galeria',Array('eliminar' => 1, 'idcupon' => $_POST["idcupon"]));
 		
 		
-		header('Location: http://tumall.doadministracion/cupones');
+		header('Location: http://tumall.do/administracion/cupones');
 	}
 }
 ?>

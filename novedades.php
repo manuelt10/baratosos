@@ -43,7 +43,7 @@ if(!empty($anuncio[0]->image))
 {
 	?>
 	<div class="adTop ads">
-	<a href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+	<a href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 	</div>
 	<?php 
 }
@@ -65,7 +65,7 @@ if(!empty($anuncio[0]->image))
 						$link = strtolower($link);
 						$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 						?>
-						<a href="lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/"><?php echo $c1->descripcion ?></a>
+						<a href="/lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/"><?php echo $c1->descripcion ?></a>
 					</h3>
 						<?php
 				}
@@ -139,15 +139,15 @@ if(!empty($anuncio[0]->image))
 						$link = strtolower($link);
 						$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 						?>
-						<a href="<?php echo $link ?>-<?php echo $u->idusuario ?>/" class="hmFeatItm stores" style="background:url(
+						<a href="/<?php echo $link ?>-<?php echo $u->idusuario ?>/" class="hmFeatItm stores" style="background:url(
 							<?php 
 							if(!empty($u->banner1))
 							{
-								echo "'images/banners/cr/$u->banner1'";
+								echo "'/images/banners/cr/$u->banner1'";
 								
 							}
 							else {
-								echo 'images/resources/defaultBanner.png';								
+								echo '/images/resources/defaultBanner.png';								
 							}
 							?>
 							
@@ -159,13 +159,13 @@ if(!empty($anuncio[0]->image))
 								if(empty($u->imagen))
 								{
 									?>
-									<img src="images/resources/storePNG-100.png" >
+									<img src="/images/resources/storePNG-100.png" >
 									<?php
 									
 								}
 								else {
 									?>
-									<img src="images/profile/cr/<?php echo $u->imagen ?>" >
+									<img src="/images/profile/cr/<?php echo $u->imagen ?>" >
 									<?php	
 								}
 								?>
@@ -253,12 +253,12 @@ if(!empty($anuncio[0]->image))
 										<?php	
 									}
 									?>
-									<a class="imgMask" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
+									<a class="imgMask" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
 										<span class="maskMidle">
-											<img src="images/productos/thumb200/<?php echo $p->imagen ?>" >
+											<img src="/images/productos/thumb200/<?php echo $p->imagen ?>" >
 										</span>
 									</a>
-									<a class="featItmName" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
+									<a class="featItmName" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
 									<span class="featItmPric <?php echo $p->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $p->moneda ?>$ <?php echo number_format($p->enoferta == 1 ? $p->preciooferta : $p->precio,2,'.',',') ?>
 									</span>
 									
@@ -333,11 +333,11 @@ if(!empty($anuncio[0]->image))
 								$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 								?>
 								<div class="hmFeatItm articles">
-									<a class="featuredPreview itemPreview" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
-										<img src="images/productos/thumb150/<?php echo $p->imagen ?>" >
+									<a class="featuredPreview itemPreview" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
+										<img src="/images/productos/thumb150/<?php echo $p->imagen ?>" >
 										<i class="helper"></i>
 									</a>
-									<a class="ftItmName" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
+									<a class="ftItmName" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
 									<span class="featuredItemPrice <?php echo $p->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $p->moneda ?>$ <?php echo number_format($p->enoferta == 1 ? $p->preciooferta : $p->precio,2,'.',',') ?>
 									</span>
 									<?php 
@@ -373,7 +373,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -383,7 +383,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -393,7 +393,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>
@@ -436,25 +436,25 @@ if(!empty($anuncio[0]->image))
 				<?php	
 				}
 				?>
-				<a href="articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
+				<a href="/articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
 					<span class="maskMidle">
 							<?php 
 							if(empty($pO->imagen))
 							{
 							?>
-								<img src="http://tumall.doimages/NoImage.png" alt="No image" title="No image">
+								<img src="http://tumall.do/images/NoImage.png" alt="No image" title="No image">
 							<?php 
 							}
 							else
 							{
 							?>
-								<img src="images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
+								<img src="/images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
 							<?php 
 							}
 							?>
 					</span>
 				</a>
-				<a class="featItmName" href="articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
+				<a class="featItmName" href="/articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
 				<span class="featItmPric <?php echo $pO->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $pO->moneda ?>$ <?php echo number_format($pO->enoferta == 1 ? $pO->preciooferta : $pO->precio,2,'.',',') ?></span>
 			</div>
 			<?php

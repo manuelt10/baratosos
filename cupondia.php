@@ -59,13 +59,13 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 				if(!empty($imagenCupon->data[0]->imagen))
 				{
 					?>
-				<img src="images/cupon/<?php echo $imagenCupon->data[0]->imagen ?>" alt="<?php echo $cupon->data[0]->titulo; ?>" title="<?php echo $cupon->data[0]->titulo; ?>" />
+				<img src="/images/cupon/<?php echo $imagenCupon->data[0]->imagen ?>" alt="<?php echo $cupon->data[0]->titulo; ?>" title="<?php echo $cupon->data[0]->titulo; ?>" />
 					<?php 
 				}
 				
 				else{
 				?>
-					<img src="images/NoImage.png" alt="No image">
+					<img src="/images/NoImage.png" alt="No image">
 				<?php
 				}
 				?>			
@@ -93,7 +93,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 					
 					?> 
 						<div class="smallPrev <?php echo $smallImgCount == 0 ? "selectedItem" : "" ?>">
-							<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/cupon/thumb150/<?php echo $ic->imagen ?>" />
+							<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/cupon/thumb150/<?php echo $ic->imagen ?>" />
 						</div>
 					<?php
 					
@@ -155,7 +155,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 			if($usuario->idtipousuario == 1 and $dias->invert == 0)
 			{
 				?>
-				<form class="reserveCouponForm" method="post" action="phpfn/add_cupon_usr.php">
+				<form class="reserveCouponForm" method="post" action="/phpfn/add_cupon_usr.php">
 					<input type="number" min="1" max="<?php echo $cupon->data[0]->cantidad_compra  - $cupon_usr->rowcount; ?>" class="qtyBox couponQty transOn" value="1" name="cantidad_comprar" onkeypress="return isNumberKey(event)">
 					<input type="hidden" name="idCupon" value="<?php echo $cupon->data[0]->idcupon; ?>">
 					<button class="buyButton orderButton transOn actionBtn" type="button">Reservar cupón</button>
@@ -205,7 +205,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 				s=100
 				&p[url]=http%3A%2F%2Fwww%2Etumall%2Edo<?php echo $URL; ?>
 				&p[title]=<?php echo $cupon->data[0]->titulo; ?> en Tu Mall
-				&p[images][0]=http://www.tumall.doimages/cupon/<?php echo $imagenCupon->data[0]->imagen ?>
+				&p[images][0]=http://www.tumall.do/images/cupon/<?php echo $imagenCupon->data[0]->imagen ?>
 				&p[summary]=Paga $<?php echo number_format($cupon->data[0]->precio_oferta,2,'.',',') ; ?> en vez de 
 			$<?php echo number_format($cupon->data[0]->precio_normal,2,'.',','); ?>"
 			class="shareToBtn socialShare fbShareBtn transTw">
@@ -259,7 +259,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -269,7 +269,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -279,7 +279,7 @@ $cupon_reserv = $db->selectRecord('cupon_compras',NULL,Array('idcupon' => $cupon
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>
@@ -387,11 +387,11 @@ var days = parseInt($('.couponDays').text()),
 			$('.previewImage').removeClass('active');
 			
 			if($(this).hasClass('alt')){
-				$('.itemMainPrev img').attr('src', 'images/' + previewDir + '/' +previewSrc);
+				$('.itemMainPrev img').attr('src', '/images/' + previewDir + '/' +previewSrc);
 			}
 			
 			else{
-				$('.itemMainPrev img').attr('src', 'images/cupon/' +previewSrc);
+				$('.itemMainPrev img').attr('src', '/images/cupon/' +previewSrc);
 			}
 			
 	});
@@ -413,7 +413,7 @@ var days = parseInt($('.couponDays').text()),
 	    var  marker = new google.maps.Marker({
 	    position: position,
 	    map: map,
-	    icon : 'images/icono_tumall.png'
+	    icon : '/images/icono_tumall.png'
 	    }); 
 	    $('#cuponForm').append("<input type='hidden' name='position[]' class='mapPosition' value='"+ position +"'>");
 	    
@@ -435,7 +435,7 @@ var days = parseInt($('.couponDays').text()),
     		marker = new google.maps.Marker({
 		        position: new google.maps.LatLng(locations[i][0], locations[i][1]),
 		        map: map,
-		        icon : 'images/icono_tumall.png'
+		        icon : '/images/icono_tumall.png'
 		    });
 	     }    
         

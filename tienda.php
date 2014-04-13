@@ -168,7 +168,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 	{
 		?>
 		<div class="adTop ads">
-			<a href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+			<a href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 		</div>
 		<?php 
 	}
@@ -203,7 +203,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 						$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 					?>
 					<h3 class="resultsSubCategory">
-						<a href="<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/1/<?php echo $link . "-" . $c1->idcategoria1 ?>/
+						<a href="/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/1/<?php echo $link . "-" . $c1->idcategoria1 ?>/
 							<?php echo !empty($_GET["buscar"]) ? "" . $_GET["buscar"] . "/": "" ?>"><?php echo $c1->descripcion ?></a>
 					</h3>
 					<?php 
@@ -236,7 +236,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 							$link = strtolower($link);
 							$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 							?>
-							<li><h4><a href="<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/2/<?php echo $link . "-" . $c2->idcategoria2 ?>/
+							<li><h4><a href="/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/2/<?php echo $link . "-" . $c2->idcategoria2 ?>/
 								<?php echo !empty($_GET["buscar"]) ? "" . $_GET["buscar"] . "/": "" ?>"><?php echo $c2->descripcion ?></a></h4></li>
 							<?php
 						}
@@ -246,7 +246,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					}
 				}
 				?>
-				<a class="view-more" href="lista/">Ver otras categorías</a>
+				<a class="view-more" href="/lista/">Ver otras categorías</a>
 		</div>
 	</div><!-- close categoryFilterWrapper -->
 	
@@ -258,13 +258,13 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 			if(!empty($usuarioTienda->banner1))
 			{
 				?>
-				url('images/banners/cr/<?php echo $usuarioTienda->banner1 ?>');">
+				url('/images/banners/cr/<?php echo $usuarioTienda->banner1 ?>');">
 				<?php
 			}	
 			else{
 				?>
 					
-				url('images/resources/defaultBanner.png');">
+				url('/images/resources/defaultBanner.png');">
 					
 				<?php 
 			}
@@ -302,7 +302,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 							
 							$.ajax({
 								type : "POST",
-								url  : "phpfn/favorite_store.php",
+								url  : "/phpfn/favorite_store.php",
 								data : {idusuario : <?php echo $session["usuario"] ?>, idusuario_favorited : <?php echo $usuarioTienda->idusuario ?>}
 							}).done(function(html)
 							{
@@ -320,13 +320,13 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 				if(empty($usuarioTienda->imagen))
 				{
 					?>
-					images/resources/storePNG-100.png
+					/images/resources/storePNG-100.png
 					<?php
 				}
 				else
 				{
 					?>
-					images/profile/cr/<?php echo $usuarioTienda->imagen ?>
+					/images/profile/cr/<?php echo $usuarioTienda->imagen ?>
 					<?php	
 				}
 				
@@ -338,7 +338,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 			{
 				?>
 				<div class="sellerType">
-					<img src="images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
+					<img src="/images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
 				</div>
 				<?php
 			}
@@ -437,7 +437,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					var itemQ = $(this).html();
 					$.ajax({
 						type : "POST",
-						url : "phpfn/cantidaditems.php",
+						url : "/phpfn/cantidaditems.php",
 						data : {itemsQty : itemQ}
 					}).done(function()
 					{
@@ -469,7 +469,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 				var ord = $(this).val();
 				$.ajax({
 					type: "POST",
-					url : "phpfn/setorderby",
+					url : "/phpfn/setorderby",
 					data: {orderby : ord}
 				}).done(function(){
 					location.reload();
@@ -487,7 +487,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					var sear = $(this).children('.search').val();
 					
 					
-					var url = '<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/';
+					var url = '/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/';
 					if(sear)
 					{
 						url = url + '' + sear + '/';
@@ -527,25 +527,25 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					<?php	
 					}
 					?>
-					<a href="articulo/<?php echo $link."-".$pT->idproducto; ?>" class="itemImg">
+					<a href="/articulo/<?php echo $link."-".$pT->idproducto; ?>" class="itemImg">
 						<?php 
 						if(empty($pT->imagen))
 						{
 						?>
-							<img src="images/NoImage.png" alt="No image">
+							<img src="/images/NoImage.png" alt="No image">
 						<?php 
 						}
 						else
 						{
 						?>
-							<img src="images/productos/thumb400/<?php echo $pT->imagen ?>" alt="<?php echo $pT->nombre; ?>" title="<?php echo $pT->nombre; ?>">
+							<img src="/images/productos/thumb400/<?php echo $pT->imagen ?>" alt="<?php echo $pT->nombre; ?>" title="<?php echo $pT->nombre; ?>">
 						<?php 
 						}
 						
 						?>
 					</a>
 					<div class="itemDescrip">
-						<a href="articulo/<?php echo $link."-".$pT->idproducto; ?>" class="itemListName"><?php echo $pT->nombre; ?></a>
+						<a href="/articulo/<?php echo $link."-".$pT->idproducto; ?>" class="itemListName"><?php echo $pT->nombre; ?></a>
 						<br />
 						<span class="itemListPrice <?php echo $pT->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $pT->moneda ?>$ <?php echo $pT->enoferta == 1 ? number_format($pT->preciooferta,2,'.',',') : number_format($pT->precio,2,'.',',') ?></span>									
 					</div>
@@ -586,7 +586,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					else{
 						?>
 						
-						<a class="pageControl prevPage" href="<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
+						<a class="pageControl prevPage" href="/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
 									<?php echo !empty($_GET["categoria1"]) ? "1/" . $cat1 . "-" . $_GET["categoria1"] . "/": "" ?>
 									<?php echo !empty($_GET["categoria2"]) ? "2/" . $_GET["categoria2"] . "/": "" ?>
 									<?php echo !empty($_GET["buscar"]) ? "" . $_GET["buscar"] . "/": "" ?>
@@ -608,7 +608,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 						else
 							{
 								?>
-								<a class="toPage pageNumber" href="<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
+								<a class="toPage pageNumber" href="/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
 									<?php echo !empty($_GET["categoria1"]) ? "1/" . $cat1 . "-" . $_GET["categoria1"] . "/": "" ?>
 									<?php echo !empty($_GET["categoria2"]) ? "2/" . $_GET["categoria2"] . "/": "" ?>
 									<?php echo !empty($_GET["buscar"]) ? "" . $_GET["buscar"] . "/": "" ?>
@@ -632,7 +632,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 					else{
 						?>
 						
-						<a class="pageControl nextPage" href="<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
+						<a class="pageControl nextPage" href="/<?php echo $tienda_url ?>-<?php echo $_GET["id"] ?>/
 									<?php echo !empty($_GET["categoria1"]) ? "1/" . $cat1 . "-" . $_GET["categoria1"] . "/": "" ?>
 									<?php echo !empty($_GET["categoria2"]) ? "2/" . $_GET["categoria2"] . "/" : "" ?>
 									<?php echo !empty($_GET["buscar"]) ? "" . $_GET["buscar"] . "/" : "" ?>
@@ -670,7 +670,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -680,7 +680,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -690,7 +690,7 @@ $sql = "SELECT DISTINCT p.*,  i.imagen,  c.`estado`
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>

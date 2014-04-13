@@ -12,10 +12,10 @@ require_once('templates/headExtras.php');
 
 <div class="registerWrapp loginWrapp">
 
-	<a href="home" class="regLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
+	<a href="/home" class="regLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 	
-	<h2 class="welcomMsg">Bienvenido a Baratosos</h2>
-	<form method="post" class="registerForm login" action="phpfn/acceso">
+	<h2 class="welcomMsg">Bienvenido a tuMall</h2>
+	<form method="post" class="registerForm login" action="/phpfn/acceso">
 		<label class="fldLbl">Usuario: </label><input type="text" name="correo" class="txtField mailFld" placeholder="Correo electrónico">
 		<label class="fldLbl">Contraseña: </label><input type="password" name="contrasena" class="txtField passFld" placeholder="Contraseña">
 		<?php echo $session["error"]==1 ? '<span class="validation-label error-label ">Debe introducir correo y contraseña.</span>' : "" ?>
@@ -26,7 +26,7 @@ require_once('templates/headExtras.php');
 		<button type="submit" class="formActionBtn registerBtn">Ingresar</button>
 		
 	</form>
-	<a href="restaurar" class="loginHelpLinks">Olvidé mi contraseña</a>
+	<a href="/restaurar" class="loginHelpLinks">Olvidé mi contraseña</a>
 	<a href="registro" class="loginHelpLinks">¿No tienes una cuenta? <span class="underline">Crea una</span></a>
 </div>	
 

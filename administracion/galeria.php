@@ -4,12 +4,12 @@ $db = new mysqlManager();
 ?>
 <div>
 	
-	<script src="Scripts/jquery.form.img.js"></script>
+	<script src="/Scripts/jquery.form.img.js"></script>
 	
 	<span>
 		Las imagenes deben ser exactamente 700 pixeles de ancho y 300 pixeles de alto (700x300).
 	</span>
-	<form method="post" id="GalleryForm" action="administracion/gal_func/add_image.php" enctype="multipart/form-data">
+	<form method="post" id="GalleryForm" action="/administracion/gal_func/add_image.php" enctype="multipart/form-data">
 		<label>Agregar imagen</label>
 		<input type="file" name="image" class="imgupl">
 	</form>
@@ -21,7 +21,7 @@ $db = new mysqlManager();
 		{
 			?>
 			<div class="imageGallery">
-				<img class="galleryImage" src="images/galeria/thumb150/<?php echo $row->imagen ?>">
+				<img class="galleryImage" src="/images/galeria/thumb150/<?php echo $row->imagen ?>">
 				<label>Visible:</label> <input type="checkbox"  class="idgaleria" value="<?php echo $row->idgaleria ?>" <?php echo $row->activo == 1 ? "checked" : ""; ?>>
 				<input type="text" class="url" value="<?php echo $row->url ?>">
 				<input type="number" name="orden" class="orden" min="0" max="<?php echo $imagen->rowcount; ?>" value="<?php echo $row->orden ?>">
@@ -41,7 +41,7 @@ $db = new mysqlManager();
 		var ord = $(this).val();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/gal_func/mod_ord.php',
+			url : '/administracion/gal_func/mod_ord.php',
 			data : {idGaleria : id, orden : ord}
 		});
 	})
@@ -53,7 +53,7 @@ $db = new mysqlManager();
 		var ord = $(this).val();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/gal_func/mod_ord.php',
+			url : '/administracion/gal_func/mod_ord.php',
 			data : {idGaleria : id, orden : ord}
 		});
 	})
@@ -64,7 +64,7 @@ $db = new mysqlManager();
 		$(this).parents('.imageGallery').remove();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/gal_func/remove_image.php',
+			url : '/administracion/gal_func/remove_image.php',
 			data : {idGaleria : id}
 		});
 	})
@@ -76,7 +76,7 @@ $db = new mysqlManager();
 		var ur = $(this).val();
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/gal_func/mod_url.php',
+			url : '/administracion/gal_func/mod_url.php',
 			data : {idGaleria : id, url : ur}
 		});
 	})
@@ -111,7 +111,7 @@ $(document).ready(function() {
 		}
 		$.ajax({
 			type : 'POST',
-			url : 'administracion/gal_func/change_cup_stat.php',
+			url : '/administracion/gal_func/change_cup_stat.php',
 			data : {idGaleria : id, isch : i}
 		});
 		

@@ -63,13 +63,13 @@
 			
 			?>
 			<div class="faveItemWrap">
-				<a class="itmImageMask itmListMask" href="articulo/<?php echo $link."-".$pro->idproducto; ?>">
-					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $pro->imagen ?>">
+				<a class="itmImageMask itmListMask" href="/articulo/<?php echo $link."-".$pro->idproducto; ?>">
+					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $pro->imagen ?>">
 				</a>
 				<div class="faveItmDetails">
-					<a href="articulo/<?php echo $link."-".$pro->idproducto; ?>"><?php echo $pro->nombre ?></a>
+					<a href="/articulo/<?php echo $link."-".$pro->idproducto; ?>"><?php echo $pro->nombre ?></a>
 					<br />
-					<a class="favStoreName" href="<?php echo $link2. "-" . $pro->idusuario ?>"><?php echo $pro->nombretienda ?></a>
+					<a class="favStoreName" href="/<?php echo $link2. "-" . $pro->idusuario ?>"><?php echo $pro->nombretienda ?></a>
 				</div>
 				<input type="hidden" value="<?php echo $pro->idproducto ?>" class="producto_fav">
 				<button class="removeFav formActionBtn">Remover</button>
@@ -83,7 +83,7 @@
 				$(this).parent().remove();
 				$.ajax({
 					type : "POST",
-					url  : "phpfn/favorite_products.php",
+					url  : "/phpfn/favorite_products.php",
 					data : {idusuario : <?php echo $session["usuario"] ?>, idproducto : fpro}
 				})
 			})
@@ -154,14 +154,14 @@
 			
 			?>
 			<div class="faveItemWrap">
-				<a class="itmImageMask itmListMask" href="<?php echo $link . "-" . $usr->idusuario ?>"> 
+				<a class="itmImageMask itmListMask" href="/<?php echo $link . "-" . $usr->idusuario ?>"> 
 					
 					<?php 
 			    	if(!empty($usr->imagen))
 					{
 			    	?>
 					
-					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/profile/cr/<?php echo $usr->imagen ?>">
+					<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/profile/cr/<?php echo $usr->imagen ?>">
 					
 					<?php
 					
@@ -171,7 +171,7 @@
 					
 					?>
 					
-					<img src="images/resources/storePNG-100.png" alt="No user picture" width="65" height="65" />
+					<img src="/images/resources/storePNG-100.png" alt="No user picture" width="65" height="65" />
 					
 					<?php
 					
@@ -181,7 +181,7 @@
 					
 				</a>
 				<div class="faveItmDetails">
-					<a  class="favStoreName" href="<?php echo $link . "-" . $usr->idusuario ?>">
+					<a  class="favStoreName" href="/<?php echo $link . "-" . $usr->idusuario ?>">
 						<?php echo $usr->nombretienda ?>
 					</a>
 				</div>
@@ -198,7 +198,7 @@
 				$(this).parent().remove();
 				$.ajax({
 					type : "POST",
-					url  : "phpfn/favorite_store.php",
+					url  : "/phpfn/favorite_store.php",
 					data : {idusuario : <?php echo $session["usuario"] ?>, idusuario_favorited : fusr}
 				})
 			})
@@ -212,7 +212,7 @@
 	
 	?>
 
-	<p class="noContentMsg">Aún no has agregado ninguna tienda a tus favoritos, <a href="http://tumall.dotiendas">agrega algunas</a>!</p>
+	<p class="noContentMsg">Aún no has agregado ninguna tienda a tus favoritos, <a href="http://tumall.do/tiendas">agrega algunas</a>!</p>
 
 		
 	<?php

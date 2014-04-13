@@ -11,7 +11,7 @@ $query = $con->prepare('select * from imagencaracteristica where idcaracteristic
 ?>
 
 <div class="itemMainPrev">
-	<img src="images/c_prod/<?php echo $imagenC[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
+	<img src="/images/c_prod/<?php echo $imagenC[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
 </div>
 <div class="itemSmallerPrevWrapper">
 	<?php 
@@ -37,7 +37,7 @@ $query = $con->prepare('select * from imagencaracteristica where idcaracteristic
 	
 		?> 
 		<div class="smallPrev alt <?php echo $smallImgCount == 0 ? "selectedItem" : "" ?>">
-			<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/c_prod/thumb150/<?php echo $iC->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
+			<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/c_prod/thumb150/<?php echo $iC->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
 		</div>
 		<?php
 		$smallImgCount++;
@@ -55,7 +55,7 @@ else
 		$imagenproducto = $query->fetchAll(PDO::FETCH_OBJ);
 	?>
 	<div class="itemMainPrev">
-		<img src="images/productos/<?php echo $imagenproducto[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>" />
+		<img src="/images/productos/<?php echo $imagenproducto[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>" />
 	</div>
 	<div class="itemSmallerPrevWrapper">
 		<?php 
@@ -81,7 +81,7 @@ else
 		
 			?> 
 			<div class="smallPrev <?php echo $smallImgCount == 0 ? "selectedItem" : "" ?>">
-				<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $iP->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
+				<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $iP->imagen ?>" alt="<?php echo $producto->nombre ?>" title="<?php echo $producto->nombre ?>"/>
 			</div>
 			<?php
 			$smallImgCount++;

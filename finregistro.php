@@ -21,8 +21,8 @@ require_once('templates/headExtras.php');
 ?>
 
 <div class="sucessSignWrap">
-	<img class="succesLogo" src="images/logo-min-NS@2x.png" alt="Logo Tu Mall" title="Logo Tu Mall" width="250" />
-	<h1>Gracias por registrarte en Baratosos!</h1>
+	<img class="succesLogo" src="/images/logo-min-NS@2x.png" alt="Logo Tu Mall" title="Logo Tu Mall" width="250" />
+	<h1>Gracias por registrarte en Tu Mall!</h1>
 	<p class="successSignMsg">Ahora, revisa tu correo para finalizar el registro. Si no recibiste el correo, recuerda buscar en tu bandeja de "Spam" o "Junk".</p>
 </div>
 <?php 

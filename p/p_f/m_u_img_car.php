@@ -12,7 +12,7 @@ foreach($imagenes as $imgs)
 	?>
 	<div>
 		<input type="hidden" class="idImageCaractProductoVal" value="<?php echo $imgs->imagen ?>">
-		<img class="imageCaractProducto" src="images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
+		<img class="imageCaractProducto" src="/images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
 	</div>
 	<?php
 }

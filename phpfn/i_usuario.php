@@ -66,29 +66,26 @@ else
 {
     if($_POST["tipoUsuario"] == 2)
     {
-		$query = $con->prepare('insert into usuario(`nombre`,`correo`,`nombretienda`,`contrasena`,`idtipousuario`,`telefono1`) values (?,?,?,?,?,?)');
-		$query->bindValue(1,$_POST["nombre"]);
-		$query->bindValue(2,$_POST["correo"]);
-	    $query->bindValue(3,$_POST["nombre"]);
-		$query->bindValue(4,md5($_POST["contra1"]));
-	    $query->bindValue(5,2,PDO::PARAM_INT);
-	    $query->bindValue(6,$_POST["telefono"]);
+	$query = $con->prepare('insert into usuario(`nombre`,`correo`,`nombretienda`,`contrasena`,`idtipousuario`,`telefono1`) values (?,?,?,?,?,?)');
+	$query->bindValue(1,$_POST["nombre"]);
+	$query->bindValue(2,$_POST["correo"]);
+        $query->bindValue(3,$_POST["nombre"]);
+	$query->bindValue(4,md5($_POST["contra1"]));
+        $query->bindValue(5,2,PDO::PARAM_INT);
+        $query->bindValue(6,$_POST["telefono"]);
     }
     else
     {
-        $query = $con->prepare('insert into usuario(`nombre`,`correo`,`nombretienda`,`contrasena`,`idtipousuario`,`telefono1`) values (?,?,?,?,?,?)');
-		$query->bindValue(1,$_POST["nombre"]);
-		$query->bindValue(2,$_POST["correo"]);
-	    $query->bindValue(3,$_POST["nombre"]);
-		$query->bindValue(4,md5($_POST["contra1"]));
-	    $query->bindValue(5,2,PDO::PARAM_INT);
-	    $query->bindValue(6,$_POST["telefono"]);
+        $query = $con->prepare('insert into usuario(`nombre`,`correo`,`contrasena`) values (?,?,?)');
+	$query->bindValue(1,$_POST["nombre"]);
+	$query->bindValue(2,$_POST["correo"]);
+	$query->bindValue(3,md5($_POST["contra1"]));
     }
 	$query->execute();
 	$lastid = $con->lastInsertId();
 	
 	$to = $_POST["correo"];
-	$subject = 'Bienvenido a Baratosos!'; 
+	$subject = 'Bienvenido a TuMall!'; 
 	$message = '
 		<html>
 		<head>
@@ -97,7 +94,7 @@ else
 			<div class="container">
 				
 				<div class="body">
-					<span>Para finalizar el registro de usuario, por favor entra a este <a href="http://baratosos.com/phpfn/activar_usr.php?id='. md5($lastid) .'">link</a></span>
+					<span>Para finalizar el registro de usuario, por favor entra a este <a href="http://tumall.do/phpfn/activar_usr.php?id='. md5($lastid) .'">link</a></span>
 				</div>
 			</div>
 		</body>
@@ -106,7 +103,7 @@ else
 		
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-	$headers .= 'From: Baratosos <no-reply@baratosos.com>' .  "\r\n";
+	$headers .= 'From: TuMall <no-reply@tumall.do>' .  "\r\n";
 	mail($to,$subject,$message,$headers);
 	
         header("location: ../finregistro");

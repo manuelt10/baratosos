@@ -5,9 +5,9 @@
 
 <div class="settWrap recAdvWrapp certificates ">
 
-	<a class="tabItm requestTabs certTab active" href="administracion/solicitudes">Certificados</a>
-	<a class="tabItm requestTabs advertTab" href="administracion/solicitudes1">Publicidad</a>
-	<a class="tabItm requestTabs offerTab" href="administracion/solicitudes2">Oferta</a>
+	<a class="tabItm requestTabs certTab active" href="/administracion/solicitudes">Certificados</a>
+	<a class="tabItm requestTabs advertTab" href="/administracion/solicitudes1">Publicidad</a>
+	<a class="tabItm requestTabs offerTab" href="/administracion/solicitudes2">Oferta</a>
 	
 	<?php 
 	$count_cert = 3;
@@ -45,10 +45,10 @@
 				{
 					echo $pagecert == 1 ? 1 : (($pagecert-1)*$count_cert)+1 ?> al <?php echo $pagecert == $total_pages ? $total : ($pagecert*$count_cert) ?> de <span><?php echo $total; ?></span>
 							
-						<a <?php echo $pagecert > 1 ? "href='http://tumall.doadministracion/solicitudes/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
+						<a <?php echo $pagecert > 1 ? "href='http://tumall.do/administracion/solicitudes/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
 		
 		
-						<a <?php echo $pagecert < $total_pages ? "href='http://tumall.doadministracion/solicitudes/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
+						<a <?php echo $pagecert < $total_pages ? "href='http://tumall.do/administracion/solicitudes/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
 							
 				<?		
 					
@@ -68,7 +68,7 @@
 		?> 
 		<div class="advDet <? if($oddCnt%2==1){ echo "odd";} $oddCnt++  ?>">
 			<span class="advListDetItem advListItm advID"><span class="helpText">ID: </span><?php echo $c->idcertificacion; ?></span>
-			<a href="administracion/certificado/<?php echo $c->idcertificacion ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo substr($c->texto,0,15); ?></a>
+			<a href="/administracion/certificado/<?php echo $c->idcertificacion ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo substr($c->texto,0,15); ?></a>
 			<span class="advListDetItem advListItm advStatus"><span class="helpText">Status: </span><?php 
 					if($c->estado == 'E')
 					{

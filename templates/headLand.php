@@ -8,7 +8,7 @@
 
 <meta name="HandheldFriendly" content="true" />
 
-<title>Baratosos - Lo que buscas, mucho mas barato</title>
+<title>Tu Mall</title>
 
 <link rel="shortcut icon" href="favicon.png" />
 
@@ -37,10 +37,10 @@
 	<div id="container" class="landing">
 		<div id="header">
 			<div class="quickLinksWrap">
-				<a class="quickLink" href="http://tumall.doregistro">Vende en Tu Mall</a>
-				<a class="quickLink" href="http://tumall.donovedades">Novedades</a>
-				<a class="quickLink" href="http://tumall.doFAQ">Ayuda</a>
-				<a class="quickLink" href="http://tumall.dotiendas">Lista de tiendas</a>
+				<a class="quickLink" href="http://tumall.do/registro">Vende en Tu Mall</a>
+				<a class="quickLink" href="http://tumall.do/novedades">Novedades</a>
+				<a class="quickLink" href="http://tumall.do/FAQ">Ayuda</a>
+				<a class="quickLink" href="http://tumall.do/tiendas">Lista de tiendas</a>
 			</div>
 			<div class="headerCenter transTw">
 				
@@ -53,38 +53,38 @@
 						if($usuario->idtipousuario == 3)
 						{
 							?>
-							<a class="hdLinks" href="administracion/usuarios">Administrar</a>
+							<a class="hdLinks" href="/administracion/usuarios">Administrar</a>
 							<?php
 						}
 						else if($usuario->idtipousuario == 2)
 						{
 							?>
 							<a class="hdLinks" href="<?php 
-	                                        echo $session["autenticado"] ? "productos/lista/" : "accesar";
+	                                        echo $session["autenticado"] ? "/productos/lista/" : "/accesar";
 	                                        ?>">Mi cuenta</a>
 							<a class="hdLinks" href="
-	                                           <?php echo $session["autenticado"] ? "productos/nuevo/" : "accesar";
+	                                           <?php echo $session["autenticado"] ? "/productos/nuevo/" : "/accesar";
 	                                        ?>">Publicar</a>
 							<?php
 						}
 						else if($usuario->idtipousuario == 1)
 						{
 							?>
-							<a class="hdLinks" href="cliente/fav">Mi cuenta</a>
+							<a class="hdLinks" href="/cliente/fav">Mi cuenta</a>
 							<?php
 						}
 						else
 							{
 								?>
 								<a class="hdLinks loginBtn" href="<?php 
-		                                        echo $session["autenticado"] ? "productos/lista/" : "accesar";
+		                                        echo $session["autenticado"] ? "/productos/lista/" : "/accesar";
 		                                        ?>">Login/Registro</a>
 								<?php
 							}
 	                    if($session["autenticado"])
 						{
 							?>
-							<a class="hdLinks logoutBtn" href="phpfn/salir">Salir</a>
+							<a class="hdLinks logoutBtn" href="/phpfn/salir">Salir</a>
 							<?php
 						}
 	                    ?>

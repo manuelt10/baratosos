@@ -35,7 +35,7 @@ if($session['autenticado'] and !empty($_POST["titulo"]) and !empty($_POST["descr
 					$query->bindValue(7,"E");
 					$query->bindValue(8,$_POST["link"]);
 			        $query->execute();
-					header("location: http://tumall.dopublicidad");
+					header("location: http://tumall.do/publicidad");
 				}
 				else {
 					session_start();
@@ -75,7 +75,7 @@ if($session['autenticado'] and !empty($_POST["titulo"]) and !empty($_POST["descr
 			$query->bindValue(7,"E");
 			$query->bindValue(8,$_POST["link"]);
 			$query->execute();
-			header("location: http://tumall.dopublicidad");
+			header("location: http://tumall.do/publicidad");
 		}
 }
 else {

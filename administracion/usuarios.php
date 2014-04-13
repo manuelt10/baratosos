@@ -47,7 +47,7 @@ $oddCnt = 0;
 	<h2 class="settHead">Administrar usuarios</h2>
 </div>
 
-	<a class="view-report-btn setting-extra-btn" href="administracion/rep/users.php">Reporte de Tiendas</a>
+	<a class="view-report-btn setting-extra-btn" href="/administracion/rep/users.php">Reporte de Tiendas</a>
 
 <div class="settWrap userWrapper">
 	<div class="listActionsWrap listSearchWrap group">
@@ -74,10 +74,10 @@ $oddCnt = 0;
 				{
 					echo $page == 1 ? 1 : (($page-1)*$page_size)+1 ?> al <?php echo $page == $total_pages ? $total : ($page*$page_size) ?> de <span><?php echo $total; ?></span>
 							
-						<a <?php echo $page > 1 ? "href='administracion/usuarios/page/$prevPage/'" : "" ?> class="pageCtrls prevPage <?php echo $page > 1 ? "active" : "inactive" ?>"><i class="fa fa-angle-left transOn"></i></a>
+						<a <?php echo $page > 1 ? "href='/administracion/usuarios/page/$prevPage/'" : "" ?> class="pageCtrls prevPage <?php echo $page > 1 ? "active" : "inactive" ?>"><i class="fa fa-angle-left transOn"></i></a>
 		
 		
-						<a <?php echo $page < $total_pages ? "href='administracion/usuarios/page/$nextPage/'" : "" ?> class="pageCtrls nextPage <?php echo $page < $total_pages ? "active" : "inactive" ?>"><i class="fa fa-angle-right transOn"></i></a>
+						<a <?php echo $page < $total_pages ? "href='/administracion/usuarios/page/$nextPage/'" : "" ?> class="pageCtrls nextPage <?php echo $page < $total_pages ? "active" : "inactive" ?>"><i class="fa fa-angle-right transOn"></i></a>
 							
 				<?		
 					
@@ -120,7 +120,7 @@ foreach($usuarioAdm as $uA)
 	{
 	?>
 		<span class="itmImageMask itmListMask usrImageMask">
-			<img class="itmListImg itmImage" style="left:-<?php echo $leftPos; ?>px;" width="<?php echo $width; ?>" height="<?php echo $baseDimm; ?>" src="images/profile/cr/<?php echo $uA->imagen ?>">
+			<img class="itmListImg itmImage" style="left:-<?php echo $leftPos; ?>px;" width="<?php echo $width; ?>" height="<?php echo $baseDimm; ?>" src="/images/profile/cr/<?php echo $uA->imagen ?>">
 		</span>
 	<?php 
 	}
@@ -129,7 +129,7 @@ foreach($usuarioAdm as $uA)
 		?>
 		<span class="itmImageMask usrImageMask transOn itmListMask noImg">
 		
-			<img src="images/resources/<?php echo $tipoUsr->idtipousuario == 2 ? "storePNG" : "userPNG" ?>-100.png" alt="No user picture" width="85" height="85" />
+			<img src="/images/resources/<?php echo $tipoUsr->idtipousuario == 2 ? "storePNG" : "userPNG" ?>-100.png" alt="No user picture" width="85" height="85" />
 		
 		</span>
 		<?php
@@ -149,7 +149,7 @@ foreach($usuarioAdm as $uA)
 			<?php if($tipoUsr->idtipousuario == 2 ){ 
 				
 			?>
-				<a class="itmListBtn viewListBtn" href="administracion/usr/<?php echo $uA->idusuario; ?>">Ver Artículos</a>
+				<a class="itmListBtn viewListBtn" href="/administracion/usr/<?php echo $uA->idusuario; ?>">Ver Artículos</a>
 			
 			<?php
 			 } 
@@ -169,7 +169,7 @@ $('.removeSrchBtn').click(function()
 	var srh = $(this).siblings('.listSrchField').val();
 	$.ajax({
 		type : "POST",
-		url : "administracion/usu_func/reset_srh.php"
+		url : "/administracion/usu_func/reset_srh.php"
 	}).done(function(){
 		location.reload();
 	})
@@ -184,7 +184,7 @@ $('.listSearchBtn').click(function()
 	var typ = $(this).siblings('.usrTypeSelect').val();
 	$.ajax({
 		type : "POST",
-		url : "administracion/usu_func/set_search.php",
+		url : "/administracion/usu_func/set_search.php",
 		data : {searchUsr : srh, userType : typ}
 	}).done(function(){
 		location.reload();
@@ -230,7 +230,7 @@ $('.listSearchBtn').click(function()
 		var idusuario = $(this).siblings('.idusuario').val();
 		$.ajax({
 			type : "POST",
-			url : "administracion/usu_func/ban_user.php",
+			url : "/administracion/usu_func/ban_user.php",
 			data : {usr : idusuario}
 		})
 	})

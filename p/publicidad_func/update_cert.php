@@ -15,5 +15,5 @@ if($session["autenticado"] and !empty($_POST["certificadoTienda"]))
 	$query->execute();
 	
 }
-header('location: http://tumall.dopublicidad/')
+header('location: http://tumall.do/publicidad/')
 ?>

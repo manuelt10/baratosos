@@ -1,7 +1,7 @@
 <?php
 if($usuario->idtipousuario == 3)
 {
-	header("location: http://tumall.doadministracion/solicitudes ");
+	header("location: http://tumall.do/administracion/solicitudes ");
 }
 ?>
 
@@ -16,7 +16,7 @@ if($usuario->idtipousuario == 3)
 		<span class="tabItm optTab password" data-tab="optPassSec">Contraseña</span>
 		<span class="tabItm optTab suspend" data-tab="optSuspendSec">Suspender cuenta</span>
 	</div>
-	<form class="optionForm tabWrap editOptionsSec transTw optInfoSec" action="p/opciones_func/update_name_phone.php" method="post">
+	<form class="optionForm tabWrap editOptionsSec transTw optInfoSec" action="/p/opciones_func/update_name_phone.php" method="post">
 		<legend class="settLegend">Información</legend>
 		
 		<label class="settingLbl">Nombre y apellidos:</label>
@@ -39,7 +39,7 @@ if($usuario->idtipousuario == 3)
 			<button type="submit" class="sendForm formActionBtn transTw">Guardar cambios</button>
 		</div>
 	</form>
-	<form class="optionForm tabWrap editOptionsSec transTw optEmailSec hidden" action="p/opciones_func/change_mail.php" method="post">
+	<form class="optionForm tabWrap editOptionsSec transTw optEmailSec hidden" action="/p/opciones_func/change_mail.php" method="post">
 		<legend class="settLegend">Cambiar correo</legend>
 		
 		<div class="infoBox opts-InfoBox transTw">
@@ -58,7 +58,7 @@ if($usuario->idtipousuario == 3)
 			<button type="submit" class="sendForm formActionBtn transTw">Cambiar correo</button>
 		</div>
 	</form>
-	<form class="optionForm tabWrap editOptionsSec transTw optPassSec hidden" action="p/opciones_func/change_pass.php" method="post"> 
+	<form class="optionForm tabWrap editOptionsSec transTw optPassSec hidden" action="/p/opciones_func/change_pass.php" method="post"> 
 		<legend class="settLegend">Modificar contraseña</legend>
 		<label class="settingLbl">Contraseña actual:</label>
 		<br/>
@@ -80,7 +80,7 @@ if($usuario->idtipousuario == 3)
 			<button type="submit" class="sendForm formActionBtn transTw">Cambiar contraseña</button>
 		</div>
 	</form> 
-	<form class="tabWrap editOptionsSec transTw optSuspendSec hidden" action="p/opciones_func/suspend_user.php" method="post">
+	<form class="tabWrap editOptionsSec transTw optSuspendSec hidden" action="/p/opciones_func/suspend_user.php" method="post">
 		<legend class="settLegend">Suspender cuenta</legend>
 		
 		<div class="infoBox opts-InfoBox transTw">
@@ -100,7 +100,7 @@ if($usuario->idtipousuario == 3)
 	</form>
 </div>
 
-<script src='Scripts/jquery.form.min.js'></script>
+<script src='/Scripts/jquery.form.min.js'></script>
 
 <script>
 	$('.suspendUser').click(function()
@@ -123,7 +123,7 @@ if($usuario->idtipousuario == 3)
 		var cor = $(this).val();
 		$.ajax({
 			type: "POST",
-			url : "phpfn/verify_mail.php",
+			url : "/phpfn/verify_mail.php",
 			data: {correo : cor}
 		}).done(function(html)
 		{

@@ -52,7 +52,7 @@ if($session['autenticado'] and !empty($_POST["titulo"]) and !empty($_POST["descr
 						}
 					}
 					
-					header("location: http://tumall.dopublicidad");
+					header("location: http://tumall.do/publicidad");
 				}
 				else {
 					session_start();
@@ -108,7 +108,7 @@ if($session['autenticado'] and !empty($_POST["titulo"]) and !empty($_POST["descr
 						}
 					}
 			
-			header("location: http://tumall.dopublicidad");
+			header("location: http://tumall.do/publicidad");
 		}
 }
 else {

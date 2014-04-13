@@ -98,7 +98,7 @@ if(($width >= 400) and ($height >= 400))
                 <div class="uplddImgWrap">
                 	<input type="hidden" class="imageProductVal" value="<?php echo $imgs->img_temporales ?>">
                 	<span class="itmImageMask imageDefaultMask">
-                    	<img class="imageProduct imageDefault itmImage" <?php if($heightO > $widthO){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
+                    	<img class="imageProduct imageDefault itmImage" <?php if($heightO > $widthO){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
                 	</span>
                 </div>
                 
@@ -142,7 +142,7 @@ else
             <div class="uplddImgWrap">
             	<input type="hidden" class="imageProductVal" value="<?php echo $imgs->img_temporales ?>">
             	<span class="itmImageMask imageDefaultMask">
-                	<img class="imageProduct imageDefault itmImage" <?php if($heightO > $widthO){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
+                	<img class="imageProduct imageDefault itmImage" <?php if($heightO > $widthO){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $imgs->img_temporales ?>">
             	</span>
             </div>
             

@@ -34,25 +34,25 @@
 				<?php	
 				}
 				?>
-				<a href="articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
+				<a href="/articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
 					<span class="maskMidle">
 							<?php 
 							if(empty($pO->imagen))
 							{
 							?>
-								<img src="http://tumall.doimages/NoImage.png" alt="No image" title="No image">
+								<img src="http://tumall.do/images/NoImage.png" alt="No image" title="No image">
 							<?php 
 							}
 							else
 							{
 							?>
-								<img src="images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
+								<img src="/images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
 							<?php 
 							}
 							?>
 					</span>
 				</a>
-				<a class="featItmName" href="articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
+				<a class="featItmName" href="/articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
 				<span class="featItmPric <?php echo $pO->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $pO->moneda ?>$ <?php echo number_format($pO->enoferta == 1 ? $pO->preciooferta : $pO->precio,2,'.',',') ?></span>
 			</div>
 			<?php

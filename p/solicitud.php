@@ -1,7 +1,7 @@
 <?php 
 if($usuario->idtipousuario == 3)
 {
-	header("location: http://tumall.doadministracion/solicitudes ");
+	header("location: http://tumall.do/administracion/solicitudes ");
 }
 
 ?>
@@ -48,21 +48,21 @@ $('.selectFormType').change(function(){
 
 	if (formType == 1)
 	{
-		$('.requestForm').attr("action", "p/publicidad_func/update_cert.php");
+		$('.requestForm').attr("action", "/p/publicidad_func/update_cert.php");
 	}
 	else if (formType == 2)
 	{
-		$('.requestForm').attr("action", "p/publicidad_func/update_adver.php");
+		$('.requestForm').attr("action", "/p/publicidad_func/update_adver.php");
 	}
 	else if (formType == 3)
 	{
-		$('.requestForm').attr("action", "p/publicidad_func/update_offer.php");
+		$('.requestForm').attr("action", "/p/publicidad_func/update_offer.php");
 	}
 	
 	if (formType >= 1){
 		$.ajax({
 			type : "POST",
-			url : "p/publicidad_func/get_form.php",
+			url : "/p/publicidad_func/get_form.php",
 			data: {form : formType}
 		}).done(function(html)
 		{

@@ -14,7 +14,7 @@ if($session["autenticado"])
     $query->execute();
 	$lastid = $con->lastInsertId();
 	?>
-	<form method="post" class="caracteristica xtraCharacDetail characDetail hidden transTw" action="p/upd_productos/upd_img_caract.php">
+	<form method="post" class="caracteristica xtraCharacDetail characDetail hidden transTw" action="/p/upd_productos/upd_img_caract.php">
     	<!-- <label class="settingLbl itmsLbl">Color:</label> -->
     	<input type="text" class="caracteristica txtField itmTxtFld" value="<?php echo $_POST["descripcion"] ?>">
     	<input type="hidden" name="idproducto" value="<?php echo $_POST["prod"] ?>">

@@ -15,7 +15,7 @@ if($session['autenticado'])
 
 		<div class="printWrap">
 
-			<a href="home" class="regLogo"><img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
+			<a href="/home" class="regLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 			<h2 class="welcomMsg">Cupones Tu Mall</h2>
 			
 			<h3 class="mainHeading">Datos del Cupón</h3>	

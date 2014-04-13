@@ -16,9 +16,9 @@ $sM = new stringManager();
 
 <meta name="HandheldFriendly" content="true" />
 
-<title>Baratosos - Lo que buscas, mucho mas barato</title>
+<title>Tu Mall</title>
 
-<link rel="shortcut icon" href="favicon.png" />
+<link rel="shortcut icon" href="/favicon.png" />
 
 <link rel="stylesheet" href="style/style-main.css" type="text/css"/>
 <link rel="stylesheet" href="style/style-general.css" type="text/css"/>
@@ -48,10 +48,10 @@ $sM = new stringManager();
 	<div id="container">
 		<div id="header">
 			<div class="quickLinksWrap">
-				<a class="quickLink" href="http://tumall.donovedades">Novedades</a>
-				<a class="quickLink" href="http://tumall.docontacto">Contactos</a>
-				<a class="quickLink" href="http://tumall.doFAQ">Ayuda</a>
-				<a class="quickLink" href="http://tumall.dotiendas">Lista de tiendas</a>
+				<a class="quickLink" href="http://tumall.do/novedades">Novedades</a>
+				<a class="quickLink" href="http://tumall.do/contacto">Contactos</a>
+				<a class="quickLink" href="http://tumall.do/FAQ">Ayuda</a>
+				<a class="quickLink" href="http://tumall.do/tiendas">Lista de tiendas</a>
 			</div>
 			<div class="headerCenter transTw">
 				
@@ -59,9 +59,9 @@ $sM = new stringManager();
 				
 				<div class="logoWrap">
 					<h1 class="mainLogo">
-						<a href="home" >
+						<a href="/home" >
 							Tu Mall
-							<img src="images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" />
+							<img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" />
 						</a>
 					</h1>
 					
@@ -104,7 +104,7 @@ $sM = new stringManager();
 						{
 							var sear = $(this).children('.srchBxWrap').children('.genSrchTxt').val();
 							var sel = $('.selectCategory').val();
-							var url = 'lista/';
+							var url = '/lista/';
 							if(sel)
 							{
 								url = url + 'categoria/' + sel + '/';
@@ -123,31 +123,31 @@ $sM = new stringManager();
 						if($usuario->idtipousuario == 3)
 						{
 							?>
-							<a class="hdLinks" href="administracion/usuarios">Administrar</a>
+							<a class="hdLinks" href="/administracion/usuarios">Administrar</a>
 							<?php
 						}
 						else if($usuario->idtipousuario == 2)
 						{
 							?>
 							<a class="hdLinks" href="<?php 
-	                                        echo $session["autenticado"] ? "productos/lista/" : "accesar";
+	                                        echo $session["autenticado"] ? "/productos/lista/" : "/accesar";
 	                                        ?>">Mi cuenta</a>
 							<a class="hdLinks" href="
-	                                           <?php echo $session["autenticado"] ? "productos/nuevo/" : "accesar";
+	                                           <?php echo $session["autenticado"] ? "/productos/nuevo/" : "/accesar";
 	                                        ?>">Publicar</a>
 							<?php
 						}
 						else if($usuario->idtipousuario == 1)
 						{
 							?>
-							<a class="hdLinks" href="cliente/fav">Mi cuenta</a>
+							<a class="hdLinks" href="/cliente/fav">Mi cuenta</a>
 							<?php
 						}
 						else
 							{
 								?>
 								<a class="hdLinks loginBtn" href="<?php 
-		                                        echo $session["autenticado"] ? "productos/lista/" : "accesar";
+		                                        echo $session["autenticado"] ? "/productos/lista/" : "/accesar";
 		                                        ?>">Login/Registro</a>
 								
 								<?php
@@ -155,7 +155,7 @@ $sM = new stringManager();
 	                    if($session["autenticado"])
 						{
 							?>
-							<a class="hdLinks logoutBtn" href="phpfn/salir">Salir</a>
+							<a class="hdLinks logoutBtn" href="/phpfn/salir">Salir</a>
 							<?php
 						}
 	                    ?>

@@ -1,7 +1,7 @@
 <?php 
 if($usuario->idtipousuario == 3)
 {
-	header("location: http://tumall.doadministracion/solicitudes ");
+	header("location: http://tumall.do/administracion/solicitudes ");
 }
 ?>
 <div class="topBar">
@@ -10,7 +10,7 @@ if($usuario->idtipousuario == 3)
 
 
 <div class="settWrap sentAdvWrapp">
-	<form method="post" action="solicitud"><button class="formActionBtn transTw addAdvbtn" type="submit">Agregar Solicitud</button></form>
+	<form method="post" action="/solicitud"><button class="formActionBtn transTw addAdvbtn" type="submit">Agregar Solicitud</button></form>
 	
 	<div class="advListBlock certificates">
 		<legend class="advListTitle">Certificados</legend>
@@ -173,7 +173,7 @@ if($usuario->idtipousuario == 3)
 				if($p->estado == 'C')
 				{
 					?>
-					<form method="POST" action="p/publicidad_func/ren_publicidad.php">
+					<form method="POST" action="/p/publicidad_func/ren_publicidad.php">
 						<input type="hidden" value="1" class="type" name="type">
 						<input type="hidden" value="<?php echo $p->idofertas ?>" class="id" name="id">
 						<button type="submit">Renovar</button>
@@ -281,7 +281,7 @@ if($usuario->idtipousuario == 3)
 				if($p->estado == 'C')
 				{
 					?>
-					<form method="POST" action="p/publicidad_func/ren_publicidad.php">
+					<form method="POST" action="/p/publicidad_func/ren_publicidad.php">
 						<input type="hidden" value="1" class="type" name="type">
 						<input type="hidden" value="<?php echo $p->idofertas ?>" class="id" name="id">
 						<button type="submit">Renovar</button>
@@ -316,7 +316,7 @@ if($usuario->idtipousuario == 3)
 		$(this).parents('.advDet').remove();
 		$.ajax({
 			type: "POST",
-			url: "p/publicidad_func/rem_publicidad.php",
+			url: "/p/publicidad_func/rem_publicidad.php",
 			data: {type : typeA, id : idA}
 		})
 	})

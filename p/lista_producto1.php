@@ -72,7 +72,7 @@ if(!empty($_GET["id"]))
 		$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 	
 	?>
-		<a class="go-store-btn setting-extra-btn" href="<?php echo $link . "-" . $usr2->idusuario ?>/">Ir a tienda</a>
+		<a class="go-store-btn setting-extra-btn" href="/<?php echo $link . "-" . $usr2->idusuario ?>/">Ir a tienda</a>
 	<?php 
 	}
 else
@@ -85,7 +85,7 @@ else
 		$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 	
 	?>
-		<a class="go-store-btn setting-extra-btn" href="<?php echo $link . "-" . $usuario->idusuario ?>/">Ir a tienda</a>
+		<a class="go-store-btn setting-extra-btn" href="/<?php echo $link . "-" . $usuario->idusuario ?>/">Ir a tienda</a>
 					
 	<?php 
 	}
@@ -107,11 +107,11 @@ else
 		if(!empty($_GET["id"]))
 		{
 			$i = $_GET["id"];
-			$url = "href='http://tumall.doadministracion/usr/$i";
+			$url = "href='http://tumall.do/administracion/usr/$i";
 		}
 		else
 			{
-				$url= "href='http://tumall.doproductos/lista/";
+				$url= "href='http://tumall.do/productos/lista/";
 			}
 		?>
 		<div class="settingsPagination">
@@ -137,7 +137,7 @@ else
 if(count($producto) == 0)
 {
 	?>
-	<p class="noContentMsg">Aún no has publicado artículos, <a href="http://tumall.doproductos/nuevo">agrega algunos</a>!</p>
+	<p class="noContentMsg">Aún no has publicado artículos, <a href="http://tumall.do/productos/nuevo">agrega algunos</a>!</p>
 	<?php
 }
 foreach($producto as $pd)
@@ -171,7 +171,7 @@ foreach($producto as $pd)
 		{
     	?>
     	<span class="itmImageMask itmListMask">
-        	<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb200/<?php echo $imagenProducto->imagen; ?>" >
+        	<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb200/<?php echo $imagenProducto->imagen; ?>" >
         </span>
         <?php 
 		}
@@ -194,13 +194,13 @@ foreach($producto as $pd)
 			if(!empty($_GET["id"]))
 			{
 				?>
-				<a class="itmListBtn editBtn" href="administracion/prod/<?php echo $pd->idproducto ?><?php echo empty($_GET["id"]) ? "" : "/" . $_GET["id"]; ?>">Editar</a>
+				<a class="itmListBtn editBtn" href="/administracion/prod/<?php echo $pd->idproducto ?><?php echo empty($_GET["id"]) ? "" : "/" . $_GET["id"]; ?>">Editar</a>
 				<?php
 			}
 			else
 			{
 				?>
-				<a class="itmListBtn editBtn" href="productos/lista/<?php echo $pd->idproducto ?><?php echo empty($_GET["id"]) ? "" : "/" . $_GET["id"]; ?>">Editar</a>
+				<a class="itmListBtn editBtn" href="/productos/lista/<?php echo $pd->idproducto ?><?php echo empty($_GET["id"]) ? "" : "/" . $_GET["id"]; ?>">Editar</a>
 				<?php
 			}
 			?>
@@ -222,7 +222,7 @@ foreach($producto as $pd)
 		var srh = $(this).siblings('.listSrchField').val();
 		$.ajax({
 			type : "POST",
-			url : "p/list_func/reset_srh.php"
+			url : "/p/list_func/reset_srh.php"
 		}).done(function(){
 			location.reload();
 		})
@@ -236,7 +236,7 @@ foreach($producto as $pd)
 		var srh = $(this).siblings('.listSrchField').val();
 		$.ajax({
 			type : "POST",
-			url : "p/list_func/set_search.php",
+			url : "/p/list_func/set_search.php",
 			data : {search : srh}
 		}).done(function(){
 			location.reload();
@@ -278,7 +278,7 @@ foreach($producto as $pd)
 			
 			$.ajax({
 				type: "POST",
-				url: "p/list_func/rem_product.php",
+				url: "/p/list_func/rem_product.php",
 				data: {idproducto : producto}
 			});
 		}
@@ -302,7 +302,7 @@ foreach($producto as $pd)
 		}
 		$.ajax({
 			type: "POST",
-			url: "p/list_func/change_status.php",
+			url: "/p/list_func/change_status.php",
 			data: {idproducto : producto}
 		});
 	});

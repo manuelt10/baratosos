@@ -21,7 +21,7 @@
 										$link = strtolower($link);
 										$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 									?>
-									<h3 class="resultsSubCategory"><a href="lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/
+									<h3 class="resultsSubCategory"><a href="/lista/categoria/<?php echo $link . "-" . $c1->idcategoria1 ?>/
 										<?php echo empty($_GET["buscar"]) ? "" : "buscar/". $_GET["buscar"] ."/" ?>"><?php echo $c1->descripcion ?></a></h3>
 									<?php
 									$query = $con->prepare('SELECT * FROM `categoria2` 
@@ -51,7 +51,7 @@
 											$link = strtolower($link);
 											$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 											?>
-											<li><h4><a class="last-category" href="lista/categoria2/<?php echo $link . "-" . $c2->idcategoria2 ?>/
+											<li><h4><a class="last-category" href="/lista/categoria2/<?php echo $link . "-" . $c2->idcategoria2 ?>/
 												<?php echo empty($_GET["buscar"]) ? "" : "buscar/". $_GET["buscar"] ."/" ?>"><?php echo $c2->descripcion ?></a></h4></li>
 											<?php
 										}
@@ -61,4 +61,4 @@
 									}
 								}
 								?>
-								<a class="view-more" href="lista">Ver otras categorías</a>
+								<a class="view-more" href="/lista">Ver otras categorías</a>

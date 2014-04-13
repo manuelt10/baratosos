@@ -41,7 +41,7 @@ if($session['autenticado'])
 				{
 					?>
 					<div class="imageGallery">
-						<img class="galleryImage" src="images/galeria/thumb150/<?php echo $row->imagen ?>">
+						<img class="galleryImage" src="/images/galeria/thumb150/<?php echo $row->imagen ?>">
 						<label>Visible:</label> <input type="checkbox"  class="idgaleria" value="<?php echo $row->idgaleria ?>" <?php echo $row->activo == 1 ? "checked" : ""; ?>><br />
 						<button type="button" class="removeGal">Borrar</button>
 						

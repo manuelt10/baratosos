@@ -84,7 +84,7 @@ if(($width > 400) and ($height > 280))
 	                ?>
 	                    <div>
 							<input type="hidden" class="idImageCaractProductoVal" value="<?php echo $imgs->imagen ?>">
-							<img class="imageCaractProducto" src="images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
+							<img class="imageCaractProducto" src="/images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
 						</div>
 	                <?php
 	            }
@@ -116,7 +116,7 @@ if(($width > 400) and ($height > 280))
                 ?>
                     <div>
 						<input type="hidden" name="idImageCaractProductoVal" value="<?php echo $imgs->imagen ?>">
-						<img class="imageCaractProducto" src="images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
+						<img class="imageCaractProducto" src="/images/c_prod/thumb150/<?php echo $imgs->imagen ?>">
 					</div>
                 <?php
             }

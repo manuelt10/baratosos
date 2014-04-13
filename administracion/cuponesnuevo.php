@@ -12,8 +12,8 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 		 $query->execute();
 ?>
 
-<script src="simpleckeditor/ckeditor.js"></script>
-<script src="Scripts/jquery.form.img.js"></script>
+<script src="/simpleckeditor/ckeditor.js"></script>
+<script src="/Scripts/jquery.form.img.js"></script>
 <div class="topBar">
 	<h2 class="settHead">Agregar cupón</h2>
 </div>
@@ -21,7 +21,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 	
 	<div class="couponForms itmFormSec">
 		<legend class="settLegend">Detalles del cupón</legend>
-		<form id="cuponForm" method="post" action="administracion/cup_func/add_cupon.php">
+		<form id="cuponForm" method="post" action="/administracion/cup_func/add_cupon.php">
 			
 			<label class="settingLbl">Título:</label>
 			<br />
@@ -123,7 +123,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 	
 	<div class="couponForms itmFormSec">
 		<legend class="settLegend">Imágenes del cupón</legend>
-		<form id="cuponGalleryForm" method="post" enctype="multipart/form-data" action="administracion/cup_func/add_image.php">
+		<form id="cuponGalleryForm" method="post" enctype="multipart/form-data" action="/administracion/cup_func/add_image.php">
 			<label class="settingLbl">Añadir imagenes</label>
 			<br />
 			
@@ -151,7 +151,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 	
 </div>
 
-	<script src="http://tumall.doScripts/datepicker/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="http://tumall.do/Scripts/datepicker/jquery-ui-1.10.4.custom.min.js"></script>
 
 	<script>
 		$('.dateFld').datepicker({altFormat: "dd-mm-yy"});
@@ -189,7 +189,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 			var idUser = $('.cuponUser').val();
 			$.ajax({
 				type : "POST",
-				url : "administracion/cup_func/product_preview",
+				url : "/administracion/cup_func/product_preview",
 				data : {idproducto : id, idusuario : idUser}
 			}).done(function(html)
 			{
@@ -203,7 +203,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 			var id = $(this).val();
 			$.ajax({
 				type : "POST",
-				url : "administracion/cup_func/user_preview",
+				url : "/administracion/cup_func/user_preview",
 				data : {idusuario : id}
 			}).done(function(html)
 			{
@@ -236,7 +236,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
 		    var  marker = new google.maps.Marker({
 		    position: position,
 		    map: map,
-		    icon : 'images/icono_tumall.png'
+		    icon : '/images/icono_tumall.png'
 		    }); 
 		    $('#cuponForm').append("<input type='hidden' name='position[]' class='mapPosition' value='"+ position +"'>");
 		    
@@ -280,7 +280,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
     	$('.imagenesCupones').on('click','.idCuponImage',function(){
     		$.ajax({
     			type : 'POST',
-    			url : 'administracion/cup_func/prin_image.php',
+    			url : '/administracion/cup_func/prin_image.php',
     			data : {idGaleria : $(this).val()}
     		})
     	})
@@ -290,7 +290,7 @@ $query = $con->prepare("DELETE FROM `cupon_galeria` where idcupon is null");
     		$(this).parent('div').remove();
     		$.ajax({
     			type : 'POST',
-    			url : 'administracion/cup_func/rem_image_full.php',
+    			url : '/administracion/cup_func/rem_image_full.php',
     			data : {idGaleria : $(this).siblings('.idCuponImage').val()}
     		})
     	})

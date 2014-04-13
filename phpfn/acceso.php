@@ -111,13 +111,13 @@ else {
 	switch($usuario->idtipousuario)
 	{
 		case 1: 
-			header("location: ../cliente/fav");
+			header("location: http://tumall.do/cliente/fav");
 			break;
 		case 2: 
-			header("location: ../productos/lista");
+			header("location: http://tumall.do/productos/lista");
 			break;
 		case 3: 
-			header("location: ../administracion/usuarios");
+			header("location: http://tumall.do/administracion/usuarios");
 			break;
 		default:
 			header("location: ../home");

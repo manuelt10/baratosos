@@ -10,7 +10,7 @@ $query = $con->prepare('SELECT * FROM `usuario` where idusuario = ?');
 		 $query->execute();
 $usr = $query->fetch(PDO::FETCH_OBJ);
 ?>
-<script src='Scripts/jquery.form.min.js'></script>
+<script src='/Scripts/jquery.form.min.js'></script>
 <div class="topBar">
 	<h2 class="settHead">Revisar solicitud</h2>
 </div>
@@ -22,7 +22,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 			?>
 			<div class="requFileWrap">
 				<div class="newImage">
-					<img src="images/publicidad/<?php echo $oferta->imagen ?>">
+					<img src="/images/publicidad/<?php echo $oferta->imagen ?>">
 				</div>
 			</div>
 			<?php
@@ -110,12 +110,12 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 					if(!empty($producto->imagen))
 					{
 					?>
-						<a href="articulo/<?php echo $link."-".$producto->idproducto; ?>" class="pictureWrapper"><img src="images/productos/thumb50/<?php echo $producto->imagen ?>" alt="resource1"></a>
+						<a href="/articulo/<?php echo $link."-".$producto->idproducto; ?>" class="pictureWrapper"><img src="/images/productos/thumb50/<?php echo $producto->imagen ?>" alt="resource1"></a>
 					<?php 
 					}
 					?>
 					</div>
-					<a href="articulo/<?php echo $link."-".$producto->idproducto; ?>" class="pictureWrapper"><h4><?php echo $producto->nombre ?></h4></a>
+					<a href="/articulo/<?php echo $link."-".$producto->idproducto; ?>" class="pictureWrapper"><h4><?php echo $producto->nombre ?></h4></a>
 					<span>
 						<span class="<?php echo $producto->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $producto->moneda ?>$ <?php echo number_format($producto->precio,2,'.',',') ?></span>
 						<?php 
@@ -146,7 +146,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 						if($producto->borrado == 0)
 						{
 							?> 
-							<form class="addPubForm" method="post" action="administracion/pub_func/add_item_pub_off.php">
+							<form class="addPubForm" method="post" action="/administracion/pub_func/add_item_pub_off.php">
 								<input type="hidden" name="id_off_prod" value="<?php echo $producto->idofertas_producto; ?>">
 								<input name="id" type="hidden" value="<?php echo $producto->idproducto; ?>" class="itemShow">
 								<label>Duracion</label>
@@ -182,7 +182,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 	}
 	?>
 	<div class="ctrlBtnWrap requ-CtrlBtnWrap">
-		<a class="formActionBtn back transTw" href="administracion/solicitudes1">Volver</a>
+		<a class="formActionBtn back transTw" href="/administracion/solicitudes1">Volver</a>
 		<button type="button" class="changeStat formActionBtn cancel transTw" value="N">Reprobar</button>
 		<button type="button" class="changeStat formActionBtn sendForm transTw" value="A">Aprobar</button>
 		<?php 
@@ -234,7 +234,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 		}
 		$.ajax({
 			type : "POST",
-			url : "administracion/cert_func/change_adver_status.php",
+			url : "/administracion/cert_func/change_adver_status.php",
 			data: {idOfer : id, status : stat, duracion : dias}
 		}).done(function()
 		{

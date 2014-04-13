@@ -1,7 +1,0 @@
-[19-Nov-2013 02:31:07 America/Denver] PHP Notice:  Undefined index: searchUsr in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 3
-[19-Nov-2013 02:35:27 America/Denver] PHP Notice:  Undefined index: searchUsr in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 3
-[19-Nov-2013 02:38:45 America/Denver] PHP Notice:  Undefined index: searchUsr in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 3
-[19-Nov-2013 02:40:01 America/Denver] PHP Notice:  Undefined index: searchUsr in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 3
-[22-Mar-2014 20:46:31 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_htmladministracion/usu_func/ban_user.php on line 5
-[22-Mar-2014 21:36:39 America/Denver] PHP Notice:  Undefined index: searchUsr in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 3
-[22-Mar-2014 21:36:39 America/Denver] PHP Notice:  Undefined index: userType in /home2/tumalldo/public_htmladministracion/usu_func/set_search.php on line 4

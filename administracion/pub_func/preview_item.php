@@ -23,13 +23,13 @@ if($session["autenticado"])
 		if(empty($producto->imagen))
 		{
 		?>
-			<img src="images/productos/no-image.png" alt="resource1">
+			<img src="/images/productos/no-image.png" alt="resource1">
 		<?php 
 		}
 		else
 		{
 		?>
-			<img src="images/productos/thumb150/<?php echo $producto->imagen ?>" alt="resource1">
+			<img src="/images/productos/thumb150/<?php echo $producto->imagen ?>" alt="resource1">
 		<?php 
 		}
 		?>

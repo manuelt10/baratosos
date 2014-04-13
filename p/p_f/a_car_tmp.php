@@ -27,7 +27,7 @@
             $query3->execute();
             $caracteristica_temp = $query3->fetch(PDO::FETCH_OBJ);
 				?>
-				<form class="caracteristica xtraCharacDetail characDetail transTw hidden" action="p/p_f/upl_caract.php">
+				<form class="caracteristica xtraCharacDetail characDetail transTw hidden" action="/p/p_f/upl_caract.php">
 						
 			    	<!-- <label class="settingLbl itmsLbl characLbl">Característica:</label> -->
 			    	<input type="text" class="txtField itmTxtFld charactTxt" name="caracteristica[]" placeholder="Nombre característica">
@@ -50,7 +50,7 @@
 							foreach($img_caract as $iC)
 							{
 								?>
-								<img src="images/c_prod/thumb150/<?php echo $iC->imagen ?>">
+								<img src="/images/c_prod/thumb150/<?php echo $iC->imagen ?>">
 								<?php
 							}
 						?>

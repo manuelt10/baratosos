@@ -47,7 +47,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 		
 		
 		<div class="ctrlBtnWrap requ-CtrlBtnWrap">
-			<a class="formActionBtn back transTw" href="administracion/solicitudes">Volver</a>
+			<a class="formActionBtn back transTw" href="/administracion/solicitudes">Volver</a>
 			<button type="button" class="changeStat formActionBtn cancel transTw" value="N">Reprobar</button>
 			<button type="button" class="changeStat formActionBtn sendForm transTw" value="A">Aprobar</button>
 		</div>
@@ -60,7 +60,7 @@ $usr = $query->fetch(PDO::FETCH_OBJ);
 		var stat = $(this).val();
 		$.ajax({
 			type : "POST",
-			url : "administracion/cert_func/change_certificate_status.php",
+			url : "/administracion/cert_func/change_certificate_status.php",
 			data: {idCertif : id, status : stat}
 		}).done(function()
 		{

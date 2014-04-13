@@ -18,7 +18,7 @@ if(!$session["autenticado"])
 	#header("location: accesar");
 	?>
 	<script>
-		window.open('accesar','_self');
+		window.open('/accesar','_self');
 	</script>
 	<?php
 }
@@ -35,13 +35,13 @@ if($usuario->idtipousuario == 1)
 {
     ?>
 	<script>
-		window.open('home','_self');
+		window.open('/home','_self');
 	</script>
 	<?php
 }
 if($usuario->idtipousuario == 3  and empty($_GET["id"]))
 {
-	header("location: http://tumall.doadministracion/solicitudes");
+	header("location: http://tumall.do/administracion/solicitudes");
 }
 require_once('templates/headOthers.php');
 //print_r($_GET);
@@ -59,13 +59,13 @@ $URL = "$_SERVER[REQUEST_URI]";
 					if(empty($usuario->imagen))
 					{
 						?>
-						images/resources/storePNG-100.png
+						/images/resources/storePNG-100.png
 						<?php
 					}
 					else
 					{
 						?>
-						images/profile/cr/<?php echo $usuario->imagen ?>
+						/images/profile/cr/<?php echo $usuario->imagen ?>
 						<?php	
 					}
 					
@@ -77,11 +77,11 @@ $URL = "$_SERVER[REQUEST_URI]";
 				<span>Hey, <?php echo $usuario->nombre; ?>!</span>
 			</div>       		
 
-			<a href="productos/nuevo" class="settMenuItm addItm <?php if(strpos($URL, 'productos/nuevo') === 0){ echo 'active'; } ?>">Publicar</a>
-            <a href="productos/lista" class="settMenuItm itmLst <?php if(strpos($URL, 'productos/lista') === 0 || strpos($URL, 'productos.php?page') === 0){ echo 'active'; } ?>">Inventario</a>
-            <a href="publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, 'publicidad') === 0 || strpos($URL, 'solicitud') === 0){ echo 'active'; } ?>">Publicidad</a>
-            <a href="tutienda/editar" class="settMenuItm usrStore <?php if(strpos($URL, 'tutienda/editar') === 0){ echo 'active'; } ?>">Editar Tienda</a>
-            <a href="opciones" class="settMenuItm usrPrefs <?php if(strpos($URL, 'opciones') === 0){ echo 'active'; } ?>">Ajustes</a>
+			<a href="/productos/nuevo" class="settMenuItm addItm <?php if(strpos($URL, '/productos/nuevo') === 0){ echo 'active'; } ?>">Publicar</a>
+            <a href="/productos/lista" class="settMenuItm itmLst <?php if(strpos($URL, '/productos/lista') === 0 || strpos($URL, '/productos.php?page') === 0){ echo 'active'; } ?>">Inventario</a>
+            <a href="/publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, '/publicidad') === 0 || strpos($URL, '/solicitud') === 0){ echo 'active'; } ?>">Publicidad</a>
+            <a href="/tutienda/editar" class="settMenuItm usrStore <?php if(strpos($URL, '/tutienda/editar') === 0){ echo 'active'; } ?>">Editar Tienda</a>
+            <a href="/opciones" class="settMenuItm usrPrefs <?php if(strpos($URL, '/opciones') === 0){ echo 'active'; } ?>">Ajustes</a>
             
 		</div>
 

@@ -12,35 +12,35 @@
 				
 				<div class="fooGroup buyGroup">
 					<h2 class="fooGroupTitle">Comprar</h2>
-					<a class="fooLinks" href="registro">Crear una cuenta</a>
-					<a class="fooLinks" href="cliente/fav/">Tu cuenta</a>
-					<a class="fooLinks" href="tiendas">Listado de tiendas</a>
-					<a class="fooLinks" href="FAQ#sobre-publicaciones">Seguridad</a>
+					<a class="fooLinks" href="/registro">Crear una cuenta</a>
+					<a class="fooLinks" href="/cliente/fav/">Tu cuenta</a>
+					<a class="fooLinks" href="/tiendas">Listado de tiendas</a>
+					<a class="fooLinks" href="/FAQ#sobre-publicaciones">Seguridad</a>
 				</div>
 				
 				<div class="fooGroup sellGroup">
 					<h2 class="fooGroupTitle">Vender</h2>
-					<a class="fooLinks" href="FAQ#como-vender">Abrir una tienda</a>
-					<a class="fooLinks" href="productos/lista/">Tu tienda</a>
-					<a class="fooLinks" href="FAQ#sobre-publicidad">Publicidad</a>
-					<a class="fooLinks" href="FAQ#sobre-CFT">Tiendas certificadas</a>
+					<a class="fooLinks" href="/FAQ#como-vender">Abrir una tienda</a>
+					<a class="fooLinks" href="/productos/lista/">Tu tienda</a>
+					<a class="fooLinks" href="/FAQ#sobre-publicidad">Publicidad</a>
+					<a class="fooLinks" href="/FAQ#sobre-CFT">Tiendas certificadas</a>
 				</div>
 				
 				<div class="fooGroup helpGroup">
 					<h2 class="fooGroupTitle">Ayuda</h2>
-					<a class="fooLinks" href="FAQ">Preguntas frecuentes</a>
-					<a class="fooLinks" href="contacto">Ayuda</a>
-					<a class="fooLinks" href="contacto">Resoluciones</a>
+					<a class="fooLinks" href="/FAQ">Preguntas frecuentes</a>
+					<a class="fooLinks" href="/contacto">Ayuda</a>
+					<a class="fooLinks" href="/contacto">Resoluciones</a>
 				</div>
 				
 				<div class="fooGroup aboutGroup">
 					<h2 class="fooGroupTitle">Tu Mall</h2>
-					<a class="fooLinks" href="acercade">Acerca de</a>
-					<a class="fooLinks" href="contacto">Contactos</a>
-					<a class="fooLinks" href="contacto">Direcciones</a>
+					<a class="fooLinks" href="/acercade">Acerca de</a>
+					<a class="fooLinks" href="/contacto">Contactos</a>
+					<a class="fooLinks" href="/contacto">Direcciones</a>
 				</div>
 				
-				<p class="fooNote">Derechos de autor 2013 M&P Group SRL. Todos los derechos reservados. <a href="http://tumall.doTerminos">Términos de uso & Condiciones.</a></p>
+				<p class="fooNote">Derechos de autor 2013 M&P Group SRL. Todos los derechos reservados. <a href="http://tumall.do/Terminos">Términos de uso & Condiciones.</a></p>
 				
 				
 			</div>
@@ -53,7 +53,7 @@
 		
 		if( deviceWidth <= 600 ){
 						
-			$('.menuTopRight').prepend('<div class="quickLinksWrap mob"><a class="quickLink" href="http://tumall.donovedades">Novedades</a><a class="quickLink" href="http://tumall.docontacto">Contactos</a><a class="quickLink" href="http://tumall.doFAQ">Ayuda</a><a class="quickLink" href="http://tumall.dotiendas">Lista de tiendas</a></div>');
+			$('.menuTopRight').prepend('<div class="quickLinksWrap mob"><a class="quickLink" href="http://tumall.do/novedades">Novedades</a><a class="quickLink" href="http://tumall.do/contacto">Contactos</a><a class="quickLink" href="http://tumall.do/FAQ">Ayuda</a><a class="quickLink" href="http://tumall.do/tiendas">Lista de tiendas</a></div>');
 			
 		}
 		

@@ -13,7 +13,7 @@ if(!$session["autenticado"])
 	#header("location: accesar");
 	?>
 	<script>
-		window.open('accesar','_self');
+		window.open('/accesar','_self');
 	</script>
 	<?php
 }
@@ -30,7 +30,7 @@ if($usuario->idtipousuario <> 3)
 {
     ?>
 	<script>
-		window.open('home','_self');
+		window.open('/home','_self');
 	</script>
 	<?php
 }
@@ -41,16 +41,16 @@ require_once('templates/headOthers.php');
 		<div class="backendButtonsPane">
             <div class="profilePicWrapper">
 				<div class="userProfilePic transTw">
-					<img src="images/resources/userPNG-admin-100.png" alt="No user picture" />
+					<img src="/images/resources/userPNG-admin-100.png" alt="No user picture" />
 				</div>
 				<span>Hey, Admin!</span>
 			</div>
-			<a href="administracion/usuarios" class="settMenuItm adminUsrs <?php if(strpos($URL, 'administracion/usuarios') === 0 || strpos($URL, 'administracion/usr') === 0){ echo 'active'; } ?>">Usuarios</a>        
-			<a href="administracion/solicitudes" class="settMenuItm usrAdvert <?php if(strpos($URL, 'administracion/solicitudes') === 0){ echo 'active'; } ?>">Solicitudes</a>
-			<a href="administracion/publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, 'administracion/publicidad') === 0){ echo 'active'; } ?>">Publicidad</a>
-			<a href="administracion/galeria" class="settMenuItm usrAdvert <?php if(strpos($URL, 'administracion/galeria') === 0){ echo 'active'; } ?>">Galeria</a>
-			<a href="administracion/cupones" class="settMenuItm usrStore <?php if(strpos($URL, 'administracion/cupones') === 0){ echo 'active'; } ?>">Cupones</a>
-			<a href="administracion/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, 'administracion/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a>
+			<a href="/administracion/usuarios" class="settMenuItm adminUsrs <?php if(strpos($URL, '/administracion/usuarios') === 0 || strpos($URL, '/administracion/usr') === 0){ echo 'active'; } ?>">Usuarios</a>        
+			<a href="/administracion/solicitudes" class="settMenuItm usrAdvert <?php if(strpos($URL, '/administracion/solicitudes') === 0){ echo 'active'; } ?>">Solicitudes</a>
+			<a href="/administracion/publicidad" class="settMenuItm usrAdvert <?php if(strpos($URL, '/administracion/publicidad') === 0){ echo 'active'; } ?>">Publicidad</a>
+			<a href="/administracion/galeria" class="settMenuItm usrAdvert <?php if(strpos($URL, '/administracion/galeria') === 0){ echo 'active'; } ?>">Galeria</a>
+			<a href="/administracion/cupones" class="settMenuItm usrStore <?php if(strpos($URL, '/administracion/cupones') === 0){ echo 'active'; } ?>">Cupones</a>
+			<a href="/administracion/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, '/administracion/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a>
 			
 		</div>
 		<div class="rightPane">	

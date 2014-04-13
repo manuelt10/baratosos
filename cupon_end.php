@@ -33,13 +33,13 @@ $cupon = $db->selectRecord('cupon',NULL,Array('idcupon' => $cupon_usr->data[0]->
 		?>
 		<div class="couponResumeWrap">
 			<span class="couponResumeID"><?php echo $c->codigo ?></span>
-			<a class="printBtn actionBtn" target="_blank" href="reports/rep_cupon.php?id=<?php echo $c->idcupon_compras ?>">Versión para impresión</a>
+			<a class="printBtn actionBtn" target="_blank" href="/reports/rep_cupon.php?id=<?php echo $c->idcupon_compras ?>">Versión para impresión</a>
 		</div>
 		<?php
 	}
 	?>
 	
-	<p class="coupEndSecondary">Puedes volver a ver esta información, y la lista de tus cupones, dando click en "<a href="cliente/fav">Mi cuenta</a>" y luego en "<a href="cliente/cupon">Cupones</a>". Ver <a href="cliente/cupon">mis cupones</a>.</p>
+	<p class="coupEndSecondary">Puedes volver a ver esta información, y la lista de tus cupones, dando click en "<a href="/cliente/fav">Mi cuenta</a>" y luego en "<a href="/cliente/cupon">Cupones</a>". Ver <a href="/cliente/cupon">mis cupones</a>.</p>
 	
 	<br />
 

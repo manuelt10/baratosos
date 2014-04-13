@@ -31,7 +31,7 @@ $cupon_usr = $db->selectRecord('cupon_compras',NULL,Array('idusuario' => $sessio
 				<a href="#" class="advListItm couponBuyName"><span class="helpText">Titulo: </span><?php echo $cupon_actual_usr->data[0]->titulo; ?></a>
 				<span class="advListItm couponBuyID"><span class="helpText">Código: </span><?php echo $c->codigo ?></span>
 				<span class="advListItm couponBuyDate"><span class="helpText">Hasta el: </span><?php echo $c->fecha_creacion ?></span> 
-				<span class="advListItm couponStatus"><span class="helpText">Status: </span>[<?php echo $c->usado == 1 ? "Usado" : "No usado" ?>] <a href="reports/rep_cupon.php?id=<?php echo $c->idcupon_compras  ?>">Imprimir</a></span>
+				<span class="advListItm couponStatus"><span class="helpText">Status: </span>[<?php echo $c->usado == 1 ? "Usado" : "No usado" ?>] <a href="/reports/rep_cupon.php?id=<?php echo $c->idcupon_compras  ?>">Imprimir</a></span>
 			</div>
 			<?php
 		}

@@ -1,12 +1,12 @@
 <?php 
 if($usuario->idtipousuario == 3)
 {
-	header("location: http://tumall.doadministracion/solicitudes ");
+	header("location: http://tumall.do/administracion/solicitudes ");
 }
 /*if($usuario->premium)
 {
     ?>
-    <script src="ckeditor/ckeditor.js"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
     <?php
 }
  else {*/
@@ -25,7 +25,7 @@ $query = $con->prepare('SELECT * FROM `redes_sociales` WHERE `activo` = 1 ORDER 
 $query->execute();
 $social = $query->fetchAll(PDO::FETCH_OBJ);
 ?>
-<script src='Scripts/jquery.form.min.js'></script>
+<script src='/Scripts/jquery.form.min.js'></script>
 
 <div class="topBar">
 	<h2 class="settHead">Información de tu tienda</h2>
@@ -37,7 +37,7 @@ $social = $query->fetchAll(PDO::FETCH_OBJ);
 		<span class="tabItm storeTab social" data-tab="storeSocialSec">Redes sociales</span>
 		<span class="tabItm storeTab appearance" data-tab="storeAppearanceSec">Apariencia</span>
 	</div>
-	<form class="storeEditForm tabWrap storeEditSec transTw storeInfoSec" action="p/store_func/update_store_info.php" method="POST">
+	<form class="storeEditForm tabWrap storeEditSec transTw storeInfoSec" action="/p/store_func/update_store_info.php" method="POST">
 			<input type="hidden" value="<?php echo $session["usuario"]; ?>" name="idusuario">
 			
 			<label class="settingLbl">Nombre de la tienda:</label>
@@ -144,7 +144,7 @@ $social = $query->fetchAll(PDO::FETCH_OBJ);
 				<button type="submit" class="sendForm formActionBtn transTw">Guardar cambios</button>
 			</div>
 	</form>
-	<form class="storeEditForm tabWrap storeEditSec transTw storeSocialSec hidden" action="p/store_func/update_store_social.php" method="POST">
+	<form class="storeEditForm tabWrap storeEditSec transTw storeSocialSec hidden" action="/p/store_func/update_store_social.php" method="POST">
 		<div>
 			
 			<?php
@@ -169,7 +169,7 @@ $social = $query->fetchAll(PDO::FETCH_OBJ);
 				<button type="submit" class="sendForm formActionBtn transTw">Guardar cambios</button>
 			</div>
 	</form>
-	<form class="storeImageForm tabWrap storeEditSec transTw storeAppearanceSec hidden" action="p/store_func/update_store_images.php" enctype="multipart/form-data" method="POST"> 
+	<form class="storeImageForm tabWrap storeEditSec transTw storeAppearanceSec hidden" action="/p/store_func/update_store_images.php" enctype="multipart/form-data" method="POST"> 
 		
 		
 		<div class="pictureUploadWrap">
@@ -181,14 +181,14 @@ $social = $query->fetchAll(PDO::FETCH_OBJ);
 				<?php if(!empty($usuario->imagen))
 				{
 					?>
-					<img src="images/profile/thumb/<?php echo $usuario->imagen ?>" style="left: -<?php echo $usuario->imagencoordx; ?>px; top: -<?php echo $usuario->imagencoordy; ?>px">
+					<img src="/images/profile/thumb/<?php echo $usuario->imagen ?>" style="left: -<?php echo $usuario->imagencoordx; ?>px; top: -<?php echo $usuario->imagencoordy; ?>px">
 					<?php
 				} 
 				
 				else{
 				?>
 				
-				<img width="150" src="images/resources/storePNG.png" />
+				<img width="150" src="/images/resources/storePNG.png" />
 				
 				<?php	
 				}
@@ -210,14 +210,14 @@ $social = $query->fetchAll(PDO::FETCH_OBJ);
 				<?php if(!empty($usuario->banner1))
 				{
 					?>
-					<img src="images/banners/thumb/<?php echo $usuario->banner1 ?>" style="left: -<?php echo $usuario->bannercoordx; ?>px; top: -<?php echo $usuario->bannercoordy; ?>px">
+					<img src="/images/banners/thumb/<?php echo $usuario->banner1 ?>" style="left: -<?php echo $usuario->bannercoordx; ?>px; top: -<?php echo $usuario->bannercoordy; ?>px">
 					<?php
 				}
 				
 				else{
 				?>
 				
-				<img width="533" src="images/resources/defaultBanner.png" />
+				<img width="533" src="/images/resources/defaultBanner.png" />
 				
 				<?php	
 				}
@@ -504,7 +504,7 @@ $('.storeEditForm').submit(function(event) {
 		$('.idsector').val(1);
 		$.ajax({
 			type: "POST",
-			url: "p/store_func/show_sector.php",
+			url: "/p/store_func/show_sector.php",
 			data: {idprovincia : id}
 		}).done(function(html)
 		{

@@ -16,13 +16,13 @@ if($session['autenticado'])
 			if(!empty($record->data[0]->imagen))
 			{
 			?>
-				<img class="userImage" src="images/profile/cr/<?php echo $record->data[0]->imagen ?>">
+				<img class="userImage" src="/images/profile/cr/<?php echo $record->data[0]->imagen ?>">
 			<?php
 			}
 			else
 			{
 			?>
-				<img class="userImage" src="images/resources/storePNG-100.png">
+				<img class="userImage" src="/images/resources/storePNG-100.png">
 			<?php
 			}
 			?>

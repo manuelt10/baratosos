@@ -5,9 +5,9 @@
 
 <div class="settWrap recAdvWrapp offers">
 
-	<a class="tabItm requestTabs certTab" href="administracion/solicitudes">Certificados</a>
-	<a class="tabItm requestTabs advertTab" href="administracion/solicitudes1">Publicidad</a>
-	<a class="tabItm requestTabs offerTab active" href="administracion/solicitudes2">Oferta</a>
+	<a class="tabItm requestTabs certTab" href="/administracion/solicitudes">Certificados</a>
+	<a class="tabItm requestTabs advertTab" href="/administracion/solicitudes1">Publicidad</a>
+	<a class="tabItm requestTabs offerTab active" href="/administracion/solicitudes2">Oferta</a>
 
  
 	<?php 
@@ -45,10 +45,10 @@
 				{
 					echo $pageoff == 1 ? 1 : (($pageoff-1)*$count_offer)+1 ?> al <?php echo $pageoff == $total_pages ? $total : ($pageoff*$count_offer) ?> de <span><?php echo $total; ?></span>
 							
-						<a <?php echo $pageoff > 1 ? "href='http://tumall.doadministracion/solicitudes2/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
+						<a <?php echo $pageoff > 1 ? "href='http://tumall.do/administracion/solicitudes2/page/$prevPage/'" : "" ?> class="pageCtrls prevPage"><i class="fa fa-angle-left"></i></a>
 		
 		
-						<a <?php echo $pageoff < $total_pages ? "href='http://tumall.doadministracion/solicitudes2/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
+						<a <?php echo $pageoff < $total_pages ? "href='http://tumall.do/administracion/solicitudes2/page/$nextPage/'" : "" ?> class="pageCtrls nextPage"><i class="fa fa-angle-right"></i></a>
 							
 				<?		
 					
@@ -68,7 +68,7 @@
 				?>
 				<div  class="advDet <? if($oddCnt%2==1){ echo "odd";} $oddCnt++  ?>">
 					<span class="advListDetItem advListItm advID"><span class="helpText">ID: </span><?php echo $p->idofertas ?></span>
-					<a href="administracion/oferta/<?php echo $p->idofertas ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo $p->titulo ?></a>
+					<a href="/administracion/oferta/<?php echo $p->idofertas ?>" class="advListDetItem advListItm advDescr"><span class="helpText">Titulo: </span><?php echo $p->titulo ?></a>
 					<span class="advListDetItem advListItm advStatus"><span class="helpText">Status: </span><?php 
 							if($p->estado == 'E')
 							{

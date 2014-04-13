@@ -55,7 +55,7 @@
 	/*
 	if(($producto->activo == 0) or ($producto->suspendido == 1) or ($producto->borrado == 0))
 	{
-		header('location: http://tumall.dohome');
+		header('location: http://tumall.do/home');
 	}*/
 	
 	require_once('templates/headgeneral.php');
@@ -80,7 +80,7 @@
 							if(!empty($imagenproducto[0]->imagen))
 							{
 								?>
-								<img src="images/productos/<?php echo $imagenproducto[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" />
+								<img src="/images/productos/<?php echo $imagenproducto[0]->imagen ?>" alt="<?php echo $producto->nombre ?>" />
 								<?php 
 							}
 							
@@ -89,7 +89,7 @@
 							
 							?>
 							
-								<img src="images/NoImage.png" alt="No image">
+								<img src="/images/NoImage.png" alt="No image">
 							
 							<?php
 							
@@ -123,7 +123,7 @@
 								
 									?> 
 									<div class="smallPrev <?php echo $smallImgCount == 0 ? "selectedItem" : "" ?>">
-										<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/productos/thumb150/<?php echo $iP->imagen ?>" alt="<?php echo $producto->nombre ?>" />
+										<img <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/productos/thumb150/<?php echo $iP->imagen ?>" alt="<?php echo $producto->nombre ?>" />
 									</div>
 									<?php
 								$smallImgCount++;
@@ -183,7 +183,7 @@
 								s=100
 								&p[url]=http%3A%2F%2Fwww%2Etumall%2Edo<?php echo $URL; ?>
 								&p[title]=Ver <?php echo $producto->nombre . ", de " . $producto->nombretienda;?> en Tu Mall
-								&p[images][0]=http://www.tumall.doimages/productos/<?php echo $imagenproducto[0]->imagen; ?>
+								&p[images][0]=http://www.tumall.do/images/productos/<?php echo $imagenproducto[0]->imagen; ?>
 								&p[summary]="
 							class="shareToBtn socialShare fbShareBtn transTw">
 							<i class="fa fa-facebook"></i>
@@ -225,7 +225,7 @@
 											
 											$.ajax({
 												type : "POST",
-												url  : "phpfn/favorite_products.php",
+												url  : "/phpfn/favorite_products.php",
 												data : {idusuario : <?php echo $session["usuario"] ?>, idproducto : <?php echo $producto->idproducto ?>}
 											}).done(function(html)
 											{
@@ -249,17 +249,17 @@
 					
 					?>
 					<div class="sellerInfoWrapper">
-						<a class="sellerLogo" href="<?php echo $link . "-" . $producto->idusuario ?>/">
+						<a class="sellerLogo" href="/<?php echo $link . "-" . $producto->idusuario ?>/">
 							<?php 
 							if(!empty($producto->imagen)){
 							?>
-								<img class="sellerLogoImg" src="images/profile/cr/<?php echo $producto->imagen ?>" />
+								<img class="sellerLogoImg" src="/images/profile/cr/<?php echo $producto->imagen ?>" />
 							<?php	
 							}
 							else{
 								?>
 								
-								<img class="sellerLogoImg" src="images/resources/storePNG-100.png" />
+								<img class="sellerLogoImg" src="/images/resources/storePNG-100.png" />
 								
 								<?php 
 							}
@@ -272,13 +272,13 @@
 						{
 							?>
 							<div class="sellerType">
-								<img src="images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
+								<img src="/images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
 							</div>
 							<?php
 						}
 						?>
 						
-						<a href="<?php echo $link . "-" . $producto->idusuario ?>/" class="sellerDet sellerName"><?php echo $producto->nombretienda ?></a>
+						<a href="/<?php echo $link . "-" . $producto->idusuario ?>/" class="sellerDet sellerName"><?php echo $producto->nombretienda ?></a>
 						<span class="sellerInfoHead">Datos del vendedor</span>
 						<a href="mailto:<?php echo $producto->correo ?>" class="sellerDet actionButton sendMessage"><?php echo $producto->correo ?> <i class="fa fa-envelope"></i></a>
 						<span class="sellerDet actionButton phone"><?php echo empty($producto->telefono1) ? $producto->telefono2 : $producto->telefono1; ?><i class="fa fa-phone"></i></span>
@@ -351,25 +351,25 @@
 			<?php	
 			}
 			?>
-			<a href="articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
+			<a href="/articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
 				<span class="maskMidle">
 					<?php 
 					if(empty($pO->imagen))
 					{
 					?>
-						<img src="http://tumall.doimages/NoImage.png" alt="No image" title="No image">
+						<img src="http://tumall.do/images/NoImage.png" alt="No image" title="No image">
 					<?php 
 					}
 					else
 					{
 					?>
-						<img src="images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
+						<img src="/images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
 					<?php 
 					}
 					?>
 				</span>
 			</a>
-			<a class="featItmName" href="articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
+			<a class="featItmName" href="/articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a>
 			<span class="featItmPric <?php echo $pO->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $pO->moneda ?>$ <?php echo number_format($pO->enoferta == 1 ? $pO->preciooferta : $pO->precio,2,'.',',') ?></span>
 			
 		</div>
@@ -396,7 +396,7 @@
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -406,7 +406,7 @@
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -416,7 +416,7 @@
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>
@@ -437,7 +437,7 @@
 		var prod = <?php echo $_GET["id"] ?>;
 		$.ajax({
 			type : "POST", 
-			url  : "phpfn/showimgcaract",
+			url  : "/phpfn/showimgcaract",
 			data : {idCaracteristica : idCar, idproducto : prod}
 		}).done(function(html)
 		{
@@ -458,11 +458,11 @@
 			$('.previewImage').removeClass('active');
 			
 			if($(this).hasClass('alt')){
-				$('.itemMainPrev img').attr('src', 'images/' + previewDir + '/' +previewSrc);
+				$('.itemMainPrev img').attr('src', '/images/' + previewDir + '/' +previewSrc);
 			}
 			
 			else{
-				$('.itemMainPrev img').attr('src', 'images/productos/' +previewSrc);
+				$('.itemMainPrev img').attr('src', '/images/productos/' +previewSrc);
 			}
 			
 	});

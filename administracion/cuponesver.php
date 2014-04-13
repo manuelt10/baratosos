@@ -16,8 +16,8 @@ $cupon = $db->selectRecord('cupon', NULL, Array('idcupon' => $_GET["id"]));
 $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $_GET["id"]));
 ?>
 
-<script src="simpleckeditor/ckeditor.js"></script>
-<script src="Scripts/jquery.form.img.js"></script>
+<script src="/simpleckeditor/ckeditor.js"></script>
+<script src="/Scripts/jquery.form.img.js"></script>
 
 <div class="topBar">
 	<h2 class="settHead">Modificar cupón</h2>
@@ -25,7 +25,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 <div class="settWrap updateItemsWrap">
 	<div class="couponForms itmFormSec" >
     	<legend class="settLegend">Detalles del cupón</legend>
-		<form id="cuponForm" method="post" action="administracion/cup_func/mod_cupon.php">
+		<form id="cuponForm" method="post" action="/administracion/cup_func/mod_cupon.php">
 			<input type="hidden" name="idcupon" value="<?php echo $_GET["id"] ?>">
 			<label class="settingLbl">Título:</label>
 			<br />
@@ -49,13 +49,13 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 							if(!empty($usr->data[0]->imagen))
 							{
 							?>
-								<img class="userImage itmListImg itmImage" src="images/profile/cr/<?php echo $usr->data[0]->imagen ?>">
+								<img class="userImage itmListImg itmImage" src="/images/profile/cr/<?php echo $usr->data[0]->imagen ?>">
 							<?php
 							}
 							else
 							{
 							?>
-								<img class="userImage itmListImg itmImage" src="images/resources/storePNG-100.png">
+								<img class="userImage itmListImg itmImage" src="/images/resources/storePNG-100.png">
 							<?php
 							}
 							?>
@@ -89,13 +89,13 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 							if(empty($prod->data[0]->imagen))
 							{
 							?>
-								<img src="images/NoImage.png" alt="No image" title="No image">
+								<img src="/images/NoImage.png" alt="No image" title="No image">
 							<?php 
 							}
 							else
 							{
 							?>
-								<img src="images/productos/thumb200/<?php echo $prod->data[0]->imagen ?>" title="<?php echo $prod->data[0]->nombre; ?>" alt="<?php echo $prod->data[0]->nombre; ?>" >
+								<img src="/images/productos/thumb200/<?php echo $prod->data[0]->imagen ?>" title="<?php echo $prod->data[0]->nombre; ?>" alt="<?php echo $prod->data[0]->nombre; ?>" >
 							<?php 
 							}
 							?>
@@ -170,7 +170,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 	
 	<div class="couponForms itmFormSec" >
 		<legend class="settLegend">Imagenes del cupón</legend>
-		<form id="cuponGalleryForm" method="post" enctype="multipart/form-data" action="administracion/cup_func/add_image.php">
+		<form id="cuponGalleryForm" method="post" enctype="multipart/form-data" action="/administracion/cup_func/add_image.php">
 			<input type="hidden" name="id" value="<?php echo $_GET["id"] ?>">
 			<label class="settingLbl">Añadir imagenes:</label>
 			<input type="file" name="image" class="imgupl">
@@ -186,7 +186,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 					<input type="radio" name="idCuponImage" class="idCuponImage" id="couponPrincImg<?php echo $imgCnt; ?>" value="<?php echo $row->idcupon_galeria ?>" <?php echo $row->principal == 1 ? "checked" : ""; ?>>
 					<label class="settLbl" for="couponPrincImg<?php echo $imgCnt; ?>">Principal</label>
 					<br />
-					<img class="cuponImage" src="images/cupon/thumb150/<?php echo $row->imagen ?>">
+					<img class="cuponImage" src="/images/cupon/thumb150/<?php echo $row->imagen ?>">
 				</div>
 				<?php
 				$imgCnt++;
@@ -214,7 +214,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 	
 </div>
 	
-	<script src="http://tumall.doScripts/datepicker/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="http://tumall.do/Scripts/datepicker/jquery-ui-1.10.4.custom.min.js"></script>
 
 	<script>
 		$('.dateFld').datepicker({altFormat: "dd-mm-yy"});
@@ -256,7 +256,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 			if(!id == ""){
 					$.ajax({
 						type : "POST",
-						url : "administracion/cup_func/product_preview",
+						url : "/administracion/cup_func/product_preview",
 						data : {idproducto : id, idusuario : idUser}
 					}).done(function(html)
 					{
@@ -271,7 +271,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 			var id = $(this).val();
 			$.ajax({
 				type : "POST",
-				url : "administracion/cup_func/user_preview",
+				url : "/administracion/cup_func/user_preview",
 				data : {idusuario : id}
 			}).done(function(html)
 			{
@@ -310,7 +310,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 		    var  marker = new google.maps.Marker({
 		    position: position,
 		    map: map,
-		    icon : 'images/icono_tumall.png'
+		    icon : '/images/icono_tumall.png'
 		    }); 
 		    $('#cuponForm').append("<input type='hidden' name='position[]' class='mapPosition' value='"+ position +"'>");
 		    
@@ -332,7 +332,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
 	    		marker = new google.maps.Marker({
 			        position: new google.maps.LatLng(locations[i][0], locations[i][1]),
 			        map: map,
-			        icon : 'images/icono_tumall.png'
+			        icon : '/images/icono_tumall.png'
 			    });
 		     }    
 	        
@@ -363,7 +363,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
     		var id = $(this).val();
     		$.ajax({
     			type : 'POST',
-    			url : 'administracion/cup_func/prin_image.php',
+    			url : '/administracion/cup_func/prin_image.php',
     			data : {idGaleria : id, cupon : <?php echo $_GET["id"] ?>}
     		});
     		
@@ -374,7 +374,7 @@ $db->updateRecord('cupon_galeria',Array('eliminar' => '0'), Array('idcupon' => $
     		$(this).parent('div').remove();
     		$.ajax({
     			type : 'POST',
-    			url : 'administracion/cup_func/rem_image.php',
+    			url : '/administracion/cup_func/rem_image.php',
     			data : {idGaleria : $(this).siblings('.idCuponImage').val()}
     		})
     	})

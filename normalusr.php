@@ -8,7 +8,7 @@ if(!$session["autenticado"])
 	#header("location: accesar");
 	?>
 	<script>
-		window.open('accesar','_self');
+		window.open('/accesar','_self');
 	</script>
 	<?php
 }
@@ -25,7 +25,7 @@ if($usuario->idtipousuario <> 1)
 {
     ?>
 	<script>
-		window.open('home','_self');
+		window.open('/home','_self');
 	</script>
 	<?php
 }
@@ -40,14 +40,14 @@ $URL = "$_SERVER[REQUEST_URI]";
 		<div class="backendButtonsPane">
             <div class="profilePicWrapper">
 				<div class="userProfilePic">
-					<img src="images/resources/userPNG-100.png" />
+					<img src="/images/resources/userPNG-100.png" />
 				</div>
 				<span>Hey, <?php echo $usuario->nombre; ?>!</span>
 			</div>                
 			
-			<a href="cliente/fav" class="settMenuItm usrFavs <?php if(strpos($URL, 'cliente/fav') === 0){ echo 'active'; } ?>">Favoritos y Wishlist</a>
-			<a href="cliente/tienda" class="settMenuItm usrStore <?php if(strpos($URL, 'cliente/tienda') === 0){ echo 'active'; } ?>">Vender</a>
-			<a href="cliente/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, 'cliente/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a>
+			<a href="/cliente/fav" class="settMenuItm usrFavs <?php if(strpos($URL, '/cliente/fav') === 0){ echo 'active'; } ?>">Favoritos y Wishlist</a>
+			<a href="/cliente/tienda" class="settMenuItm usrStore <?php if(strpos($URL, '/cliente/tienda') === 0){ echo 'active'; } ?>">Vender</a>
+			<a href="/cliente/ajustes" class="settMenuItm usrPrefs <?php if(strpos($URL, '/cliente/ajustes') === 0){ echo 'active'; } ?>">Ajustes</a>
 		</div>
 		<div class="rightPane">	
 			<?php 

@@ -9,7 +9,7 @@ class mysqlManager
 	private 	$host = '127.0.0.1'; #host of the database
 	private 	$database_name = 'rmanu_baratosos'; #the name of the database\
 	private 	$user = 'rmanu_db'; #user of the database
-	private 	$password = '846288618'; #password of the database
+	private 	$password = 'GuNQSuMa1{Rx'; #password of the database
 	#private 	$rowcount; #affected rows
 	private	 	$data = Array(
 					"data" 		=> NULL, 

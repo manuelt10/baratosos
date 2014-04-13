@@ -8,7 +8,7 @@
 
 <meta name="HandheldFriendly" content="true" />
 
-<title>Baratosos - Lo que buscas, mucho mas barato</title>
+<title>Tu Mall</title>
 
 <link rel="shortcut icon" href="favicon.png" />
 

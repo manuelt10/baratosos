@@ -137,7 +137,7 @@ if(!empty($anuncio[0]->image))
 {
 	?>
 	<div class="adTop ads">
-	<a href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+	<a href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 	</div>
 	<?php 
 }
@@ -184,7 +184,7 @@ if(!empty($anuncio[0]->image))
 				var itemQ = $(this).html();
 				$.ajax({
 					type : "POST",
-					url : "phpfn/cantidaditems.php",
+					url : "/phpfn/cantidaditems.php",
 					data : {itemsQty : itemQ}
 				}).done(function()
 				{
@@ -210,7 +210,7 @@ if(!empty($anuncio[0]->image))
 			var ord = $(this).val();
 			$.ajax({
 				type: "POST",
-				url : "phpfn/setorderby",
+				url : "/phpfn/setorderby",
 				data: {orderby : ord}
 			}).done(function(){
 				location.reload();
@@ -235,24 +235,24 @@ if(!empty($anuncio[0]->image))
 		
 			?>
 			<div class="resultsItemWrapper group <?php echo $total == $item_cont ? "last" : "" ?>">
-				<a href="articulo/<?php echo $link."-".$p->idproducto; ?>" class="pictureWrapper">
+				<a href="/articulo/<?php echo $link."-".$p->idproducto; ?>" class="pictureWrapper">
 						<?php 
 						if(empty($p->imagen))
 						{
 						?>
-							<img src="images/NoImage.png" alt="No image" title="No image">
+							<img src="/images/NoImage.png" alt="No image" title="No image">
 						<?php 
 						}
 						else
 						{
 						?>
-							<img src="images/productos/thumb200/<?php echo $p->imagen ?>" title="<?php echo $p->nombre; ?>" alt="<?php echo $p->nombre; ?>" >
+							<img src="/images/productos/thumb200/<?php echo $p->imagen ?>" title="<?php echo $p->nombre; ?>" alt="<?php echo $p->nombre; ?>" >
 						<?php 
 						}
 						?>
 				</a>
 				<div class="resultsItemDescrip">
-					<h3 class="resultsItemName"><a href="articulo/<?php echo $link."-".$p->idproducto; ?>"><?php echo $p->nombre; ?></a></h3>
+					<h3 class="resultsItemName"><a href="/articulo/<?php echo $link."-".$p->idproducto; ?>"><?php echo $p->nombre; ?></a></h3>
 					<div class="resultsItemPrice">
 						<span class="<?php echo $p->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $p->moneda ?>$ <?php echo number_format($p->enoferta == 1 ? $p->preciooferta : $p->precio,2,'.',',') ?></span>
 						<?php 
@@ -285,13 +285,13 @@ if(!empty($anuncio[0]->image))
 					</script>
 					
 					<div class="resultSellerWrap">
-						de <a class="resultSellerName" href="<?php echo $storeLink."-".$p->idusuario."/"; ?>"><?php echo $p->nombretienda; ?></a>
+						de <a class="resultSellerName" href="/<?php echo $storeLink."-".$p->idusuario."/"; ?>"><?php echo $p->nombretienda; ?></a>
 						<?php 
 						if($p->estado == 'A')
 						{
 							?>
 							<div class="sellerType">
-								<img src="images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
+								<img src="/images/certVal.png" alt="Tienda certificada" title="Tienda Certificada (CFT)"  />
 							</div>
 							<?php
 						}
@@ -372,7 +372,7 @@ if(!empty($anuncio[0]->image))
 					else{
 						?>
 						
-						<a class="pageControl prevPage" href="lista/
+						<a class="pageControl prevPage" href="/lista/
 						<?php echo empty($_GET["categoria1"]) ? "" : "categoria/$ct1-$cat1->idcategoria1/"  ?>
 						<?php echo empty($_GET["categoria2"]) ? "" : "categoria2/$ct2-$cat2->idcategoria2/" ?>
 						<?php echo empty($_GET["buscar"]) ? "" : "buscar/$busqueda/" ?>
@@ -393,7 +393,7 @@ if(!empty($anuncio[0]->image))
 						else
 							{
 								?>
-								<a class="toPage pageNumber" href="lista/
+								<a class="toPage pageNumber" href="/lista/
 								<?php echo empty($_GET["categoria1"]) ? "" : "categoria/$ct1-$cat1->idcategoria1/"  ?>
 								<?php echo empty($_GET["categoria2"]) ? "" : "categoria2/$ct2-$cat2->idcategoria2/" ?>
 								<?php echo empty($_GET["buscar"]) ? "" : "buscar/$busqueda/" ?>
@@ -415,7 +415,7 @@ if(!empty($anuncio[0]->image))
 					else{
 						?>
 						
-						<a class="pageControl nextPage" href="lista/
+						<a class="pageControl nextPage" href="/lista/
 						<?php echo empty($_GET["categoria1"]) ? "" : "categoria/$ct1-$cat1->idcategoria1/"  ?>
 						<?php echo empty($_GET["categoria2"]) ? "" : "categoria2/$ct2-$cat2->idcategoria2/" ?>
 						<?php echo empty($_GET["buscar"]) ? "" : "buscar/$busqueda/" ?>
@@ -471,25 +471,25 @@ if(!empty($anuncio[0]->image))
 				<?php	
 				}
 				?>
-				<a href="articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
+				<a href="/articulo/<?php echo $link."-".$pO->idproducto; ?>" class="imgMask">
 					<span class="maskMidle">
 						<?php 
 						if(empty($pO->imagen))
 						{
 						?>
-							<img src="http://tumall.doimages/NoImage.png" alt="No image" title="No image">
+							<img src="http://tumall.do/images/NoImage.png" alt="No image" title="No image">
 						<?php 
 						}
 						else
 						{
 						?>
-							<img src="images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
+							<img src="/images/productos/thumb150/<?php echo $pO->imagen ?>" title="<?php echo $pO->nombre; ?>" alt="<?php echo $pO->nombre; ?>" >
 						<?php 
 						}
 						?>
 					</span>
 				</a>
-				<h3><a class="featItmName" href="articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a></h3>
+				<h3><a class="featItmName" href="/articulo/<?php echo $link."-".$pO->idproducto; ?>"><?php echo $pO->nombre ?></a></h3>
 				<span class="featItmPric <?php echo $pO->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $pO->moneda ?>$ <?php echo number_format($pO->enoferta == 1 ? $pO->preciooferta : $pO->precio,2,'.',',') ?></span>
 			</div>
 			<?php
@@ -518,7 +518,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -528,7 +528,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -538,7 +538,7 @@ if(!empty($anuncio[0]->image))
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>

@@ -255,5 +255,5 @@ $query = $con->prepare('SELECT imagen, banner1, imagencoordx, imagencoordy, bann
 	 
 	
 }
-header("location: http://tumall.dotutienda/editar")
+header("location: http://tumall.do/tutienda/editar")
 ?>

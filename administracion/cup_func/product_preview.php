@@ -20,13 +20,13 @@ if($session['autenticado'])
 			if(empty($prod->data[0]->imagen))
 			{
 			?>
-				<img src="images/NoImage.png" alt="No image" title="No image">
+				<img src="/images/NoImage.png" alt="No image" title="No image">
 			<?php 
 			}
 			else
 			{
 			?>
-				<img src="images/productos/thumb200/<?php echo $prod->data[0]->imagen ?>" title="<?php echo $prod->data[0]->nombre; ?>" alt="<?php echo $prod->data[0]->nombre; ?>" >
+				<img src="/images/productos/thumb200/<?php echo $prod->data[0]->imagen ?>" title="<?php echo $prod->data[0]->nombre; ?>" alt="<?php echo $prod->data[0]->nombre; ?>" >
 			<?php 
 			}
 			?>

@@ -3,7 +3,7 @@
 </div>
 <div class="settWrap editFavsWrapp">
 
-<a class="tabItm" href="cliente/fav">Wishlist</a>
+<a class="tabItm" href="/cliente/fav">Wishlist</a>
 <a class="tabItm active">Tiendas favoritas</a>
 
 <div class="favoritesWrap">
@@ -42,14 +42,14 @@
 		
 		?>
 		<div class="faveItemWrap">
-			<a class="itmImageMask itmListMask" href="tienda/<?php echo $link . "-" . $usr->idusuario ?>"> 
+			<a class="itmImageMask itmListMask" href="/tienda/<?php echo $link . "-" . $usr->idusuario ?>"> 
 				
 				<?php 
 		    	if(!empty($usr->imagen))
 				{
 		    	?>
 				
-				<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="images/profile/cr/<?php echo $usr->imagen ?>">
+				<img class="itmListImg itmImage" <?php if($height > $width){  ?> width="<?php echo $baseDimm; ?>" height="<?php echo $modVal; ?>" style="top: -<?php echo $pos; ?>px;"  <?php }  else{ ?> height="<?php echo $baseDimm; ?>" width="<?php echo $modVal; ?>" style="left: -<?php echo $pos; ?>px;" <?php } ?> src="/images/profile/cr/<?php echo $usr->imagen ?>">
 				
 				<?php
 				
@@ -59,7 +59,7 @@
 				
 				?>
 				
-				<img src="images/resources/storePNG-100.png" alt="No user picture" width="65" height="65" />
+				<img src="/images/resources/storePNG-100.png" alt="No user picture" width="65" height="65" />
 				
 				<?php
 				
@@ -69,7 +69,7 @@
 				
 			</a>
 			<div class="faveItmDetails">
-				<a  class="favStoreName" href="tienda/<?php echo $link . "-" . $usr->idusuario ?>">
+				<a  class="favStoreName" href="/tienda/<?php echo $link . "-" . $usr->idusuario ?>">
 					<?php echo $usr->nombretienda ?>
 				</a>
 			</div>
@@ -86,7 +86,7 @@
 			$(this).parent().remove();
 			$.ajax({
 				type : "POST",
-				url  : "phpfn/favorite_store.php",
+				url  : "/phpfn/favorite_store.php",
 				data : {idusuario : <?php echo $session["usuario"] ?>, idusuario_favorited : fusr}
 			})
 		})

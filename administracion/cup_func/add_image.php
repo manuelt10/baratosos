@@ -47,7 +47,7 @@ if($session['autenticado'])
 							<input type="radio" name="idCuponImage" class="idCuponImage" id="couponPrincImg<?php echo $imgCnt; ?>" value="<?php echo $row->idcupon_galeria ?>" <?php echo $row->principal == 1 ? "checked" : ""; ?>>
 							<label class="settLbl" for="couponPrincImg<?php echo $imgCnt; ?>">Principal</label>
 							<br />
-							<img class="cuponImage" src="images/cupon/thumb150/<?php echo $row->imagen ?>">
+							<img class="cuponImage" src="/images/cupon/thumb150/<?php echo $row->imagen ?>">
 						</div>
 						<?php
 						$imgCnt++;
@@ -63,7 +63,7 @@ if($session['autenticado'])
 							<input type="radio" name="idCuponImage" class="idCuponImage" id="couponPrincImg<?php echo $imgCnt; ?>" value="<?php echo $row->idcupon_galeria ?>" <?php echo $row->principal == 1 ? "checked" : ""; ?>>
 							<label class="settLbl" for="couponPrincImg<?php echo $imgCnt; ?>">Principal</label>
 							<br />
-							<img class="cuponImage" src="images/cupon/thumb150/<?php echo $row->imagen ?>">
+							<img class="cuponImage" src="/images/cupon/thumb150/<?php echo $row->imagen ?>">
 						</div>
 						<?php
 						$imgCnt++;

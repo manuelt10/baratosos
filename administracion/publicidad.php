@@ -1,5 +1,5 @@
 
-<script src='Scripts/jquery.form.min.js'></script>
+<script src='/Scripts/jquery.form.min.js'></script>
 
 
 <div class="topBar">
@@ -9,12 +9,12 @@
 <div class="settWrap applyAdvertsWrap ">
 	
 	<div>
-		<a class="tabItm active" href="administracion/publicidad">Artículos destacados</a>
-		<a class="tabItm" href="administracion/tiendas">Tiendas destacadas</a>
-		<a class="tabItm" href="administracion/anuncios">Anuncios</a>
+		<a class="tabItm active" href="/administracion/publicidad">Artículos destacados</a>
+		<a class="tabItm" href="/administracion/tiendas">Tiendas destacadas</a>
+		<a class="tabItm" href="/administracion/anuncios">Anuncios</a>
 	</div>
 
-	<form id="addPubForm" class="displayAdvertForm" method="post" action="administracion/pub_func/add_item_pub.php">
+	<form id="addPubForm" class="displayAdvertForm" method="post" action="/administracion/pub_func/add_item_pub.php">
 		<label class="settingLbl">Ingresar Producto:</label>
 		<input name="id" type="text" class="txtField itemShow">
 		<label class="settingLbl">Duración (días):</label>
@@ -100,7 +100,7 @@
 							
 							?>
 							<span class="featItemTime"><?php echo $dia. 'd ' . $horas . 'h'; ?></span>
-							<form method="post" action="administracion/pub_func/finish_pub.php">
+							<form method="post" action="/administracion/pub_func/finish_pub.php">
 								<input type="hidden" name="idproductopub" value="<?php echo $producto->idproductopub ?>">
 								<button class="finishOffer">Terminar oferta</button>
 							</form>
@@ -108,7 +108,7 @@
 						}
 						
 						?>
-						<form method="post" action="administracion/pub_func/remove_pub.php">
+						<form method="post" action="/administracion/pub_func/remove_pub.php">
 								<input type="hidden" name="idproductopub" value="<?php echo $producto->idproductopub ?>">
 								<button class="removeOffer">Quitar</button>
 						</form>
@@ -141,7 +141,7 @@
 		{
 			$.ajax({
 				type : "POST",
-				url  : "administracion/pub_func/preview_item.php",
+				url  : "/administracion/pub_func/preview_item.php",
 				data : {id : itemId}
 			}).done(function(html){
 				$('.previewItem').html(html);

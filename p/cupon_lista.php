@@ -78,7 +78,7 @@ $nousados = $db->selectRecord('v_cupon_usr', NULL, Array('idcupon' => $_GET["id"
 			}
 			$.ajax({
 				type : 'post',
-				url : 'p/cup_func/cupon_usado.php',
+				url : '/p/cup_func/cupon_usado.php',
 				data : {us : usado, id : idCompra}
 			})
 		}

@@ -41,7 +41,7 @@ session_write_close();
 						
 						var sear = $(this).children('.hmSrchTxt').val();
 						var sel = $('.selectCategory').val();
-						var url = 'lista/';
+						var url = '/lista/';
 					
 							if(sel)
 							{
@@ -70,7 +70,7 @@ session_write_close();
 			{
 				?>
 				<a class="carouselImg fluidTransTw<?php echo $cont == 1 ? ' active' : ''; $cont++; ?>" href="<?php echo $row->url ?>">
-					<img src="images/galeria/<?php echo $row->imagen ?>">
+					<img src="/images/galeria/<?php echo $row->imagen ?>">
 				</a>
 				<?
 			}
@@ -84,7 +84,7 @@ session_write_close();
 					?>
 						<span class="carouselCtrl fluidTransTw<?php echo $cont == 1 ? ' active' : ''; $cont++; ?>">
 							<span class="controlPreview fluidTransOn">
-								<img src="images/galeria/thumb150/<?php echo $row->imagen ?>" />
+								<img src="/images/galeria/thumb150/<?php echo $row->imagen ?>" />
 							</span>
 						</span>
 					
@@ -245,15 +245,15 @@ session_write_close();
 						$link = strtolower($link);
 						$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 						?>
-						<a href="<?php echo $link ?>-<?php echo $u->idusuario ?>/" class="hmFeatItm stores" style="background:url(
+						<a href="/<?php echo $link ?>-<?php echo $u->idusuario ?>/" class="hmFeatItm stores" style="background:url(
 							<?php 
 							if(!empty($u->banner1))
 							{
-								echo "'images/banners/cr/$u->banner1'";
+								echo "'/images/banners/cr/$u->banner1'";
 								
 							}
 							else {
-								echo 'images/resources/defaultBanner.png';								
+								echo '/images/resources/defaultBanner.png';								
 							}
 							?>
 							
@@ -265,13 +265,13 @@ session_write_close();
 								if(empty($u->imagen))
 								{
 									?>
-									<img src="images/resources/storePNG-100.png" >
+									<img src="/images/resources/storePNG-100.png" >
 									<?php
 									
 								}
 								else {
 									?>
-									<img src="images/profile/cr/<?php echo $u->imagen ?>" >
+									<img src="/images/profile/cr/<?php echo $u->imagen ?>" >
 									<?php	
 								}
 								?>
@@ -350,11 +350,11 @@ session_write_close();
 								$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 								?>
 								<div class="hmFeatItm articles">
-									<a class="featuredPreview itemPreview" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
-										<img src="images/productos/thumb150/<?php echo $p->imagen ?>" >
+									<a class="featuredPreview itemPreview" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
+										<img src="/images/productos/thumb150/<?php echo $p->imagen ?>" >
 										<i class="helper"></i>
 									</a>
-									<a class="ftItmName" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
+									<a class="ftItmName" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
 									<span class="featuredItemPrice <?php echo $p->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $p->moneda ?>$ <?php echo number_format($p->enoferta == 1 ? $p->preciooferta : $p->precio,2,'.',',') ?>
 									</span>
 									<?php 
@@ -440,11 +440,11 @@ session_write_close();
 								$link = preg_replace('/[^A-Za-z0-9\-]/', '', $link);
 								?>
 								<div class="hmFeatItm articles">
-									<a class="featuredPreview itemPreview" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
-										<img src="images/productos/thumb150/<?php echo $p->imagen ?>" >
+									<a class="featuredPreview itemPreview" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>">
+										<img src="/images/productos/thumb150/<?php echo $p->imagen ?>" >
 										<i class="helper"></i>
 									</a>
-									<a class="ftItmName" href="articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
+									<a class="ftItmName" href="/articulo/<?php echo $link ?>-<?php echo $p->idproducto ?>"><?php echo $p->nombre ?></a>
 									<span class="featuredItemPrice <?php echo $p->enoferta == 1 ? "enoferta" : ""; ?>"><?php echo $p->moneda ?>$ <?php echo number_format($p->enoferta == 1 ? $p->preciooferta : $p->precio,2,'.',',') ?>
 									</span>
 									<?php 

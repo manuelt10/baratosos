@@ -34,7 +34,7 @@ $query = $con->prepare("SELECT * FROM `anunciopub`
 	{
 		?>
 		<div class="adTop ads">
-			<a href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+			<a href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 		</div>
 		<?php 
 	}
@@ -80,7 +80,7 @@ $query = $con->prepare("SELECT * FROM `anunciopub`
 				$tienda_url = strtolower($tienda_url);
 				$tienda_url = preg_replace('/[^A-Za-z0-9\-]/', '', $tienda_url);
 				?>
-				<a class="listStoreName" href="<?php echo $tienda_url ?>-<?php echo $t->idusuario ?>/"><?php echo $t->nombretienda; ?></a>
+				<a class="listStoreName" href="/<?php echo $tienda_url ?>-<?php echo $t->idusuario ?>/"><?php echo $t->nombretienda; ?></a>
 				<?php
 			}
 			?>
@@ -107,7 +107,7 @@ $query = $con->prepare("SELECT * FROM `anunciopub`
 			if(!empty($anuncio[0]->image))
 			{
 				?>
-				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
+				<a class="top ads" href="<?php echo $anuncio[0]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[0]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -117,7 +117,7 @@ $query = $con->prepare("SELECT * FROM `anunciopub`
 			if(!empty($anuncio[1]->image))
 			{
 				?>
-				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
+				<a class="mid ads" href="<?php echo $anuncio[1]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[1]->image ?>"></a>
 				<?php 
 			}
 			?>
@@ -127,7 +127,7 @@ $query = $con->prepare("SELECT * FROM `anunciopub`
 			if(!empty($anuncio[2]->image))
 			{
 				?>
-				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
+				<a class="bottom ads" href="<?php echo $anuncio[2]->link ?>"><img src="/images/publicidad/<?php echo $anuncio[2]->image ?>"></a>
 				<?php
 			}
 			?>
