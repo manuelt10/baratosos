@@ -1,0 +1,745 @@
+[22-Nov-2013 18:05:54 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Nov-2013 18:43:22 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:31:24 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:32:04 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:32:10 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:32:20 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:32:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:33:11 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:33:22 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:33:39 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 07:40:46 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 16:19:18 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 87
+[23-Nov-2013 16:19:18 America/Denver] PHP Warning:  unlink(../../images/banners/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 211
+[23-Nov-2013 16:19:18 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 212
+[23-Nov-2013 16:19:18 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 214
+[23-Nov-2013 16:28:35 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 16:30:21 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[23-Nov-2013 16:30:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[23-Nov-2013 16:30:21 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[23-Nov-2013 16:30:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[23-Nov-2013 16:45:32 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 185
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 196
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 197
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:17 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:18 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:19 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:42:31 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[23-Nov-2013 18:43:07 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 18:44:14 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Nov-2013 18:45:13 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Nov-2013 07:33:41 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Nov-2013 07:33:47 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Nov-2013 07:35:19 America/Denver] PHP Warning:  unlink(../../images/banners/temp/e5fd34971f23fc9efe368c285cf66b53-590258119c755a539cdc7e6b5e0413d2.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[24-Nov-2013 07:35:19 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/e5fd34971f23fc9efe368c285cf66b53-590258119c755a539cdc7e6b5e0413d2.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[24-Nov-2013 09:41:28 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Nov-2013 09:44:24 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[24-Nov-2013 09:44:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[24-Nov-2013 09:44:24 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[24-Nov-2013 09:44:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[24-Nov-2013 09:45:28 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Nov-2013 15:32:12 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[24-Nov-2013 15:32:12 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[24-Nov-2013 15:32:12 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[24-Nov-2013 15:32:12 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[25-Nov-2013 07:58:26 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Nov-2013 07:59:50 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[25-Nov-2013 07:59:50 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[25-Nov-2013 07:59:50 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[25-Nov-2013 07:59:50 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[25-Nov-2013 09:44:02 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Nov-2013 09:46:16 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Nov-2013 10:07:21 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[25-Nov-2013 10:07:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[25-Nov-2013 10:07:21 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[25-Nov-2013 10:07:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[25-Nov-2013 10:07:29 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Nov-2013 13:51:30 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Nov-2013 14:10:12 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Nov-2013 10:28:22 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Nov-2013 10:30:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[26-Nov-2013 11:26:10 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[27-Nov-2013 16:06:47 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[27-Nov-2013 18:59:17 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/76e470fcda673a00d5427839108fdf3f-dde3036e3b2abfd6f7a76331b79b8df6.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[28-Nov-2013 18:26:59 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[28-Nov-2013 18:51:35 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[28-Nov-2013 18:51:35 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[28-Nov-2013 18:51:35 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[28-Nov-2013 18:51:35 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[29-Nov-2013 06:24:35 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Nov-2013 06:45:42 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Nov-2013 10:39:57 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[29-Nov-2013 10:39:57 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[29-Nov-2013 10:39:57 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[29-Nov-2013 10:39:57 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[30-Nov-2013 12:56:49 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[30-Nov-2013 13:04:36 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[30-Nov-2013 13:04:36 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[30-Nov-2013 13:04:36 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[30-Nov-2013 13:04:36 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[30-Nov-2013 13:04:38 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[30-Nov-2013 13:04:38 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[30-Nov-2013 13:04:38 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[01-Dec-2013 10:56:40 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[01-Dec-2013 10:56:40 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[01-Dec-2013 10:56:40 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[01-Dec-2013 21:14:18 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[02-Dec-2013 15:48:08 America/Denver] PHP Warning:  unlink(../../images/banners/temp/c79fa54be5a48a6543c66fe9dc273e0f-577c7bf7266a5e26b777a056a2e9ec4b.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[02-Dec-2013 15:48:08 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/c79fa54be5a48a6543c66fe9dc273e0f-577c7bf7266a5e26b777a056a2e9ec4b.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[02-Dec-2013 16:34:29 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 21
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 22
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 23
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  getimagesize(../../images/profile/thumb/1c7bc26b489657a53106dda69554a3e0-1649310894.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 50
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/profile/thumb/1c7bc26b489657a53106dda69554a3e0-1649310894.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 51
+[02-Dec-2013 16:59:06 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 53
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/1c7bc26b489657a53106dda69554a3e0-1649310894.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  getimagesize(../../images/profile/thumb/d4ad6fbc2e4cd80d9cc735956befc707-1963469016.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 63
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagecreatefrompng(../../images/profile/thumb/d4ad6fbc2e4cd80d9cc735956befc707-1963469016.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 64
+[02-Dec-2013 16:59:30 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 69
+[02-Dec-2013 19:10:40 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 21
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 22
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 23
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  getimagesize(../../images/profile/thumb/ca98ab8453aa4706ddd1147a58014488-1846683312.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 50
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/profile/thumb/ca98ab8453aa4706ddd1147a58014488-1846683312.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 51
+[02-Dec-2013 19:12:10 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 53
+[02-Dec-2013 19:18:14 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[02-Dec-2013 19:22:06 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/ca98ab8453aa4706ddd1147a58014488-1846683312.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[03-Dec-2013 08:21:42 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 21
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 22
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagejpeg() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 23
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  getimagesize(../../images/profile/thumb/9f74710ff2ea96b81fa5b7a6cf83d3e4-1353929107.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 50
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/profile/thumb/9f74710ff2ea96b81fa5b7a6cf83d3e4-1353929107.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 51
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 53
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 36
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 37
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 38
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  Division by zero in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 44
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 59
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 60
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 61
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  getimagesize(../../images/banners/temp/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 135
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 136
+[03-Dec-2013 08:26:54 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 138
+[03-Dec-2013 10:06:20 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[03-Dec-2013 10:06:20 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[03-Dec-2013 10:06:20 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[03-Dec-2013 10:06:20 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[03-Dec-2013 10:19:14 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Dec-2013 10:25:58 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[03-Dec-2013 10:25:58 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[03-Dec-2013 10:25:58 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[03-Dec-2013 12:25:52 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[03-Dec-2013 12:25:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[03-Dec-2013 12:25:52 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[03-Dec-2013 12:25:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[03-Dec-2013 13:19:09 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[04-Dec-2013 05:56:56 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[04-Dec-2013 09:20:42 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/9f74710ff2ea96b81fa5b7a6cf83d3e4-1353929107.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[04-Dec-2013 09:20:43 America/Denver] PHP Warning:  unlink(../../images/banners/temp/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[04-Dec-2013 09:20:43 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/9f74710ff2ea96b81fa5b7a6cf83d3e4-175573693.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[04-Dec-2013 09:53:34 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Dec-2013 09:54:25 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[04-Dec-2013 09:54:25 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[04-Dec-2013 09:54:25 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[04-Dec-2013 09:54:25 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[04-Dec-2013 11:40:45 America/Denver] PHP Warning:  unlink(../../images/banners/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 211
+[04-Dec-2013 11:40:45 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 212
+[04-Dec-2013 11:40:45 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 214
+[04-Dec-2013 13:01:08 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Dec-2013 13:11:52 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[04-Dec-2013 13:11:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[04-Dec-2013 13:11:52 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[04-Dec-2013 13:11:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[04-Dec-2013 13:11:52 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[04-Dec-2013 13:11:52 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[04-Dec-2013 13:12:35 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[04-Dec-2013 13:12:35 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[04-Dec-2013 13:12:35 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[04-Dec-2013 14:48:46 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Dec-2013 17:22:52 America/Denver] PHP Warning:  unlink(../../images/banners/temp/d7ac68f71ac17e9f78188c948d53f008-e1a27af95eea2981042882f89c10be6c): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[04-Dec-2013 17:22:52 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/d7ac68f71ac17e9f78188c948d53f008-e1a27af95eea2981042882f89c10be6c): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[05-Dec-2013 04:54:45 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[05-Dec-2013 09:12:20 America/Denver] PHP Parse error:  syntax error, unexpected '$extProfile' (T_VARIABLE) in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 60
+[05-Dec-2013 09:13:17 America/Denver] PHP Parse error:  syntax error, unexpected '(' in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 47
+[05-Dec-2013 09:14:44 America/Denver] PHP Warning:  unlink(../../images/banners/temp/fd7e63a70abaee0f85cb0e8186bc8086-796567035.JPG): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[05-Dec-2013 09:14:44 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/fd7e63a70abaee0f85cb0e8186bc8086-796567035.JPG): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[05-Dec-2013 09:16:39 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[05-Dec-2013 09:16:39 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[05-Dec-2013 09:16:39 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[05-Dec-2013 12:26:31 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[05-Dec-2013 12:26:31 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[05-Dec-2013 12:26:31 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[05-Dec-2013 12:26:31 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[08-Dec-2013 20:04:43 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[08-Dec-2013 21:22:01 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 06:17:01 America/Denver] PHP Notice:  Undefined index: idprovincia in /home2/tumalldo/public_html/i/p/store_func/show_sector.php on line 6
+[09-Dec-2013 09:08:51 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 09:09:52 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[09-Dec-2013 09:09:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[09-Dec-2013 09:09:52 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[09-Dec-2013 09:09:52 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[09-Dec-2013 11:06:28 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[09-Dec-2013 11:06:29 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[09-Dec-2013 11:06:29 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[09-Dec-2013 11:06:29 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[09-Dec-2013 11:12:14 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 11:47:00 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 12:50:55 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[09-Dec-2013 12:50:55 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[09-Dec-2013 12:50:55 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[09-Dec-2013 12:51:09 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 14:48:06 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 14:50:57 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[09-Dec-2013 14:50:57 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[09-Dec-2013 14:50:57 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[09-Dec-2013 14:50:57 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[09-Dec-2013 14:52:36 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[09-Dec-2013 15:14:15 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[09-Dec-2013 15:17:08 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: profilePic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 14
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: profilePic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 156
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[10-Dec-2013 13:03:39 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[10-Dec-2013 13:05:33 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[10-Dec-2013 13:05:33 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[10-Dec-2013 13:05:33 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[10-Dec-2013 13:05:33 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[10-Dec-2013 13:30:05 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[10-Dec-2013 13:30:05 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[10-Dec-2013 13:30:05 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: profilePic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 14
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: profilePic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 156
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 185
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 196
+[10-Dec-2013 13:30:12 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 197
+[10-Dec-2013 13:30:13 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[10-Dec-2013 13:30:13 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[10-Dec-2013 13:30:13 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 235
+[10-Dec-2013 13:30:13 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 248
+[10-Dec-2013 13:30:13 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 249
+[10-Dec-2013 13:43:25 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/07aa12d521e60ce19b55a7dabcd03143-1426421882jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[10-Dec-2013 16:27:23 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 5
+[11-Dec-2013 05:48:23 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Dec-2013 05:49:25 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[11-Dec-2013 05:49:25 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[11-Dec-2013 05:49:25 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[11-Dec-2013 05:49:25 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[11-Dec-2013 07:38:25 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Dec-2013 09:31:58 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Dec-2013 12:20:17 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[11-Dec-2013 12:20:18 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[11-Dec-2013 12:24:35 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[11-Dec-2013 12:24:35 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 235
+[11-Dec-2013 12:24:35 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 248
+[11-Dec-2013 12:24:35 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 249
+[11-Dec-2013 15:55:31 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Dec-2013 16:39:15 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[12-Dec-2013 13:21:09 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[12-Dec-2013 13:21:09 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[12-Dec-2013 13:21:09 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[12-Dec-2013 13:21:09 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[12-Dec-2013 16:29:25 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 19:06:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 20:18:10 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 20:33:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[17-Dec-2013 20:36:41 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[17-Dec-2013 21:15:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 21:17:11 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 21:17:16 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[17-Dec-2013 22:20:58 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[18-Dec-2013 07:10:59 America/Denver] PHP Warning:  unlink(../../images/banners/6265f5e09749119a6fa454729bb0402d-132190263JPG): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[18-Dec-2013 07:10:59 America/Denver] PHP Warning:  unlink(../../images/banners/temp/6265f5e09749119a6fa454729bb0402d-132190263JPG): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[18-Dec-2013 07:10:59 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/6265f5e09749119a6fa454729bb0402d-132190263JPG): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[18-Dec-2013 07:11:06 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 25
+[18-Dec-2013 07:11:25 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/6a373ffe601aa7b27ed86d1f7a24464f-133804509.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[18-Dec-2013 07:11:31 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 25
+[18-Dec-2013 07:12:10 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/55f401211fec7a19d05a94d473587b01-85914557.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[18-Dec-2013 07:12:18 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 25
+[18-Dec-2013 07:15:53 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/925b888b4c74de15c8e90fba2ccc5dbd-353781251.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[19-Dec-2013 08:52:04 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[19-Dec-2013 08:52:04 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[19-Dec-2013 08:52:04 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[19-Dec-2013 08:52:04 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[19-Dec-2013 08:54:30 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 08:54:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 163
+[19-Dec-2013 08:57:31 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 164
+[19-Dec-2013 08:57:31 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 167
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 182
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  imagecreatefromjpeg(): '../../images/profile/thumb/' is not a valid JPEG file in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 182
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 185
+[19-Dec-2013 08:57:31 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 187
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  rename(../../images/profile/thumb/,../../images/profile/thumb/5385228aaf1845e5e081be9230d9f08c-1647635018): Invalid argument in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 189
+[19-Dec-2013 08:57:31 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 190
+[19-Dec-2013 08:57:31 America/Denver] PHP Warning:  rename(../../images/profile/,../../images/profile/5385228aaf1845e5e081be9230d9f08c-1647635018): Invalid argument in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 190
+[19-Dec-2013 08:57:31 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 198
+[19-Dec-2013 09:01:00 America/Denver] PHP Warning:  unlink(../../images/banners/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 211
+[19-Dec-2013 09:01:00 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 212
+[19-Dec-2013 09:01:00 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 214
+[19-Dec-2013 09:02:55 America/Denver] PHP Warning:  unlink(../../images/profile/5385228aaf1845e5e081be9230d9f08c-1647635018): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[19-Dec-2013 09:02:55 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/5385228aaf1845e5e081be9230d9f08c-1647635018): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[19-Dec-2013 09:02:55 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/5385228aaf1845e5e081be9230d9f08c-1647635018): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[19-Dec-2013 09:07:08 America/Denver] PHP Warning:  unlink(../../images/banners/60cf25925c890d0ed17eddaa8236b4df-1301337011): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[19-Dec-2013 09:07:08 America/Denver] PHP Warning:  unlink(../../images/banners/temp/60cf25925c890d0ed17eddaa8236b4df-1301337011): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[19-Dec-2013 09:07:08 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/60cf25925c890d0ed17eddaa8236b4df-1301337011): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[19-Dec-2013 09:12:58 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 12:55:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 12:57:20 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[19-Dec-2013 12:57:20 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[19-Dec-2013 12:57:20 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[19-Dec-2013 15:13:23 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 15:13:42 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Dec-2013 15:14:24 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[19-Dec-2013 15:14:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[19-Dec-2013 15:14:24 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[19-Dec-2013 15:14:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[19-Dec-2013 15:18:33 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[19-Dec-2013 15:18:33 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[19-Dec-2013 15:18:33 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[20-Dec-2013 05:01:07 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Dec-2013 07:29:49 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[22-Dec-2013 07:29:49 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[22-Dec-2013 07:29:49 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[22-Dec-2013 07:29:49 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[22-Dec-2013 08:08:15 America/Denver] PHP Warning:  unlink(../../images/banners/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 211
+[22-Dec-2013 08:08:15 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 212
+[22-Dec-2013 08:08:15 America/Denver] PHP Notice:  Undefined offset: 1 in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 214
+[22-Dec-2013 08:08:32 America/Denver] PHP Warning:  unlink(../../images/banners/e19c9179f7ddccf2eb84a85b0e939e96-575356528): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[22-Dec-2013 08:08:32 America/Denver] PHP Warning:  unlink(../../images/banners/temp/e19c9179f7ddccf2eb84a85b0e939e96-575356528): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[22-Dec-2013 08:08:32 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/e19c9179f7ddccf2eb84a85b0e939e96-575356528): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[22-Dec-2013 08:18:50 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Dec-2013 08:19:32 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Dec-2013 08:21:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Dec-2013 19:49:11 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[28-Dec-2013 08:33:08 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[28-Dec-2013 10:19:21 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[28-Dec-2013 12:22:33 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 5
+[02-Jan-2014 09:11:46 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Jan-2014 10:03:17 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Jan-2014 10:06:40 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Jan-2014 08:26:56 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[07-Jan-2014 08:31:30 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[07-Jan-2014 12:18:13 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Jan-2014 12:19:18 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[07-Jan-2014 12:19:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Jan-2014 12:19:18 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Jan-2014 12:19:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Jan-2014 12:25:47 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[13-Jan-2014 07:59:55 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[13-Jan-2014 08:00:52 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[14-Jan-2014 18:18:46 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[14-Jan-2014 18:18:46 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[14-Jan-2014 18:18:46 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[14-Jan-2014 18:18:46 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[14-Jan-2014 18:25:40 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[14-Jan-2014 18:54:47 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[14-Jan-2014 18:54:47 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[14-Jan-2014 18:54:47 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[14-Jan-2014 19:12:14 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[15-Jan-2014 15:50:02 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[18-Jan-2014 13:08:30 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[18-Jan-2014 13:14:42 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[18-Jan-2014 13:15:57 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[18-Jan-2014 15:23:48 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[18-Jan-2014 16:16:09 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[18-Jan-2014 16:16:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[18-Jan-2014 16:16:10 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[18-Jan-2014 16:16:10 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[20-Jan-2014 09:36:34 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[20-Jan-2014 09:36:35 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[20-Jan-2014 09:36:35 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[20-Jan-2014 09:36:35 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[20-Jan-2014 09:36:35 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 09:36:35 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/084dc6d4d20d5961216f33d3ad3ffa1e-768650766.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/cr/084dc6d4d20d5961216f33d3ad3ffa1e-768650766.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/084dc6d4d20d5961216f33d3ad3ffa1e-768650766.jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/profile/084dc6d4d20d5961216f33d3ad3ffa1e-768650766.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 25
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 26
+[20-Jan-2014 09:36:41 America/Denver] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 27
+[20-Jan-2014 09:36:41 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 09:36:41 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 09:36:41 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 09:36:41 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[20-Jan-2014 14:11:53 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[20-Jan-2014 14:15:24 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[20-Jan-2014 14:15:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[20-Jan-2014 14:15:24 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[20-Jan-2014 14:15:24 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[20-Jan-2014 19:02:19 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[20-Jan-2014 19:02:30 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Jan-2014 06:57:29 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[22-Jan-2014 06:57:29 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[22-Jan-2014 06:57:29 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[22-Jan-2014 18:29:33 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Jan-2014 20:45:03 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[22-Jan-2014 20:45:03 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[22-Jan-2014 20:45:03 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[23-Jan-2014 08:37:48 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[23-Jan-2014 08:37:48 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[23-Jan-2014 08:37:48 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[23-Jan-2014 08:37:48 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[23-Jan-2014 09:56:01 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Jan-2014 09:59:27 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Jan-2014 09:59:27 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Jan-2014 10:03:57 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Jan-2014 12:18:27 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Jan-2014 10:07:02 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[24-Jan-2014 14:39:21 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[24-Jan-2014 14:39:21 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 235
+[24-Jan-2014 14:39:21 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 248
+[24-Jan-2014 14:39:21 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 249
+[24-Jan-2014 14:40:00 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[24-Jan-2014 14:40:00 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[25-Jan-2014 07:34:01 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Jan-2014 07:34:05 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Jan-2014 05:01:58 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[26-Jan-2014 05:09:29 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[26-Jan-2014 05:09:29 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[26-Jan-2014 05:09:29 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[26-Jan-2014 05:09:29 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[29-Jan-2014 06:17:31 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Jan-2014 06:21:58 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[29-Jan-2014 06:21:58 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[29-Jan-2014 06:21:58 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[29-Jan-2014 06:21:58 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[29-Jan-2014 06:22:29 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Jan-2014 06:46:15 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Jan-2014 06:46:24 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Jan-2014 11:12:17 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[29-Jan-2014 11:12:17 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[29-Jan-2014 11:12:17 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[29-Jan-2014 11:12:23 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[29-Jan-2014 19:33:20 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[29-Jan-2014 19:33:20 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[29-Jan-2014 19:33:20 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[29-Jan-2014 19:33:20 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[03-Feb-2014 17:58:07 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[03-Feb-2014 17:58:07 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[03-Feb-2014 17:58:07 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[06-Feb-2014 18:59:25 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 5
+[06-Feb-2014 19:03:03 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 5
+[06-Feb-2014 19:03:18 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 5
+[06-Feb-2014 19:04:06 America/Denver] PHP Notice:  Undefined index: autenticado in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 5
+[06-Feb-2014 19:05:08 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[06-Feb-2014 19:07:19 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[06-Feb-2014 19:07:19 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[06-Feb-2014 19:07:19 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[06-Feb-2014 19:07:19 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[06-Feb-2014 19:07:20 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[06-Feb-2014 19:07:20 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[06-Feb-2014 19:07:20 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[07-Feb-2014 09:43:59 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Feb-2014 09:48:53 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[07-Feb-2014 09:48:53 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Feb-2014 09:48:53 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Feb-2014 09:48:53 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Feb-2014 09:59:00 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[09-Feb-2014 06:01:20 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Feb-2014 06:15:18 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[11-Feb-2014 06:15:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[11-Feb-2014 06:15:18 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[11-Feb-2014 06:15:18 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[11-Feb-2014 06:15:19 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[11-Feb-2014 06:15:19 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[11-Feb-2014 06:15:19 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[11-Feb-2014 06:15:56 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[11-Feb-2014 16:28:49 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[11-Feb-2014 16:28:49 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[11-Feb-2014 16:28:49 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[11-Feb-2014 16:28:49 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[11-Feb-2014 16:40:48 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[11-Feb-2014 16:40:48 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[11-Feb-2014 16:40:48 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[12-Feb-2014 07:03:50 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[12-Feb-2014 07:03:50 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[12-Feb-2014 07:03:50 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[12-Feb-2014 07:03:50 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[12-Feb-2014 07:03:51 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[12-Feb-2014 07:03:51 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[12-Feb-2014 07:03:51 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[12-Feb-2014 07:04:39 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Feb-2014 10:21:19 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Feb-2014 10:21:53 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[19-Feb-2014 10:35:27 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[19-Feb-2014 10:37:01 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Feb-2014 16:50:32 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[22-Feb-2014 16:51:18 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Feb-2014 08:40:25 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Feb-2014 09:19:16 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[23-Feb-2014 11:50:11 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[27-Feb-2014 18:19:26 America/Denver] PHP Warning:  unlink(../../images/banners/3fd8d1d2cfa92a2c3de6e2a7f7589de1-1811290634): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[27-Feb-2014 18:19:26 America/Denver] PHP Warning:  unlink(../../images/banners/temp/3fd8d1d2cfa92a2c3de6e2a7f7589de1-1811290634): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[27-Feb-2014 18:19:26 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/3fd8d1d2cfa92a2c3de6e2a7f7589de1-1811290634): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[27-Feb-2014 18:40:01 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[27-Feb-2014 18:42:34 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[27-Feb-2014 18:43:59 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[05-Mar-2014 06:54:30 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[06-Mar-2014 12:41:50 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[06-Mar-2014 12:41:50 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[06-Mar-2014 12:41:50 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[06-Mar-2014 13:00:18 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[06-Mar-2014 13:00:28 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[06-Mar-2014 13:51:23 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[06-Mar-2014 13:52:43 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[07-Mar-2014 07:37:57 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Mar-2014 07:40:14 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[07-Mar-2014 07:40:14 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Mar-2014 07:40:14 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Mar-2014 07:40:14 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Mar-2014 07:40:15 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[07-Mar-2014 07:40:15 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[07-Mar-2014 07:40:15 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[07-Mar-2014 07:40:15 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[07-Mar-2014 07:40:15 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[07-Mar-2014 07:40:15 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 38880000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 59
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/e2eb65013c3a0206297ce71f5a5b9e52-1513931617.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  unlink(../../images/profile/cr/e2eb65013c3a0206297ce71f5a5b9e52-1513931617.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/e2eb65013c3a0206297ce71f5a5b9e52-1513931617.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[07-Mar-2014 07:40:41 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[07-Mar-2014 07:40:41 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 38880000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 59
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/ca5b24add534d5cb4a32f3e88dc9c271-1687768940.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  unlink(../../images/profile/cr/ca5b24add534d5cb4a32f3e88dc9c271-1687768940.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/ca5b24add534d5cb4a32f3e88dc9c271-1687768940.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[07-Mar-2014 07:41:21 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[07-Mar-2014 07:41:21 America/Denver] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 38880000 bytes) in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 59
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[07-Mar-2014 07:43:03 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 36
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 37
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 38
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  Division by zero in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 44
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 48
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 50
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 51
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 53
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 57
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 59
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 60
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 61
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  getimagesize(../../images/banners/temp/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 135
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecreatefrompng(../../images/banners/temp/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 136
+[07-Mar-2014 07:43:05 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 138
+[07-Mar-2014 07:43:20 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[07-Mar-2014 08:10:04 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/c2a1168fecc929ce930f773e0cd53403-413323783.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[07-Mar-2014 08:10:04 America/Denver] PHP Warning:  unlink(../../images/profile/cr/c2a1168fecc929ce930f773e0cd53403-413323783.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[07-Mar-2014 08:10:04 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/c2a1168fecc929ce930f773e0cd53403-413323783.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[07-Mar-2014 08:10:06 America/Denver] PHP Warning:  unlink(../../images/banners/temp/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[07-Mar-2014 08:10:06 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/5bc6a2d5349aae8deb9f78919c2db53b-471069821.png): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[07-Mar-2014 08:12:46 America/Denver] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 21
+[07-Mar-2014 08:12:46 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 22
+[07-Mar-2014 08:12:46 America/Denver] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home2/tumalldo/public_html/i/phpfn/filemanager.php on line 23
+[07-Mar-2014 08:12:47 America/Denver] PHP Warning:  getimagesize(../../images/banners/temp/ae3b4b58abcde5dd0c5c1576e2f2ada8-630079983.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 123
+[07-Mar-2014 08:12:47 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/banners/temp/ae3b4b58abcde5dd0c5c1576e2f2ada8-630079983.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 124
+[07-Mar-2014 08:12:47 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 126
+[07-Mar-2014 08:12:53 America/Denver] PHP Warning:  getimagesize(../../images/banners/temp/ae3b4b58abcde5dd0c5c1576e2f2ada8-630079983.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 212
+[07-Mar-2014 08:12:53 America/Denver] PHP Warning:  imagecreatefromjpeg(../../images/banners/temp/ae3b4b58abcde5dd0c5c1576e2f2ada8-630079983.jpg): failed to open stream: No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 232
+[07-Mar-2014 08:12:53 America/Denver] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 235
+[07-Mar-2014 08:12:53 America/Denver] PHP Warning:  rename(../../images/banners/temp/ae3b4b58abcde5dd0c5c1576e2f2ada8-630079983.jpg,../../images/banners/temp/2fe08c9db16f70b57340d4c2e398cc37-1123000196jpg): No such file or directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 240
+[13-Mar-2014 06:53:00 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[16-Mar-2014 15:12:20 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[16-Mar-2014 15:17:17 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[16-Mar-2014 15:17:17 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[16-Mar-2014 15:17:17 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[16-Mar-2014 15:17:17 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[16-Mar-2014 15:17:45 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[20-Mar-2014 09:28:03 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[20-Mar-2014 09:28:03 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[20-Mar-2014 09:28:03 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[20-Mar-2014 09:30:06 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[21-Mar-2014 09:40:54 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[21-Mar-2014 10:25:32 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[21-Mar-2014 10:25:32 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[21-Mar-2014 10:25:32 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[21-Mar-2014 10:25:32 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[24-Mar-2014 18:59:39 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[24-Mar-2014 19:07:31 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[25-Mar-2014 07:27:30 America/Denver] PHP Warning:  unlink(../../images/banners/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 101
+[25-Mar-2014 07:27:30 America/Denver] PHP Warning:  unlink(../../images/banners/temp/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 102
+[25-Mar-2014 07:27:30 America/Denver] PHP Warning:  unlink(../../images/banners/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 103
+[25-Mar-2014 07:41:37 America/Denver] PHP Notice:  getimagesize(): Read error! in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 87
+[27-Mar-2014 13:05:08 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 85
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: coordProfX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: coordProfY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 161
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: banerPic in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 203
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: coordBannerX in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[27-Mar-2014 13:07:25 America/Denver] PHP Notice:  Undefined index: coordBannerY in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 208
+[27-Mar-2014 13:07:48 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[27-Mar-2014 13:07:48 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[27-Mar-2014 13:07:48 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[27-Mar-2014 13:07:48 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[02-Apr-2014 08:05:19 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[02-Apr-2014 21:10:06 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Apr-2014 09:12:52 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[03-Apr-2014 09:13:11 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Apr-2014 14:55:46 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Apr-2014 14:56:21 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Apr-2014 15:21:10 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23
+[04-Apr-2014 15:23:01 America/Denver] PHP Warning:  unlink(../../images/profile/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 30
+[04-Apr-2014 15:23:01 America/Denver] PHP Warning:  unlink(../../images/profile/thumb/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 31
+[04-Apr-2014 15:23:01 America/Denver] PHP Warning:  unlink(../../images/profile/cr/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 32
+[04-Apr-2014 15:23:01 America/Denver] PHP Warning:  unlink(../../images/profile/thumb100/): Is a directory in /home2/tumalldo/public_html/i/p/store_func/update_store_images.php on line 33
+[04-Apr-2014 15:23:49 America/Denver] PHP Notice:  Undefined index: idsector in /home2/tumalldo/public_html/i/p/store_func/update_store_info.php on line 23

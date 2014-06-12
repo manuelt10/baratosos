@@ -69,9 +69,9 @@ else
 	$query = $con->prepare('insert into usuario(`nombre`,`correo`,`nombretienda`,`contrasena`,`idtipousuario`,`telefono1`) values (?,?,?,?,?,?)');
 	$query->bindValue(1,$_POST["nombre"]);
 	$query->bindValue(2,$_POST["correo"]);
-        $query->bindValue(3,$_POST["nombre"]);
+        $query->bindValue(3,$_POST["nombreTienda"]);
 	$query->bindValue(4,md5($_POST["contra1"]));
-        $query->bindValue(5,2,PDO::PARAM_INT);
+        $query->bindValue(5,$_POST["tipoUsuario"],PDO::PARAM_INT);
         $query->bindValue(6,$_POST["telefono"]);
     }
     else

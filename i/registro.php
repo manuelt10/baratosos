@@ -19,7 +19,7 @@ require_once('templates/headExtras.php');
 
 	<a href="home" class="regLogo"><img src="/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
 	
-	<h2 class="welcomMsg">Registrate en tuMall</h2>
+	<h2 class="welcomMsg">Registro</h2>
 	
 	<form id="signUpFormWrapper" class="registerForm register" method="post" action="phpfn/i_usuario.php">
 	
@@ -27,7 +27,7 @@ require_once('templates/headExtras.php');
 		
 		
 		<!-- <input id="usrTypeNorm" type="radio" name="tipoUsuario" value="1" checked class="tipoUsuario"><label class="fldLbl radLbl" for="usrTypeNorm">Normal:</label> -->
-		<?php #<input id="usrTypeStore" type="checkbox" name="tipoUsuario" value="2" class="tipoUsuario"><label class="fldLbl radLbl" for="usrTypeStore">Quiero una tienda en tuMall:</label> ?>
+		<input id="usrTypeStore" type="checkbox" name="tipoUsuario" value="2" class="tipoUsuario"><label class="fldLbl radLbl" for="usrTypeStore">Quiero una tienda en tuMall:</label>
 		<label class="fldLbl">Nombre: </label><input type="text" name="nombre" class="txtField nameFld" placeholder="Nombre">
 		<?php echo $session["error"]==1 ? '<span class="error-label validation-label">Es necesario el nombre</span>' : "" ?>
 		<label class="fldLbl">Correo: </label><input type="email" name="correo" class="txtField mailFld" placeholder="Correo electrónico">
@@ -39,12 +39,12 @@ require_once('templates/headExtras.php');
 		<?php echo $session["error"]==4 ? '<span class="error-label validation-label">Las contraseñas son necesarias</span>' : "" ?>
 		<?php echo $session["error"]==5 ? '<span class="error-label validation-label">Las contraseñas no concuerdan</span>' : "" ?>
 		<?php echo $session["error"]==6 ? '<span class="error-label validation-label">Usuario ya existe</span>' : "" ?>	
-	    <?php 
-	    #<div class="additionalInformation" style="display:none">
-	    #    <label class="fldLbl">Nombre tienda: </label><input type="text" class="txtField storeFld" name="nombreTienda" placeholder="Nombre de tu tienda"> ?>
+	    
+	    <div class="additionalInformation" style="display:none">
+	        <label class="fldLbl">Nombre tienda: </label><input type="text" class="txtField storeFld" name="nombreTienda" placeholder="Nombre de tu tienda">
 	        <?php echo $session["error"]==6 ? '<span class="error-label validation-label">Es necesario llenar el campo de la tienda</span>' : "" ?>
-	    <?php #    <label class="fldLbl">Telefono: </label><input type="text" class="txtField phoneFld" name="telefono" placeholder="Teléfono">
-	    # </div> ?>
+	        <label class="fldLbl">Telefono: </label><input type="text" class="txtField phoneFld" name="telefono" placeholder="Teléfono">
+	    </div>
 	    
 		<button type="submit" class="formActionBtn registerBtn">Crear cuenta</button>
 	</form>
@@ -52,8 +52,7 @@ require_once('templates/headExtras.php');
 	<a href="accesar" class="loginHelpLinks">¿Ya tienes una cuenta?</a>
 </div>
 
-<?php 
-/*
+
 <script>
 	
 	if($('.tipoUsuario').prop('checked')){
@@ -73,8 +72,6 @@ require_once('templates/headExtras.php');
                
     });
 </script>
- * */
-?>
 <script>
 	$('.signFormText').blur(function(){
 				

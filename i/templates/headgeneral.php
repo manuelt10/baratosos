@@ -20,9 +20,9 @@ $sM = new stringManager();
 
 <link rel="shortcut icon" href="/favicon.png" />
 
-<link rel="stylesheet" href="style/style-main.css" type="text/css"/>
-<link rel="stylesheet" href="style/style-general.css" type="text/css"/>
-<link rel="stylesheet" href="style/FontAwesome/css/font-awesome.css" type="text/css"/>
+<link rel="stylesheet" href="/style/style-main.css" type="text/css"/>
+<link rel="stylesheet" href="/style/style-general.css" type="text/css"/>
+<link rel="stylesheet" href="/style/FontAwesome/css/font-awesome.css" type="text/css"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'/>
 
 <!--[if IE 7]><html class="ie ie7 lteie8 lteie9"><![endif]-->
@@ -30,7 +30,7 @@ $sM = new stringManager();
 <!--[if lte IE 9]><html class="ie ie9 lteie9"><![endif]-->
 <!--[if IE 9]><html class="ie ie9"><![endif]-->
 
-<script type='text/javascript' src='Scripts/jquery-1.10.2.js'></script>
+<script type='text/javascript' src='/Scripts/jquery-1.10.2.js'></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

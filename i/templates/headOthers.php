@@ -16,14 +16,14 @@ $sM = new stringManager();
 
 <title>Tu Mall</title>
 
-<link rel="shortcut icon" href="favicon.png" />
+<link rel="shortcut icon" href="/favicon.png" />
 
-<link rel="stylesheet" href="style/style-main.css" type="text/css"/>
-<link rel="stylesheet" href="style/style-settings.css" type="text/css"/>
-<link rel="stylesheet" href="style/FontAwesome/css/font-awesome.css" type="text/css"/>
+<link rel="stylesheet" href="/style/style-main.css" type="text/css"/>
+<link rel="stylesheet" href="/style/style-settings.css" type="text/css"/>
+<link rel="stylesheet" href="/style/FontAwesome/css/font-awesome.css" type="text/css"/>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'/>
 
-<script type='text/javascript' src='Scripts/jquery-1.10.2.js'></script>
+<script type='text/javascript' src='/Scripts/jquery-1.10.2.js'></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
